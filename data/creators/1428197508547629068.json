@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1428197508547629068",
+  "handle": "iamyourchaos",
+  "display_name": "小捕手 Chaos",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「100+一级项目投资经验；知名 KOL 管理；文学硕士背景」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/chaos9248"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 90025,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:07:01+08:00",
+  "lead_sources": [
+    "list:2113479692531745017"
+  ],
+  "service_board": null
+}

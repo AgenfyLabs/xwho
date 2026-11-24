@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1070281907349479424",
+  "handle": "Soranlan",
+  "display_name": "𝕊𝖔ʳᵃɴ",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "提示词",
+    "视频",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（提示词、视频、工具分享）。本人 X 简介要点：「拆普通人也跑得起的 AI 内容工作流 AI 热点、工具实测、生图视频、Prompt/SOP 只写跑通后的方法 VSC Cre…」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/Soranlan"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 8820,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T12:20:35+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

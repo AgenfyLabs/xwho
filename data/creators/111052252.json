@@ -1,0 +1,33 @@
+{
+  "x_user_id": "111052252",
+  "handle": "1ittlecup",
+  "display_name": "10202be9",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "Apple 生态"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、Apple 生态）。本人 X 简介要点：「独立开发者，力量举入门菜鸟，困在岸上的邮轮迷。 最近的新 App 是 AndroMeld，让你的 Android 和 Mac…」",
+  "verified_works": [
+    {
+      "title": "andromeld.catchingnow.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://andromeld.catchingnow.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6701,
+    "as_of": "2026-11-24T20:40:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T16:09:44+08:00",
+  "lead_sources": [
+    "list:2108752382914166937"
+  ],
+  "service_board": null
+}

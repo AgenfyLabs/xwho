@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1579387684560191488",
+  "handle": "pipizhu_eth",
+  "display_name": "Una繁星",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "投资"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、投资）。本人 X 简介要点：「视频博主《繁星Una》｜YouTube / 抖音 / 小红书 投资笔记｜个人意见，不做投资建议 : @fanxingTel」",
+  "verified_works": [
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@fanxing-una/videos"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 28351,
+    "as_of": "2026-11-24T20:40:18+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:13:11+08:00",
+  "lead_sources": [
+    "list:2109552168340803818"
+  ],
+  "service_board": null
+}

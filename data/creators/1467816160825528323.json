@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1467816160825528323",
+  "handle": "OpenCils",
+  "display_name": "OpenCils",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「AI 到底会将人类带向何方？」",
+  "verified_works": [
+    {
+      "title": "bitelog.si",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bitelog.si/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3473,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:37:06+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

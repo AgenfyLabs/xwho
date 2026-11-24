@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1214396668876951552",
+  "handle": "superogers1",
+  "display_name": "Superogers/超级罗杰斯",
+  "vertical": "general",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "视频",
+    "创业"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（视频、创业）。本人 X 简介要点：「微博：超级罗杰斯 鸿儒战队创始人 Co-founder @My3amclub 电报群： Youtube」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "http://linktr.ee/superogers"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://youtube.com/@hongruzhandui"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 29879,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-20T15:29:38+08:00",
+  "lead_sources": [
+    "list:2113479692531745017"
+  ],
+  "service_board": null
+}

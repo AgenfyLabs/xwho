@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1546512798431055872",
+  "handle": "BTC__options",
+  "display_name": "Adam@Greeks.live",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "美股",
+    "投资",
+    "宏观"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（美股、投资、宏观）。本人 X 简介要点：「宏观研究员@GreeksLive 期权市场数据 | 原创投资观点 |美股和宏观研究 期权新人指南： 期权交流加电报teleg…」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "http://linktr.ee/greeks.live_cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15420,
+    "as_of": "2026-11-24T20:46:20+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T14:59:08+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

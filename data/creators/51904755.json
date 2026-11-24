@@ -1,0 +1,41 @@
+{
+  "x_user_id": "51904755",
+  "handle": "Morris_LT",
+  "display_name": "Morris",
+  "vertical": "general",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "科技观察",
+    "Web3",
+    "投资",
+    "创业"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（科技观察、Web3、投资）。本人 X 简介要点：「某不知名Web3.0&AI科技创业公司创始人｜长期观察世界、商业、投资与个人成长｜《旷野之心》、《位置》、《结构性思考》作者」",
+  "verified_works": [
+    {
+      "title": "dll.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://dll.io"
+    },
+    {
+      "title": "dll.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://dll.io/shop"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 255747,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T14:02:37+08:00",
+  "lead_sources": [
+    "list:2108446759534104760",
+    "list:2120088948584153340"
+  ],
+  "service_board": null
+}

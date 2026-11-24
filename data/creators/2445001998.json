@@ -1,0 +1,31 @@
+{
+  "x_user_id": "2445001998",
+  "handle": "binghe",
+  "display_name": "冰河",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "播客",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（播客、内容创作）。本人 X 简介要点：「🎉 爱技术，爱赚钱，爱分享！ 🐬 分享 赚钱项目 ｜打破信息壁垒 ｜副业避坑 🌻 能拆解的赚钱项目才有意义 🪐 知识星球社群…」",
+  "verified_works": [
+    {
+      "title": "qianlai.flowus.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://qianlai.flowus.cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 48436,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T15:37:20+08:00",
+  "lead_sources": [
+    "list:2108446759534104760"
+  ],
+  "service_board": null
+}

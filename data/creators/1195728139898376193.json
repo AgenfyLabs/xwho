@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1195728139898376193",
+  "handle": "0xcryptowizard",
+  "display_name": "0xWizard",
+  "vertical": "crypto",
+  "role_tags": [],
+  "sub_tags": [
+    "投资",
+    "AI"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（投资、AI）。本人 X 简介要点：「🌞🌕 || Zama = Ethereum with Privacy || AI 投资101： || Crypto 日报：…」",
+  "verified_works": [
+    {
+      "title": "gmgn.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://gmgn.ai"
+    },
+    {
+      "title": "wizzai101.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://wizzai101.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 228299,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T16:28:54+08:00",
+  "lead_sources": [
+    "list:2108446759534104760",
+    "list:2108554035381019109",
+    "list:2113479692531745017"
+  ],
+  "service_board": null
+}

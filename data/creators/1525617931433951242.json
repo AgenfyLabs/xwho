@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1525617931433951242",
+  "handle": "xitang_ai",
+  "display_name": "西堂AI创业笔记",
+  "vertical": "media",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "AI 视频",
+    "周刊",
+    "视频",
+    "创业"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（AI 视频、周刊、视频）。本人 X 简介要点：「全网 30w 粉丝， 前腾讯工程师，「西羊石AI视频」主理人 畅销书《AI漫剧创作一本通》《AI视频一本通》作者 中国日报、…」",
+  "verified_works": [
+    {
+      "title": "xitangai.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xitangai.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 4000,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:21:44+08:00",
+  "lead_sources": [
+    "list:2117554890109051373"
+  ],
+  "service_board": null
+}

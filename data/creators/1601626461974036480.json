@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1601626461974036480",
+  "handle": "XiaopengKing",
+  "display_name": "晓鹏King",
+  "vertical": "geo",
+  "role_tags": [],
+  "sub_tags": [
+    "SEO",
+    "科技观察",
+    "投资",
+    "产品"
+  ],
+  "summary": "GEO / SEO / 出海增长方向的中文 X 创作者（SEO、科技观察、投资）。本人 X 简介要点：「🧠创业者+嵌入式开发工程师 💻十年电子产品开发经验 💡在尝试做些OPC相关的事 🚀持续分享SEO/AI/科技/投资/创业和生…」",
+  "verified_works": [
+    {
+      "title": "xiaopengking.site",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://www.xiaopengking.site"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 2678,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:56:04+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

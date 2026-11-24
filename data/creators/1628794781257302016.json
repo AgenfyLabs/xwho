@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1628794781257302016",
+  "handle": "DLKFZWilliam2",
+  "display_name": "独立开发者William",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "播客",
+    "游戏"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、播客、游戏）。本人 X 简介要点：「Hi,☺️.我是一个温柔又有点古怪的有趣中年大叔,一直沉浸在自己的世界里｜搞抽象是为了给你带来欢笑和流量，对任何人无恶意，笔…」",
+  "verified_works": [
+    {
+      "title": "adsonmyface.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://adsonmyface.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14185,
+    "as_of": "2026-11-24T20:43:15+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:43:54+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2011224544821068243",
+    "list:2040768193241948456",
+    "mention-graph:@tinyfool"
+  ],
+  "service_board": null
+}

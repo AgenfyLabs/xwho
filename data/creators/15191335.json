@@ -1,0 +1,43 @@
+{
+  "x_user_id": "15191335",
+  "handle": "Sea_Bitcoin",
+  "display_name": "Sea",
+  "vertical": "crypto",
+  "role_tags": [],
+  "sub_tags": [
+    "播客",
+    "美股",
+    "投资"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（播客、美股、投资）。本人 X 简介要点：「美股和币圈投资冲浪日记本 // 播客制作人 @SeaTalk_ // 社群发起人 @theNextDAO // 常用币安 和…」",
+  "verified_works": [
+    {
+      "title": "haijuns.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://haijuns.com"
+    },
+    {
+      "title": "t.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://t.ly/3sg8u"
+    },
+    {
+      "title": "t.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://t.ly/PpEPc"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 53243,
+    "as_of": "2026-11-24T20:43:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T14:32:43+08:00",
+  "lead_sources": [
+    "list:2108554035381019109",
+    "list:2113479692531745017"
+  ],
+  "service_board": null
+}

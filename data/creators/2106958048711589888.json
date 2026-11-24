@@ -1,0 +1,34 @@
+{
+  "x_user_id": "2106958048711589888",
+  "handle": "TanZeng1021",
+  "display_name": "曾探(厚肌版)",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "前端",
+    "设计"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（前端、设计）。本人 X 简介要点：「前腾讯文档、capcut web、即梦/dreamina(工程)技术负责人 正在做 @Tutti_global 古典前端开发…」",
+  "verified_works": [
+    {
+      "title": "tutti.sh",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://tutti.sh"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3159,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T16:06:51+08:00",
+  "lead_sources": [
+    "list:2011224544821068243",
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

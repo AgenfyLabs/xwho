@@ -1,0 +1,33 @@
+{
+  "x_user_id": "2795754924",
+  "handle": "xueyu1125",
+  "display_name": "雪瑜",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AIGC",
+    "美股",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AIGC、美股、工具分享）。本人 X 简介要点：「🤖 模型评测 · 本地模型 · AI 工具实践 👨‍💻 程序员· 游戏服务器开发 📈 关注美股· 探索AIGC /交流」",
+  "verified_works": [
+    {
+      "title": "dinosaurliu.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.dinosaurliu.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 10137,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:40:17+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

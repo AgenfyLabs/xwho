@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1719028298737766400",
+  "handle": "HaibaraCrypto",
+  "display_name": "灰原学姐（GH)",
+  "vertical": "crypto",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "美股",
+    "AI"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（美股、AI）。本人 X 简介要点：「📈交易8年老韭菜，医学生在学Ai中，抽象女，170，G奶 🥸分享 Crypto｜美股｜AI | 心理学| 哲学 | 神学|…」",
+  "verified_works": [
+    {
+      "title": "huiyuan.uk",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://huiyuan.uk"
+    },
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/LUCK818"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15723,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T15:31:52+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

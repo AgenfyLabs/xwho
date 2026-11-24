@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1997889576187387904",
+  "handle": "cgnot996",
+  "display_name": "铁柱AGI",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「SpaceXSI 社区 Build 大使｜WayToBot 社区联合发起人 开源 Grok App / Grok Bot 浏…」",
+  "verified_works": [
+    {
+      "title": "bot.fmcat.top",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bot.fmcat.top"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14515,
+    "as_of": "2026-11-24T20:39:53+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:01:10+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:2106180977165033490",
+    "list:2112198758402244861",
+    "list:2114639172346822658"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1577397374951256064",
+  "handle": "TC8880",
+  "display_name": "TC",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「Asia Marketing Lead @predictdotfun 官方社区： WE WILL WIN💜🔮🚀🌕」",
+  "verified_works": [
+    {
+      "title": "predict.fun",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://predict.fun"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 26546,
+    "as_of": "2026-11-24T20:46:20+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:27:13+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

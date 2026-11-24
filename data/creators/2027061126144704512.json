@@ -1,0 +1,46 @@
+{
+  "x_user_id": "2027061126144704512",
+  "handle": "jedeeai",
+  "display_name": "琳小航",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "AI 编程",
+    "独立开发",
+    "教程"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、AI 编程、独立开发）。本人 X 简介要点：「X榜单: X的AI信息流: 专注分享AI Agent工作流｜AI 编程实战｜小白避坑教程 生财AI教练｜All in AI…」",
+  "verified_works": [
+    {
+      "title": "jedeeai.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://jedeeai.com"
+    },
+    {
+      "title": "xbangdan.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xbangdan.com"
+    },
+    {
+      "title": "xfeed.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xfeed.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9377,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:39:22+08:00",
+  "lead_sources": [
+    "list:2040768193241948456",
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

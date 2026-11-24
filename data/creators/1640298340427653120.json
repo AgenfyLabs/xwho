@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1640298340427653120",
+  "handle": "MoonInAI",
+  "display_name": "MoonInAI",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「AI Builder ｜千问办公大使｜ 专注搞钱，折腾过十几种副业的00后 开源自媒体skill全网转发量破万 正在用AI为…」",
+  "verified_works": [
+    {
+      "title": "mooninai.top",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://mooninai.top/"
+    },
+    {
+      "title": "KOSX.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://KOSX.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6308,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T21:49:27+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

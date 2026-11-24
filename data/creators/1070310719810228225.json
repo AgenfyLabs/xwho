@@ -1,0 +1,41 @@
+{
+  "x_user_id": "1070310719810228225",
+  "handle": "itangtalk",
+  "display_name": "Tang",
+  "vertical": "geo",
+  "role_tags": [],
+  "sub_tags": [
+    "独立站",
+    "视频"
+  ],
+  "summary": "GEO / SEO / 出海增长方向的中文 X 创作者（独立站、视频）。本人 X 简介要点：「🎬YouTube创作者 ｜✍️内容创作者 ｜🛍️独立站运营」",
+  "verified_works": [
+    {
+      "title": "info.itangtalk.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://info.itangtalk.com"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://youtube.com/@tangtalk"
+    },
+    {
+      "title": "itangtalk.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://itangtalk.com/about"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3547,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T08:37:33+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

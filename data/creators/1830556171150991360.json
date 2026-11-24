@@ -1,0 +1,41 @@
+{
+  "x_user_id": "1830556171150991360",
+  "handle": "Money_or_Life_X",
+  "display_name": "Ace from Money or Life 美股频道",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "美股",
+    "内容创作"
+  ],
+  "summary": "Ace from Money or Life 美股频道，科技内容 / 媒体方向的中文 X 创作者；本人 X 简介极简，未自述更多身份信息。",
+  "verified_works": [
+    {
+      "title": "ace-moneyorlife.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://ace-moneyorlife.com"
+    },
+    {
+      "title": "patreon.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://patreon.com/c/money_or_life"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://www.youtube.com/@Money_or_Life"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 27086,
+    "as_of": "2026-11-24T20:43:40+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:11:08+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,32 @@
+{
+  "x_user_id": "2049005749775286272",
+  "handle": "susanryanlin",
+  "display_name": "苏珊💓Susan",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「📚 每周读1-2本好书 | 分享读书笔记 🌟 偶尔分享投资复盘笔记 | 全天在线 🔥 来聊书，聊职场，聊生活呀！🤗」",
+  "verified_works": [
+    {
+      "title": "123.box",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://123.box/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16750,
+    "as_of": "2026-11-24T20:43:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:30:09+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2108593047076479465"
+  ],
+  "service_board": null
+}

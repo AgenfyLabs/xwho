@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1578944561925468162",
+  "handle": "runes_leo",
+  "display_name": "Leo｜LeoLabs.me",
+  "vertical": "crypto",
+  "role_tags": [],
+  "sub_tags": [
+    "工具分享",
+    "AI"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（工具分享、AI）。本人 X 简介要点：「用 AI 做工具、研究和真实实验。 从 Crypto / 预测市场出发，也探索值得解决的新问题。 公开过程、数据、失败和复盘…」",
+  "verified_works": [
+    {
+      "title": "leolabs.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://leolabs.me"
+    },
+    {
+      "title": "join.leolabs.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://join.leolabs.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 23009,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:00:03+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:2011224544821068243"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1548576384368648192",
+  "handle": "CryptoBigHand",
+  "display_name": "比特币大手子",
+  "vertical": "crypto",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "比特币",
+    "Web3"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（比特币、Web3）。本人 X 简介要点：「Trader：实盘收益最高15500% ｜ Founder of @MetaBridgeCN ｜ #OKX #Binance…」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/cryptobighand"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16194,
+    "as_of": "2026-11-24T20:40:18+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-13T13:11:46+08:00",
+  "lead_sources": [
+    "list:2109552168340803818"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,30 @@
+{
+  "x_user_id": "2056783320726503424",
+  "handle": "Jolyne_AI",
+  "display_name": "徐伦",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "开源",
+    "设计",
+    "工具分享"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、开源、设计）。本人 X 简介要点：「大厂在职牛马 · 独立开发者 每天挖真正好用的 GitHub 开源项目 专注 AI 工具 & UI/UX 交互设计 高密度干…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5023,
+    "as_of": "2026-11-24T20:40:18+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T00:38:20+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

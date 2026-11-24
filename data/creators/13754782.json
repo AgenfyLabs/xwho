@@ -1,0 +1,40 @@
+{
+  "x_user_id": "13754782",
+  "handle": "XDash",
+  "display_name": "XDash",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "增长",
+    "播客",
+    "Newsletter",
+    "视频"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（增长、播客、Newsletter）。本人 X 简介要点：「《增长黑客》作者，创业者，投资者，宅男奶爸。 - Newsletter: - Blog: - YouTube: - Podc…」",
+  "verified_works": [
+    {
+      "title": "zengzhang.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zengzhang.ai"
+    },
+    {
+      "title": "xdash.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://xdash.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 30119,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-17T12:22:37+08:00",
+  "lead_sources": [
+    "list:2106180977165033490",
+    "list:2114630189598535837",
+    "list:2117554890109051373"
+  ],
+  "service_board": null
+}

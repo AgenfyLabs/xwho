@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1253682488221655043",
+  "handle": "mressen",
+  "display_name": "艾森 Essen",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "科技观察",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（科技观察、AI）。本人 X 简介要点：「不要停止探索這個世界，為多變的未來做好準備 | 某教育/媒体集团和某EdTech独角兽公司前高管。喜歡徒步/露營，是終身學習…」",
+  "verified_works": [
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@mressen1"
+    },
+    {
+      "title": "bento.me",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "http://bento.me/essenai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 66746,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:11:37+08:00",
+  "lead_sources": [
+    "list:1978334783357751625"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,38 @@
+{
+  "x_user_id": "2036430645724147712",
+  "handle": "kkkeric_ai",
+  "display_name": "KKKK",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "出海",
+    "投资",
+    "产品",
+    "创业"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（出海、投资、产品）。本人 X 简介要点：「🎓 前私募投资｜纯文科转型 AI 🛠️ 个人主页： 🚀 分享 AI 实践、产品开发与出海创业的真实经验 🔥 产品：BeatA…」",
+  "verified_works": [
+    {
+      "title": "beatapi.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://beatapi.io"
+    },
+    {
+      "title": "kkkkeric.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://kkkkeric.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3005,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:53:57+08:00",
+  "lead_sources": [
+    "list:1955875889310523835"
+  ],
+  "service_board": null
+}

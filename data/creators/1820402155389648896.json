@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1820402155389648896",
+  "handle": "Aoyi21",
+  "display_name": "奥一AoYi",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "创业",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（创业、AI）。本人 X 简介要点：「事业单位裸辞创业中，钻研搞钱 搞 AI 丨搞抽象丨讲段子 在用 AI 养活自己和一家公司」",
+  "verified_works": [
+    {
+      "title": "aoyi21.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://aoyi21.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5387,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:20:03+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

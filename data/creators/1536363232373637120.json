@@ -1,0 +1,30 @@
+{
+  "x_user_id": "1536363232373637120",
+  "handle": "ohayou792",
+  "display_name": "Unicorn",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "大模型",
+    "独立开发",
+    "开源",
+    "工具分享"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（大模型、独立开发、开源）。本人 X 简介要点：「独立开发者｜ AI 大模型重度使用者 🛠️ 专注：怎么用最低成本用上顶级模型｜ AI 工具实测 ｜开源项目实操 只分享自己亲…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3517,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:39:19+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

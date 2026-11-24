@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1470385762348638210",
+  "handle": "1999_eth",
+  "display_name": "老叶",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "比特币",
+    "投资",
+    "AI",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（比特币、投资、AI）。本人 X 简介要点：「丢失193个BTC的男人丨资深程序员丨AI爱好者丨喜欢打破垄断做免费软件，传统大厂恨的牙痒痒的男人。本账号推文信息不做为投资…」",
+  "verified_works": [
+    {
+      "title": "apikey.fan",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://apikey.fan"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 26234,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-19T14:30:05+08:00",
+  "lead_sources": [
+    "list:1978334783357751625"
+  ],
+  "service_board": null
+}

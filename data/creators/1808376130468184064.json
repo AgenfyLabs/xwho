@@ -1,0 +1,34 @@
+{
+  "x_user_id": "1808376130468184064",
+  "handle": "jev_chat",
+  "display_name": "杰哥的AI踩坑日记",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、工具分享、AI）。本人 X 简介要点：「⭐ 开源 Jev 聊天助手，GitHub 8K+ Star 🧑‍💻 13 年开发、8 年项目管理经验 🛠️ 想用 AI 又怕…」",
+  "verified_works": [
+    {
+      "title": "finderchangchang.github.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://finderchangchang.github.io"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3081,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:35:32+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

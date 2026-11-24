@@ -1,0 +1,44 @@
+{
+  "x_user_id": "2045135343108722689",
+  "handle": "leo_xiaolei",
+  "display_name": "刘老板",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "安全",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、安全、AI）。本人 X 简介要点：「头部安全公司 AI 研发 | 讲师 北京xx大学计算机硕士 ｜ 多篇专利& SI 论文 探索 AI | 创造价值 | 开源分…」",
+  "verified_works": [
+    {
+      "title": "threerocks.xyz",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://threerocks.xyz/me"
+    },
+    {
+      "title": "d956.aivip1688.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://d956.aivip1688.com"
+    },
+    {
+      "title": "apsdeck.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://apsdeck.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 21762,
+    "as_of": "2026-11-24T20:43:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:53:18+08:00",
+  "lead_sources": [
+    "list:2108593047076479465"
+  ],
+  "service_board": null
+}

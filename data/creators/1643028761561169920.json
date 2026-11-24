@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1643028761561169920",
+  "handle": "maojietrading",
+  "display_name": "XTrader猫姐美股交易",
+  "vertical": "finance",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "科技观察",
+    "美股",
+    "投资"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（科技观察、美股、投资）。本人 X 简介要点：「XTrader数据科技创始人，16年美股交易，曾驻纽交所交易大厅。微博始于2009，见证交易每一步。五年美股收益率910%（…」",
+  "verified_works": [
+    {
+      "title": "XTraderMaojie.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://www.XTraderMaojie.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 49124,
+    "as_of": "2026-11-24T20:43:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T01:16:10+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2118730747586503128"
+  ],
+  "service_board": null
+}

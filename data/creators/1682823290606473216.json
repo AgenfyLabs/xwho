@@ -1,0 +1,51 @@
+{
+  "x_user_id": "1682823290606473216",
+  "handle": "PennyJoly",
+  "display_name": "Indie Maker Kevin",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "大模型",
+    "独立开发",
+    "开源",
+    "SaaS"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（大模型、独立开发、开源）。本人 X 简介要点：「大厂🧰连续裸辞创业独立开发者🧑‍💻｜ Codex & Claude AI 大模型网关【 Nuxt3出海saas模板【 正在运…」",
+  "verified_works": [
+    {
+      "title": "github.com/linktre-tools",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/PennyJoly/linktre-tools"
+    },
+    {
+      "title": "codeproxy.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://codeproxy.dev"
+    },
+    {
+      "title": "nuxtpro.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://nuxtpro.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3726,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:25:00+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2011224544821068243",
+    "list:2061247599521509429",
+    "list:2109280379039576400",
+    "list:2118119863923192256",
+    "list:2124468651550237082"
+  ],
+  "service_board": null
+}

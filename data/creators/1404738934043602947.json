@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1404738934043602947",
+  "handle": "Jackywine",
+  "display_name": "Jackywine",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "提示词",
+    "设计",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（提示词、设计、产品）。本人 X 简介要点：「@flomo_app Evangelist | Obsidian VIP | Prompt Engineer | 喜欢Dee…」",
+  "verified_works": [
+    {
+      "title": "my.feishu.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://my.feishu.cn/wiki/J4PCwCBmEipifUkxglQcu40qnhg"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 50402,
+    "as_of": "2026-11-24T20:40:18+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:12:10+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:2040768193241948456",
+    "list:2106180977165033490",
+    "list:2107361230671458651",
+    "list:2108446759534104760"
+  ],
+  "service_board": null
+}

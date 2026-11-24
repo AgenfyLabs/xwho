@@ -1,0 +1,36 @@
+{
+  "x_user_id": "818848209032183808",
+  "handle": "therobinchen",
+  "display_name": "Robin Chen",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "投资",
+    "产品"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（投资、产品）。本人 X 简介要点：「10+ years in tech & R&D, 8 years overseas. Building products,…」",
+  "verified_works": [
+    {
+      "title": "zhiyu.si",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zhiyu.si"
+    },
+    {
+      "title": "zhiyu.si",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zhiyu.si/about/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1445,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:24:27+08:00",
+  "lead_sources": [
+    "list:2108446759534104760"
+  ],
+  "service_board": null
+}

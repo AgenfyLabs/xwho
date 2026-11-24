@@ -1,0 +1,40 @@
+{
+  "x_user_id": "1168028658",
+  "handle": "hongjun60",
+  "display_name": "硅谷101泓君Jane",
+  "vertical": "crypto",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "播客",
+    "Web3"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（播客、Web3）。本人 X 简介要点：「Founder of Valley 101（硅谷101）｜Podcaster @thevalley101 @web3_101」",
+  "verified_works": [
+    {
+      "title": "sv101.fireside.fm",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://sv101.fireside.fm/"
+    },
+    {
+      "title": "web3101.fireside.fm",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://web3101.fireside.fm"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 10398,
+    "as_of": "2026-11-24T20:39:53+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:16:23+08:00",
+  "lead_sources": [
+    "list:2106180977165033490",
+    "list:2107361230671458651",
+    "list:2117576638409888117"
+  ],
+  "service_board": null
+}

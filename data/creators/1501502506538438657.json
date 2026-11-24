@@ -1,0 +1,42 @@
+{
+  "x_user_id": "1501502506538438657",
+  "handle": "UnicornBitcoin",
+  "display_name": "UNICORN⚡️🦄",
+  "vertical": "crypto",
+  "role_tags": [],
+  "sub_tags": [
+    "比特币",
+    "Web3",
+    "美股"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（比特币、Web3、美股）。本人 X 简介要点：「等 风险有上限 不骗自己 低谷是馈赠 普通人也能上桌 1 BTC = 1 BTC 时代叙事 嘴贱 从未下桌 Web3入口OK…」",
+  "verified_works": [
+    {
+      "title": "bit.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bit.ly/UNICOBTC"
+    },
+    {
+      "title": "bit.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bit.ly/UNICBN"
+    },
+    {
+      "title": "bit.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bit.ly/UNICMT"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 140300,
+    "as_of": "2026-11-24T20:40:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:27:16+08:00",
+  "lead_sources": [
+    "list:2109552168340803818"
+  ],
+  "service_board": null
+}

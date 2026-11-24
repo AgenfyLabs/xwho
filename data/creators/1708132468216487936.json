@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1708132468216487936",
+  "handle": "JamesAI",
+  "display_name": "在悉尼和稀泥",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "产品",
+    "时事评论"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（产品、时事评论）。本人 X 简介要点：「回归产品」",
+  "verified_works": [
+    {
+      "title": "jamesai.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://jamesai.dev/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 32630,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:57:49+08:00",
+  "lead_sources": [
+    "list:1955875889310523835",
+    "list:1961235697677017443",
+    "list:2011224544821068243",
+    "list:2061247599521509429",
+    "list:2108752382914166937",
+    "list:2109280379039576400",
+    "list:2118119863923192256",
+    "list:2124468651550237082"
+  ],
+  "service_board": null
+}

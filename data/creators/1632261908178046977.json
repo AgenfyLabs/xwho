@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1632261908178046977",
+  "handle": "artinmemes",
+  "display_name": "美股OK哥",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "美股",
+    "投资"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（美股、投资）。本人 X 简介要点：「投资丛林里的狩猎者。无CRS炒美股上盈透」",
+  "verified_works": [
+    {
+      "title": "interactivebrokers.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.interactivebrokers.com/mkt/?src=usstokX&url=%2Fcn%2Fwhyib%2Foverview.php"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 88586,
+    "as_of": "2026-11-24T20:40:18+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:58:09+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2108446759534104760"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,33 @@
+{
+  "x_user_id": "2105460461160599552",
+  "handle": "happyjoejiang",
+  "display_name": "joe jiang",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "investor"
+  ],
+  "sub_tags": [
+    "Apple 开发",
+    "投资"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（Apple 开发、投资）。本人 X 简介要点：「D2R-Mobile / S2Arm 项目作者，开创 Switch 原生移植至 iOS/macOS/安卓/鸿蒙/tvOS 的…」",
+  "verified_works": [
+    {
+      "title": "github.com/S2Arm",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/jhaizhou-ops/S2Arm"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 7734,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T21:39:48+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

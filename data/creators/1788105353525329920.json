@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1788105353525329920",
+  "handle": "TobyAtLarge",
+  "display_name": "Toby!",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "播客",
+    "AI",
+    "工程师",
+    "游戏"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（播客、AI、工程师）。本人 X 简介要点：「engineer & creator, AI x 教育 cofounder 搭建系统: 用同一套工程师方法做很多有趣的东西，…」",
+  "verified_works": [
+    {
+      "title": "tobysguide.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://tobysguide.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6459,
+    "as_of": "2026-11-24T20:43:40+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:00:07+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

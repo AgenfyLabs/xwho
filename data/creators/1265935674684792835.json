@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1265935674684792835",
+  "handle": "lemomo_ai",
+  "display_name": "Lemomo",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI",
+    "程序员",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI、程序员）。本人 X 简介要点：「Sexy Developer | Building in Public | AI Artist 程序员，独立开发者。AI视觉…」",
+  "verified_works": [
+    {
+      "title": "github.com/lemomo-ai",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/lemomo-ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9804,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:35:03+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1527743101242064896",
+  "handle": "LeeMmai",
+  "display_name": "李麦麦",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "比特币",
+    "投资"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（比特币、投资）。本人 X 简介要点：「囤BTC，做期权，玩理财，捣鼓卡，研究好玩的」",
+  "verified_works": [
+    {
+      "title": "leemaimai.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://leemaimai.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 18434,
+    "as_of": "2026-11-24T20:46:20+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:41:17+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

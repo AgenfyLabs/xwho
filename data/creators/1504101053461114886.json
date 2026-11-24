@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1504101053461114886",
+  "handle": "verysmallwoods",
+  "display_name": "VerySmallWoods",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、内容创作）。本人 X 简介要点：「个人网站 - 视频生成Skill」",
+  "verified_works": [
+    {
+      "title": "verysmallwoods.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.verysmallwoods.com"
+    },
+    {
+      "title": "github.com/verysmallwoods-video",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/sugarforever/boring-video-studio/tree/main/skills/verysmallwoods-video"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5051,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:18:02+08:00",
+  "lead_sources": [
+    "list:1748001702341665088"
+  ],
+  "service_board": null
+}

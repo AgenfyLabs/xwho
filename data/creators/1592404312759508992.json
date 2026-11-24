@@ -1,0 +1,34 @@
+{
+  "x_user_id": "1592404312759508992",
+  "handle": "Alphatu5",
+  "display_name": "阿法兔",
+  "vertical": "media",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "科技观察",
+    "创业",
+    "工程师"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（科技观察、创业、工程师）。本人 X 简介要点：「阿拉伯语学习中｜中东区域国别研究｜创业者｜工程师➡️媒体人｜几本科技主题书籍的作者 | 神秘IT社区创始人｜碳硅生物 &布朗…」",
+  "verified_works": [
+    {
+      "title": "web.okjike.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://web.okjike.com/u/9CCE6435-0766-487E-BF96-8B3953A343DE"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3650,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-07T00:55:34+08:00",
+  "lead_sources": [
+    "list:1748001702341665088"
+  ],
+  "service_board": null
+}

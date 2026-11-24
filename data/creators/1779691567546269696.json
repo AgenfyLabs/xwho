@@ -1,0 +1,41 @@
+{
+  "x_user_id": "1779691567546269696",
+  "handle": "realchendahuang",
+  "display_name": "陈大黄",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "investor",
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "科技观察",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、科技观察、产品）。本人 X 简介要点：「宁波 AI 科技公司合伙人、KOSX华东主理、FDE、独立开发者、产品洞察、段子手 💬 ✈️飞机 : @chendahuang」",
+  "verified_works": [
+    {
+      "title": "chendahuang.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://chendahuang.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16080,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:38:39+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:2011224544821068243",
+    "list:2040768193241948456",
+    "list:2108446759534104760",
+    "list:2108593047076479465",
+    "list:2117554890109051373"
+  ],
+  "service_board": null
+}
