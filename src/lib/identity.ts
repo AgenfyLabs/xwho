@@ -8,6 +8,10 @@ export const ApplicationInputSchema = z.strictObject({
   vertical: z.enum(verticals), summary: z.string().trim().min(1, "请填写一句话简介"),
   work_urls: z.array(HttpUrlSchema).min(1, "请至少填写一项可核验作品链接"),
 });
+export const publicApplicationIntent = "confirm-public-submit";
+export const ConfirmApplicationSchema = z.strictObject({
+  intent: z.literal(publicApplicationIntent), accountId: IdSchema, application: ApplicationInputSchema,
+});
 export const ProfileInputSchema = z.discriminatedUnion("action", [
   z.strictObject({ action: z.literal("hide") }),
   z.strictObject({ action: z.literal("restore") }),

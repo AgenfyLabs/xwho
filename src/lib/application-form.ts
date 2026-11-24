@@ -5,14 +5,24 @@ import type { XApplication } from "./x-application";
 
 const fieldsSchema = z.object({ vertical: z.union([z.enum(verticals), z.literal("")]), summary: z.string(), works: z.string() });
 export type ApplicationFields = z.infer<typeof fieldsSchema>;
-const pendingSchema = z.object({ id: z.string(), attempt: z.uuid(), expires: z.number(), preview: z.boolean(), fields: fieldsSchema });
+const draftSchema = z.object({ imported: z.boolean(), fields: fieldsSchema.partial() });
+export type ApplicationDraft = z.infer<typeof draftSchema>;
+export const emptyDraft: ApplicationDraft = { imported: false, fields: {} };
+export const draftKey = (id: string) => `xwho.application.draft.${id}`;
+const pendingSchema = z.object({ id: z.string(), attempt: z.uuid(), expires: z.number(), fields: fieldsSchema.partial().optional() });
 export const pendingApplicationKey = "xwho.application";
 
-export function withSuggestions(saved?: ApplicationFields, suggestions?: XApplication): ApplicationFields {
+function stored(storage: Pick<Storage, "getItem">, key: string): unknown {
+  try { return JSON.parse(storage.getItem(key) || "null"); } catch { return null; }
+}
+export function readDraft(storage: Pick<Storage, "getItem">, id: string): ApplicationDraft {
+  return draftSchema.safeParse(stored(storage, draftKey(id))).data ?? emptyDraft;
+}
+export function withSuggestions(saved?: Partial<ApplicationFields>, suggestions?: XApplication): ApplicationFields {
   return {
-    vertical: saved?.vertical || suggestions?.vertical || "",
-    summary: saved?.summary.trim() || suggestions?.summary || "",
-    works: saved?.works.trim() || suggestions?.pinnedPost || "",
+    vertical: saved?.vertical ?? suggestions?.vertical ?? "",
+    summary: saved?.summary ?? suggestions?.summary ?? "",
+    works: saved?.works ?? suggestions?.pinnedPost ?? "",
   };
 }
 export function applicationInput(fields: ApplicationFields) {
@@ -21,10 +31,11 @@ export function applicationInput(fields: ApplicationFields) {
   });
 }
 
-// Consume the original click once, before any write. A different account cannot resume it.
+// The redirect can resume an import for the same account. It carries no publication intent.
 export function takeApplication(storage: Pick<Storage, "getItem" | "removeItem">, attempt: string | undefined, id: string | undefined, now = Date.now()) {
-  const pending = pendingSchema.safeParse(JSON.parse(storage.getItem(pendingApplicationKey) || "null"));
-  if (!pending.success || (attempt && pending.data.attempt !== attempt)) return;
+  if (!attempt || !id) return;
+  const pending = pendingSchema.safeParse(stored(storage, pendingApplicationKey));
+  if (!pending.success || pending.data.attempt !== attempt) return;
   storage.removeItem(pendingApplicationKey);
   if (pending.data.id === id && pending.data.expires > now) return pending.data;
 }

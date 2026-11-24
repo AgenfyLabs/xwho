@@ -21,6 +21,10 @@ export function repoUrl() {
   const { owner, name } = repoConfig();
   return `https://github.com/${encodeURIComponent(owner)}/${encodeURIComponent(name)}`;
 }
+export function githubWriteMode(): "preview" | "pr" | "direct" {
+  const mode = process.env.GITHUB_WRITE_MODE;
+  return process.env.GITHUB_TOKEN?.trim() && (mode === "pr" || mode === "direct") ? mode : "preview";
+}
 async function api<T>(route: string, method = "GET", body?: unknown): Promise<T> {
   const { owner, name } = repoConfig();
   const res = await fetch(`https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(name)}${route}`, {
@@ -90,10 +94,9 @@ export async function writeChange(owner: Identity, change: Change, local?: Creat
   const profilePath = `data/creators/${id}.json`;
   const application = change.kind === "application";
   const path = application ? `data/applications/${id}.json` : profilePath;
-  if (preview || !process.env.GITHUB_TOKEN) return { mode: "preview", path, document: documentFor(owner, change, local) };
+  const mode = githubWriteMode();
+  if (preview || mode === "preview") return { mode: "preview", path, document: documentFor(owner, change, local) };
   const { base } = repoConfig();
-  const mode = process.env.GITHUB_WRITE_MODE || "pr";
-  if (!["direct", "pr"].includes(mode)) throw new ChangeError(503, "请检查 GITHUB_WRITE_MODE 配置");
   const usePr = application || mode === "pr";
   try {
     const baseSha = (await readRef(base)).object.sha;

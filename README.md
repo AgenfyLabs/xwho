@@ -53,20 +53,22 @@ npm run import:pool -- --input /path/to/verified-directory --tier api-verified
 | GITHUB_TOKEN | 仅向目标仓库写内容和开 PR 的服务端凭据 |
 | GITHUB_REPO_OWNER / GITHUB_REPO_NAME | 默认 AgenfyLabs / xwho |
 | GITHUB_BASE_BRANCH | 默认 main |
-| GITHUB_WRITE_MODE | 默认 pr，direct 仅对已有档案变更生效 |
+| GITHUB_WRITE_MODE | 默认 preview。有令牌且显式设为 pr 或 direct 时才允许写入，direct 仅对已有档案生效 |
 
 在 X 开发者控制台登记与 NEXT_PUBLIC_APP_URL 完全一致的 /api/auth/x/callback 回调。登录仅请求 `users.read` 和 `tweet.read`。回调调用 `GET /2/users/me`，用本人的数字 ID、用户名和显示名识别身份，并从 `description`、`protected`、`pinned_tweet_id` 生成申请建议。[X 官方身份接口](https://docs.x.com/x-api/users/get-my-user)
 
 流程使用 PKCE S256 和随机 state，流程 Cookie 有效期为 10 分钟。服务器将身份与筛选后的申请建议写入 7 天的 HMAC 签名会话。Cookie 使用 HttpOnly、SameSite=Lax，HTTPS 附加 Secure。
 
-工作台会预填公开 bio 中适合公开的简介，只有赛道明确时才预选，作品候选使用本人公开置顶帖。已有会话可点「用 X 简介自动申请」同步 X 资料，保留已填内容并在资料齐全时提交。缺少必填项时在原表单补全。预览模式对应「用 X 简介自动预览」，可核对生成的 JSON。
+登录后点「从 X 导入草稿」，可带入适合公开的简介、明确的赛道和本人公开置顶帖。本人可改写简介、移除置顶帖或换成自己的作品。当前标签页为每个账号单独暂存草稿，刷新和再次导入会保留手动修改与删除。退出登录会清理该账号的草稿。
 
-缺少 X 配置时，工作台可本地校验并预览申请 JSON。已验证身份但缺少 GITHUB_TOKEN 时，可预览本人档案或申请的 JSON 补丁。页面提供 GitHub 仓库入口。
+点「预览草稿」可核对即将公开的账号和资料。修改任一字段后需重新预览。开启写入时，只有本人再点「确认公开提交」才会创建或复用审核 PR。登录、授权回跳、导入、编辑与预览均不会访问 GitHub 写入接口。
+
+生产验收期间设置 `GITHUB_WRITE_MODE=preview`。即使有令牌，申请和已有名片修改也只返回预览。缺少 X 配置时，访客仍可试写并预览。
 
 ## 贡献、审核与生效时间
 
 - 巡检按工作日轮换，每日约 100 人。按数字 ID 识别改名，检查停更、锁推、封禁与注销。仅使用 X 官方接口或人工核实的公开原始来源。
 - 今日大事件单独开 PR，汇总近 24 小时真实动态，目标 5–8 条，每条均附出处。站长按天复制草稿并人工审阅发布。
-- 入库申请无论写入模式如何都开 PR。data/applications/<id>.json 是待审核材料，网站不读取该目录。维护者核实公开作品、语言、活跃度、数字及反营销红线后，在该 PR 内以 data/creators/<id>.json 替换申请。核实层级和数值后再合并。
+- 开放写入后，入库申请一律走 PR。data/applications/<id>.json 是待审核材料，网站不读取该目录。维护者核实公开作品、语言、活跃度、数字及反营销红线后，在该 PR 内以 data/creators/<id>.json 替换申请。核实层级和数值后再合并。
 - 认领与隐藏根据 OAuth 数字 ID 定位。编辑不得代留联系方式。本人公开的联系方式会进入公开 Git 仓库及历史，请在提交前留意公开范围。隐藏生效后，该 ID 会从网站全部公开入口移除，文件保留用于巡检去重。
 - PR 模式在合并并部署后对访客生效，direct 模式在提交并部署后生效。服务器从目标分支读取当前档案，按文件 SHA 防止覆盖并发修改。GitHub Actions 在每次 push 和 PR 上校验数据、执行测试并构建生产版本。

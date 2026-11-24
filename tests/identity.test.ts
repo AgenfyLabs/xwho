@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { NextRequest } from "next/server";
 import { afterEach, beforeEach, expect, it, vi } from "vitest";
 import { beginOAuth, cookieOptions, readSession, sessionCookie, verifyFlow } from "../src/lib/x-oauth";
-import { ApplicationInputSchema, editProfile, ProfileInputSchema } from "../src/lib/identity";
+import { ApplicationInputSchema, editProfile, ProfileInputSchema, publicApplicationIntent } from "../src/lib/identity";
 import { POST as profilePost } from "../src/app/api/profile/route";
 import { POST as applyPost } from "../src/app/api/apply/route";
 import { GET as login } from "../src/app/api/auth/x/login/route";
@@ -67,7 +67,7 @@ it("X 限制扩展字段时仍可用基础身份登录", async () => {
     { headers: { cookie: `xwho_oauth=${flow.cookie}` } }));
   expect(readSession(res.cookies.get("xwho_session")?.value)).toEqual({ ...owner, application: { summary: "" } });
 });
-it("只有通过签名 state 校验的一键操作才返回申请标识，取消授权不触发写入", async () => {
+it("只有通过签名 state 校验的导入才返回草稿标识，取消授权不触发写入", async () => {
   const attempt = "cc0d6958-2bea-40a7-abca-68a787033995";
   const start = login(new NextRequest(`https://xwho.example/api/auth/x/login?application=${attempt}`));
   const state = new URL(start.headers.get("location")!).searchParams.get("state")!;
@@ -82,6 +82,7 @@ it("只有通过签名 state 校验的一键操作才返回申请标识，取消
 });
 it("本人显式预览在已配置 GitHub 时仍只生成本地申请", async () => {
   vi.stubEnv("GITHUB_TOKEN", "unit-test-only");
+  vi.stubEnv("GITHUB_WRITE_MODE", "pr");
   vi.spyOn(data, "readDataset").mockReturnValue({ creators: [], milestones: [] });
   const outbound = vi.fn(); vi.stubGlobal("fetch", outbound);
   const res = await applyPost(new NextRequest("https://xwho.example/api/apply?preview=1", {
@@ -111,6 +112,28 @@ function request(body: unknown, signed = true, origin = "https://xwho.example") 
     origin, "Content-Type": "application/json", ...(signed ? { cookie: `xwho_session=${sessionCookie(owner)}` } : {}),
   }, body: JSON.stringify(body) });
 }
+const application = { vertical: "media", summary: "本人改写的简介", work_urls: ["https://example.org/my-work"] };
+const confirmation = { intent: publicApplicationIntent, accountId: owner.id, application };
+it("写入开放时仍拒绝旧表单、错误意图、切换账号以及无效作品，GitHub 零请求", async () => {
+  vi.stubEnv("GITHUB_TOKEN", "unit-test-only"); vi.stubEnv("GITHUB_WRITE_MODE", "pr");
+  const outbound = vi.fn(); vi.stubGlobal("fetch", outbound);
+  for (const body of [application, { ...confirmation, intent: "import" }, { ...confirmation, application: { ...application, work_urls: [] } }]) {
+    expect((await applyPost(request(body))).status).toBe(400);
+  }
+  expect((await applyPost(request({ ...confirmation, accountId: "2" }))).status).toBe(409);
+  expect((await applyPost(request(confirmation, false))).status).toBe(401);
+  expect((await applyPost(request(confirmation, true, "https://other.example"))).status).toBe(403);
+  expect(outbound).not.toHaveBeenCalled();
+});
+it.each(["preview", "", "unknown"])("写入模式 %j 即使有令牌且已确认，也只预览申请和已有名片", async mode => {
+  vi.stubEnv("GITHUB_TOKEN", "unit-test-only"); vi.stubEnv("GITHUB_WRITE_MODE", mode);
+  const outbound = vi.fn(); vi.stubGlobal("fetch", outbound);
+  const dataset = vi.spyOn(data, "readDataset").mockReturnValue({ creators: [], milestones: [] });
+  expect(await (await applyPost(request(confirmation))).json()).toMatchObject({ mode: "preview", document: { ...application, x_user_id: owner.id } });
+  dataset.mockReturnValue({ creators: [creator()], milestones: [] });
+  expect(await (await profilePost(request({ action: "hide" }))).json()).toMatchObject({ mode: "preview", document: { claim_status: "hidden" } });
+  expect(outbound).not.toHaveBeenCalled();
+});
 it("写路由检查登录、来源及白名单；无令牌只返回本人补丁", async () => {
   vi.spyOn(data, "readDataset").mockReturnValue({ creators: [creator()], milestones: [] });
   expect((await profilePost(request({ action: "hide" }, false))).status).toBe(401);
