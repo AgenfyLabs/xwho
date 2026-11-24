@@ -225,3 +225,8 @@ blockquote { font: 1.35rem/1.8 var(--serif); margin: .55rem 0; }
 @media (max-width: 359px) {
   .card-grid { grid-template-columns: 1fr; }
 }
+.track-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .5rem; margin: .9rem 0 0; }
+.track-nav > span { color: var(--muted); font-size: .85rem; }
+.track-nav a { display: inline-flex; align-items: center; gap: .35rem; min-height: 36px; padding: .2rem .6rem; border-radius: 4px; color: var(--ink); font-size: .88rem; background: var(--sheet); border: 1px solid var(--rule); }
+.track-nav a:hover { border-color: var(--brown); background: #f0e8d8; color: var(--ink); }
+.track-nav a span { color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }

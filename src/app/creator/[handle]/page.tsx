@@ -1,9 +1,22 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLink } from "lucide-react";
-import { publicCreatorByHandle, readDataset } from "@/lib/data";
+import { JsonLd } from "@/components/json-ld";
+import { publicCreatorByHandle, publicCreators, readDataset } from "@/lib/data";
 import { displayTime, groupEvents, publicEvents } from "@/lib/digest";
+import { creatorDescription, creatorJsonLd, creatorTitle, pageMeta } from "@/lib/seo";
 import { eventNames, HttpUrlSchema, roleNames, tierNames, verticalNames } from "@/lib/schema";
+
+export function generateStaticParams() {
+  return publicCreators(readDataset().creators).map(creator => ({ handle: creator.handle }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }) {
+  const { handle } = await params;
+  const creator = publicCreatorByHandle(readDataset().creators, handle);
+  if (!creator) return { title: "档案未找到", robots: { index: false, follow: false } };
+  return pageMeta({ title: creatorTitle(creator), description: creatorDescription(creator), path: `/creator/${creator.handle}` });
+}
 
 export default async function CreatorPage({ params }: { params: Promise<{ handle: string }> }) {
   const { handle } = await params;
@@ -13,6 +26,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ handle
   const groups = groupEvents(publicEvents([c], milestones));
   const board = c.claim_status === "claimed" ? c.service_board : null;
   return <div className="reading">
+    <JsonLd data={creatorJsonLd(c)} />
     <Link className="back-link" href="/">创作者名录</Link>
     <header className="profile-head"><div className="initial" aria-hidden="true">{Array.from(c.display_name)[0]}</div><div>
       <div className="badges"><span className="badge">{tierNames[c.verification_tier]}</span>{verticalNames[c.vertical]}</div>

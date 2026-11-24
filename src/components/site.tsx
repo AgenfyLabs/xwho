@@ -10,7 +10,7 @@ export function Header() {
     <Link href="/" className="brand" aria-label="XWho 首页"><BookOpenText aria-hidden="true" />XWho</Link>
     <nav className="main-nav" aria-label="主导航">
       {[["/", "创作者名录"], ["/events", "今日大事件"], ["/dashboard", "我的名片"]].map(([href, label]) =>
-        <Link key={href} href={href} aria-current={(href === "/" ? path === "/" || path.startsWith("/creator/") : path === href) ? "page" : undefined}>{label}</Link>)}
+        <Link key={href} href={href} aria-current={(href === "/" ? path === "/" || path.startsWith("/creator/") || path.startsWith("/tracks") : path === href) ? "page" : undefined}>{label}</Link>)}
     </nav>
     <a className="github-nav" href="https://github.com/AgenfyLabs/xwho">GitHub <ExternalLink size={14} aria-hidden="true" /></a>
   </div></header>;
