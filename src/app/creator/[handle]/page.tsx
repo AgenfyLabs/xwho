@@ -28,7 +28,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ handle
     <section className="chapter"><h2>近期大事件</h2>{groups.length ? <ul className="entries">{groups.slice(0, 7).flatMap(g => g.events.map(e =>
       <li key={e.id}><span className="meta">{g.day} · {eventNames[e.event_type]}</span><p>{e.summary} <a className="text-link" href={e.source_url}>原始出处</a></p></li>))}</ul> : <p className="muted">暂无收录事件。</p>}</section>
     <section className="board chapter"><h2>本人合作与联系留言板</h2>
-      {c.claim_status === "unclaimed" ? <><p>未认领 · 联系方式待本人填写</p><Link className="btn primary" href="/dashboard">我是本人，使用 X 登录认领或隐藏档案</Link></>
+      {c.claim_status === "unclaimed" ? <><p>这张名片还没认领，联系方式由创作者自己填写。</p><Link className="btn primary" href="/dashboard">这是我，认领名片</Link></>
         : board ? <><p>{board.open_for_collab ? "正在接合作" : "暂不接合作"}</p><div className="tags">{board.cooperation_tags.map((t, i) => <span key={i}>{t}</span>)}</div>
           {board.pitch && <p className="multiline">{board.pitch}</p>}<dl>{board.contact_channels.map((ch, i) => <div key={i}><dt>{ch.label}</dt>
             <dd>{HttpUrlSchema.safeParse(ch.value).success ? <a className="text-link" href={ch.value}>{ch.value}</a> : ch.value}</dd></div>)}</dl>
