@@ -1,0 +1,31 @@
+{
+  "x_user_id": "420240079",
+  "handle": "greylihui",
+  "display_name": "Grey 李辉",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "写作",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（写作、内容创作）。本人 X 简介要点：「爱好音乐、编程和写作」",
+  "verified_works": [
+    {
+      "title": "greyli.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://greyli.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6167,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-06-15T21:53:59+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

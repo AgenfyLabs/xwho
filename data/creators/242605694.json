@@ -1,0 +1,43 @@
+{
+  "x_user_id": "242605694",
+  "handle": "randyloop",
+  "display_name": "Randy Lu",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工程师",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工程师、AI）。本人 X 简介要点：「Product Engineer, Blogger. /」",
+  "verified_works": [
+    {
+      "title": "lutaonan.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://lutaonan.com"
+    },
+    {
+      "title": "nowdex.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://nowdex.app"
+    },
+    {
+      "title": "vimpo.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://vimpo.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 31564,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T13:58:14+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

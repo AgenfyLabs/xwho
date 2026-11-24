@@ -1,0 +1,40 @@
+{
+  "x_user_id": "1639460977510092803",
+  "handle": "seekjourney",
+  "display_name": "极客杰尼",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "开源",
+    "AI",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、开源、AI）。本人 X 简介要点：「AI Builder ｜大厂 Harness Engineer 开源 md2作者 专注 AI Agent、Skills 与工…」",
+  "verified_works": [
+    {
+      "title": "jieni.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://jieni.ai"
+    },
+    {
+      "title": "github.com/md2wechat-skill",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/geekjourneyx/md2wechat-skill"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13190,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:32:14+08:00",
+  "lead_sources": [
+    "x-yuzong"
+  ],
+  "service_board": null
+}

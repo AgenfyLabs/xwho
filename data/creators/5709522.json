@@ -1,0 +1,25 @@
+{
+  "x_user_id": "5709522",
+  "handle": "mranti",
+  "display_name": "Michael Anti",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "资深媒体人",
+    "国际观察",
+    "公共讨论"
+  ],
+  "summary": "资深媒体人安替，Harvard Nieman Fellow 2008、TEDGlobal 演讲者，长期在 X 参与中文公共与科技媒体讨论。",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 358250,
+    "as_of": "2026-11-24T11:11:00+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-verified-batch"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,38 @@
+{
+  "x_user_id": "145593492",
+  "handle": "glow1n",
+  "display_name": "Glowin",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「focusing on Generative AI ｜Former Co-founder of with @kalasoo…」",
+  "verified_works": [
+    {
+      "title": "vibecafe.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://vibecafe.ai"
+    },
+    {
+      "title": "juejin.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://juejin.cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 8341,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:40:48+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

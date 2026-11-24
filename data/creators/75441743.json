@@ -1,0 +1,39 @@
+{
+  "x_user_id": "75441743",
+  "handle": "Valley101_Qian",
+  "display_name": "硅谷101陈茜（Qian Chen ）",
+  "vertical": "media",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（AI、内容创作）。本人 X 简介要点：「Co-founder of Valley101 Inc（硅谷101）covering tech, AI and busine…」",
+  "verified_works": [
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@TheValley101"
+    },
+    {
+      "title": "linkedin.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://linkedin.com/in/qianchen"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 23421,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T00:11:06+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

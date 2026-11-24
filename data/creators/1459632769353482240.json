@@ -1,0 +1,43 @@
+{
+  "x_user_id": "1459632769353482240",
+  "handle": "lanhubiji",
+  "display_name": "蓝狐",
+  "vertical": "crypto",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "以太坊研究",
+    "加密投研",
+    "公众号"
+  ],
+  "summary": "「蓝狐笔记」作者，长期写以太坊、BTC 与加密周期的主观研究笔记；简介明确无任何群组、不发链接、不要求任何人参与投资。",
+  "verified_works": [
+    {
+      "title": "《蓝狐笔记：创业常识与艺术（产品与运营篇）》",
+      "description": "电子工业出版社博文视点 2017-06 出版（作者署名黄亮新）；书介写蓝狐有 10 年以上科技企业经历、曾在阿里巴巴等大型互联网公司工作。",
+      "url": "http://www.broadview.com.cn/book/5000"
+    },
+    {
+      "title": "蓝狐笔记专栏",
+      "description": "在火星财经 MarsBit、Odaily 星球日报设有作者专栏。",
+      "url": "https://www.odaily.news/zh-CN/author/2147487278"
+    },
+    {
+      "title": "Glamsterdam 升级判断",
+      "description": "2026-11-23 原帖：Glamsterdam 可能在明年 1 月底 2 月初上线，L1 gas limit 往 200M 推、约 150–200 TPS 量级。",
+      "url": "https://x.com/lanhubiji/status/2124690315126952197"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 75255,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

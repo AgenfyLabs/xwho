@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1760502863854460928",
+  "handle": "GeekCatX",
+  "display_name": "知识猫",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "大模型",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（大模型、AI）。本人 X 简介要点：「大厂写码十年，自己折腾 AI 的老猫。 不聊虚头巴脑的大模型PPT，只带兄弟实测真能落地的家伙。 替你肉身踩坑、拒绝当算力冤…」",
+  "verified_works": [
+    {
+      "title": "geekcatx.top",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://geekcatx.top"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 35198,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T01:49:25+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

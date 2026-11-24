@@ -1,0 +1,35 @@
+{
+  "x_user_id": "151385454",
+  "handle": "belliedmonkey",
+  "display_name": "张钊",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "Apple 生态",
+    "播客",
+    "视频"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、Apple 生态、播客）。本人 X 简介要点：「独立开发者。在做「大肚猴翻译」——网页 / 视频 / 播客双语对照，用你自己的 API key， 中间没有我的服务器。这里主…」",
+  "verified_works": [
+    {
+      "title": "belliedmonkey.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://belliedmonkey.cc"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6104,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-20T11:22:48+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

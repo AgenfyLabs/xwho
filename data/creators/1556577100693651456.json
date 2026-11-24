@@ -1,0 +1,44 @@
+{
+  "x_user_id": "1556577100693651456",
+  "handle": "tychozzz",
+  "display_name": "Nico投资有道",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "财经投资",
+    "视频",
+    "美股",
+    "投资"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（视频、美股、投资）。本人 X 简介要点：「爱投资的一枚程序员。投资导航作者，必备一站式导航网站： 美股/比特币长期投资者，持续分享有价值内容。同名Youtube频道：…」",
+  "verified_works": [
+    {
+      "title": "patreon.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.patreon.com/12988943/join"
+    },
+    {
+      "title": "invest-nav.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://invest-nav.com"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://youtube.com/@nicogrowthz"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 96587,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:29:59+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

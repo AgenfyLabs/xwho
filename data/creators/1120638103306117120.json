@@ -1,0 +1,27 @@
+{
+  "x_user_id": "1120638103306117120",
+  "handle": "siantgirl",
+  "display_name": "Ryo",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "综合观察",
+    "前端",
+    "后端",
+    "设计"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（前端、后端、设计）。本人 X 简介要点：「分享所见、所思、所想。在这个互联网的大世界里，我希望能够分享一点我对世界的认知，谢谢你关注我。以前我会前端后端设计建模游戏开…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 18739,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:55:37+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,35 @@
+{
+  "x_user_id": "2162571",
+  "handle": "junyu",
+  "display_name": "Junyu Wang",
+  "vertical": "general",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "创业者",
+    "创业",
+    "商业观察"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（创业、商业观察）。本人 X 简介要点：「Co-founder, Wandou Labs」",
+  "verified_works": [
+    {
+      "title": "blog.wangjunyu.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://blog.wangjunyu.net"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 29747,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-12T19:29:43+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xnav"
+  ],
+  "service_board": null
+}

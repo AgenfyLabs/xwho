@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1993192173567942656",
+  "handle": "CrazyKaomei",
+  "display_name": "疯狂的烤妹儿 🩵",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "视频",
+    "教程",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、视频、教程）。本人 X 简介要点：「✍️ 实用 AI 教程｜爆款视频工作流｜开箱即用 SOP 🎬 已开源火柴人动画 Skill，持续解锁新的视觉风格...」",
+  "verified_works": [
+    {
+      "title": "github.com/stickman-video-director",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/kaomei/stickman-video-director"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15424,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:37:15+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1597654998971604992",
+  "handle": "yuyy614893671",
+  "display_name": "金融汪",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "财经投资",
+    "投资",
+    "宏观"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、宏观）。本人 X 简介要点：「金融汪Substack账户： 油管频道： 中美宏观经济数据/政策分析；前沿技术/行业追踪；上市公司深度研究；15年买方投资/…」",
+  "verified_works": [
+    {
+      "title": "substack.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://substack.com/@jinrongwang"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@shijiejinrongwang"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 72481,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T06:01:12+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

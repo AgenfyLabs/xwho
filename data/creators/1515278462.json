@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1515278462",
+  "handle": "sunbelife",
+  "display_name": "Sunbelife 𝕏",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "科技观察",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（科技观察、AI）。本人 X 简介要点：「iBeta尝鲜派创始人、Pasty 水印相机作者、无派科技 CEO，微博：@Sunbelife (」",
+  "verified_works": [
+    {
+      "title": "ibeta.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ibeta.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6731,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:56:35+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

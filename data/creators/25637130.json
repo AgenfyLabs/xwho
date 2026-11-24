@@ -1,0 +1,33 @@
+{
+  "x_user_id": "25637130",
+  "handle": "_justineo",
+  "display_name": "Justineo",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "前端",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（前端、开发者）。本人 X 简介要点：「Web developer @thekonginc. Core team @vuejs.」",
+  "verified_works": [
+    {
+      "title": "github.com/Justineo",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/Justineo"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 4927,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T02:21:09+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

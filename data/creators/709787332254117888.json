@@ -1,0 +1,25 @@
+{
+  "x_user_id": "709787332254117888",
+  "handle": "howie_serious",
+  "display_name": "howie.serious",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "科技写作",
+    "深度内容",
+    "视频创作"
+  ],
+  "summary": "公众号「howie和小能熊」及 YouTube 内容创作者，持续输出 AI 工具、产品思考与独立观察。",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 53240,
+    "as_of": "2026-11-24T11:11:00+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-verified-batch"
+  ],
+  "service_board": null
+}

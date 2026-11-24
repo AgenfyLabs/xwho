@@ -1,0 +1,31 @@
+{
+  "x_user_id": "2833481",
+  "handle": "richardchang",
+  "display_name": "RichChat",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工具分享、AI）。本人 X 简介要点：「Tech enthusiast | AI aficionado | Sharing original insights on…」",
+  "verified_works": [
+    {
+      "title": "richchat.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://richchat.cc/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1590,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:17:57+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

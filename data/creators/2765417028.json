@@ -1,0 +1,36 @@
+{
+  "x_user_id": "2765417028",
+  "handle": "eternityspring",
+  "display_name": "烁皓",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "AI 视频",
+    "独立开发",
+    "视频",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI 视频、独立开发、视频）。本人 X 简介要点：「AI 探索者 · 独立开发者 AI视频工作台」",
+  "verified_works": [
+    {
+      "title": "reelbenchai.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://reelbenchai.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12123,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:51:54+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

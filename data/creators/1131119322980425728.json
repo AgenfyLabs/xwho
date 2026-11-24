@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1131119322980425728",
+  "handle": "oIUnIfxxuuNRpIA",
+  "display_name": "事故物件",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "综合观察",
+    "时事评论",
+    "生活"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（时事评论、生活）。本人 X 简介要点：「開始，我發現自己沒什麼光榮歷史可以寫，就很難過；後來，我發現也沒什麼嚇人的頭銜可以炫耀，就很自卑；最後，我發現連擲地有聲的名…」",
+  "verified_works": [
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://youtube.com/@user-zg1re1ff4q?si=TaVXDi55iXcdoegn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9726,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-10-28T13:29:48+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

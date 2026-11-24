@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1562635991499673600",
+  "handle": "dev_afei",
+  "display_name": "阿飞",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "前端",
+    "SaaS",
+    "出海",
+    "增长"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（前端、SaaS、出海）。本人 X 简介要点：「👨‍💻 前端工程师 & 出海探索者 🚀 英推增长 (领 7 折券) - 📢 分享我的 SaaS 产品出海之旅 | 英文推:…」",
+  "verified_works": [
+    {
+      "title": "Tweeteasy.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://Tweeteasy.io"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3581,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-09-18T09:54:12+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

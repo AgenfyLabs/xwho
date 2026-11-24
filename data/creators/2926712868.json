@@ -1,0 +1,37 @@
+{
+  "x_user_id": "2926712868",
+  "handle": "Lonely__MH",
+  "display_name": "Lonely",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "AIGC",
+    "独立开发",
+    "工具分享"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、AIGC、独立开发）。本人 X 简介要点：「👨‍💻 独立开发者 | AI Builder | 互联网打杂 专注 Agent 与 AI 工具实测，写小白也能懂的硬核教程…」",
+  "verified_works": [
+    {
+      "title": "x.aigce.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://x.aigce.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 35600,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:37:17+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xguide-anysome-apache",
+    "xnav"
+  ],
+  "service_board": null
+}

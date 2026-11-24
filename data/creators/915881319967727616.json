@@ -1,0 +1,44 @@
+{
+  "x_user_id": "915881319967727616",
+  "handle": "mundane799699",
+  "display_name": "理想是自由",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "出海"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、出海）。本人 X 简介要点：「尝试出海中。 推特书签点赞管理插件： 独立开发出海掘金导航站: RedArchive小红书收藏点赞导出」",
+  "verified_works": [
+    {
+      "title": "twittermark.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://twittermark.com"
+    },
+    {
+      "title": "indiegolden.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://indiegolden.com"
+    },
+    {
+      "title": "xhs.mundane.ink",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://xhs.mundane.ink"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12294,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T18:53:32+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong"
+  ],
+  "service_board": null
+}

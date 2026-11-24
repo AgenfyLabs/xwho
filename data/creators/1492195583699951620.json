@@ -1,0 +1,48 @@
+{
+  "x_user_id": "1492195583699951620",
+  "handle": "Khazix0918",
+  "display_name": "数字生命卡兹克",
+  "vertical": "media",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI 公众号",
+    "AI 资讯产品",
+    "创作者经纪"
+  ],
+  "summary": "AI 公众号「数字生命卡兹克」主理人，虚实传媒创始人兼 CEO；自研并开源 AI 资讯聚合站 AIHOT。",
+  "verified_works": [
+    {
+      "title": "公众号「数字生命卡兹克」",
+      "description": "2023-02-26 写下第一篇文章；X 简介挂公众号名。",
+      "url": "https://virxact.com/about"
+    },
+    {
+      "title": "虚实传媒（Virxact）",
+      "description": "官网写明其为创始人 & CEO；称签约 300+ AI 创作者、全网粉丝 3300 万+（数据截至 2026-10，粉丝未去重）。",
+      "url": "https://virxact.com/about"
+    },
+    {
+      "title": "AIHOT 开源",
+      "description": "2026-09-29 微博原帖宣布开源 AIHOT 并上线 2.0；官网称 2026-05-08 上线、三个月破百万月活。",
+      "url": "https://weibo.com/5700099573/RkjK4At1t"
+    },
+    {
+      "title": "X 原帖：AIHOT 上线半年",
+      "description": "2026-11-12 原帖称 AIHOT 上线半年，首次给一条新闻打出 98 分。",
+      "url": "https://x.com/Khazix0918/status/2120885807653474789"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 119415,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1102444843140182016",
+  "handle": "real_kai42",
+  "display_name": "Kai",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "开源",
+    "播客"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、开源、播客）。本人 X 简介要点：「独立开发者，20k stars 开源项目 Qwerty Learner 作者，《Web Worker 播客》主播 仅聊技术和…」",
+  "verified_works": [
+    {
+      "title": "kaiyi.cool",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://kaiyi.cool"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 39220,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T13:08:26+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

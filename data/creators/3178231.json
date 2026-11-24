@@ -1,0 +1,48 @@
+{
+  "x_user_id": "3178231",
+  "handle": "dotey",
+  "display_name": "宝玉",
+  "vertical": "media",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI 资讯解读",
+    "海外内容翻译",
+    "Agent Skills"
+  ],
+  "summary": "长期把海外 AI 论文、长文、产品动态翻译解读成中文；同时维护开源 Agent 技能集 baoyu-skills，并出版《图解 Skill——AI 提效实战指南》。",
+  "verified_works": [
+    {
+      "title": "baoyu-skills",
+      "description": "面向 Claude Code、Codex 等 Agent 的开源技能集；2026-11-24 10:2x（UTC+8）经 GitHub 搜索 API 读到 27,832 star。",
+      "url": "https://github.com/JimLiu/baoyu-skills"
+    },
+    {
+      "title": "《图解 Skill——AI 提效实战指南》",
+      "description": "baoyu-skills 中文 README 列为作者图书，并有官方配套仓库 JimLiu/Illustrated-Agent-Skills。",
+      "url": "https://github.com/JimLiu/Illustrated-Agent-Skills"
+    },
+    {
+      "title": "个人站 baoyu.io",
+      "description": "X 简介所挂站点，发布 AI 翻译与解读文章。",
+      "url": "https://baoyu.io"
+    },
+    {
+      "title": "P vs NP 科普视频",
+      "description": "2026-11-23 原帖发布用数独等例子讲解 P 与 NP 的科普视频。",
+      "url": "https://x.com/dotey/status/2124681897263444343"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 271452,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

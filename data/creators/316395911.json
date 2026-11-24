@@ -1,0 +1,37 @@
+{
+  "x_user_id": "316395911",
+  "handle": "Piglei",
+  "display_name": "piglei",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开源",
+    "Python",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、Python、程序员）。本人 X 简介要点：「程序员 / 《Python 工匠：案例、技巧与工程实践》作者 / GitHub」",
+  "verified_works": [
+    {
+      "title": "piglei.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.piglei.com"
+    },
+    {
+      "title": "github.com/piglei",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "http://github.com/piglei"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 31749,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-18T23:10:02+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1618752347752271873",
+  "handle": "beefnoode",
+  "display_name": "来碗牛肉粉",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "创业"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、创业）。本人 X 简介要点：「🐮04年连续创业者，BF Labs 创始人，base深圳、上海 🍜全力 Building 开源项目 BeefTV ，Gith…」",
+  "verified_works": [
+    {
+      "title": "beeftv.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://beeftv.app/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13953,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:15:25+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

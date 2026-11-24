@@ -1,0 +1,27 @@
+{
+  "x_user_id": "15123479",
+  "handle": "liuren",
+  "display_name": "刘韧",
+  "vertical": "media",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「DoNews创始人《知识英雄》作者《未知书社》发起人。」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 25087,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-17T13:57:37+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

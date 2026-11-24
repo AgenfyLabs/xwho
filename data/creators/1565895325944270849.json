@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1565895325944270849",
+  "handle": "raycat2021",
+  "display_name": "Raycat徐老猫",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "财经投资",
+    "美股",
+    "投资"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（美股、投资）。本人 X 简介要点：「In the cherry blossom’s shade, nobody is a stranger. “老猫美股研究”」",
+  "verified_works": [
+    {
+      "title": "raycat.substack.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://raycat.substack.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 119700,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T06:43:33+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,40 @@
+{
+  "x_user_id": "1732794145398484992",
+  "handle": "xiongchun007",
+  "display_name": "程序员大熊",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "出海",
+    "增长",
+    "视频",
+    "产品"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（出海、增长、视频）。本人 X 简介要点：「🏔️ 驻山造物 · 踩坑记录 👨‍💻 AI 产品构建 · 出海实战 · 增长探索 🛠️ Building @DataColl…」",
+  "verified_works": [
+    {
+      "title": "xiongchun.github.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://xiongchun.github.io"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@xiongchun"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15174,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T23:48:16+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

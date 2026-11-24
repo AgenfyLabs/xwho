@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1718896922277314560",
+  "handle": "yihui_indie",
+  "display_name": "Yihui",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "Skillry",
+    "BizPeel",
+    "独立开发"
+  ],
+  "summary": "全职独立开发者，也做自媒体。公开产品包括 Skillry、BizPeel 等。他在回复里自述：Skillry 是目前每月收入最高的产品，但只是多个产品中的一个，且未给出具体金额。另有原帖自述：95% 以上付费用户是海外用户，个人 IP 带来的付费不到 5%。2026-11-05，他开源了一个 GitHub 仓库，整理 BizPeel 数据库里 742 家「真实有营收」的产品。",
+  "verified_works": [
+    {
+      "title": "how-profitable-startups-grow",
+      "description": "2026-11-05 开源。整理 BizPeel 数据库里 742 家「真实有营收」的产品，并写收入数据会尝试每周同步更新。目录是他整理的他人产品数据，不是他自己的 742 个产品。",
+      "url": "https://github.com/yihui-dev/how-profitable-startups-grow"
+    }
+  ],
+  "quote": {
+    "text": "人很多时候真的因为先看见，才选择相信。",
+    "source_url": "https://x.com/yihui_indie/status/2118199084121260379",
+    "published_at": "2026-11-05"
+  },
+  "followers_snapshot": {
+    "count": 66211,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

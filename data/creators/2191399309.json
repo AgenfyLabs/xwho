@@ -1,0 +1,33 @@
+{
+  "x_user_id": "2191399309",
+  "handle": "ikennylin",
+  "display_name": "Kenny做产品",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "产品"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、产品）。本人 X 简介要点：「👨‍💻古典PM+自学独立开发，做了几个App 📱坚持做小而美的产品 👉真好算｜DayMark｜MarkTodo｜OneMoo…」",
+  "verified_works": [
+    {
+      "title": "xiaobot.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://xiaobot.net/p/buildproduct"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6654,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T22:58:54+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1658071975569534977",
+  "handle": "zhugezifang",
+  "display_name": "zhugezifang",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "ex-bigtech",
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、程序员）。本人 X 简介要点：「前大厂程序员，业余独立开发者 日入百刀达成，目标月入千刀」",
+  "verified_works": [
+    {
+      "title": "imagetranslateai.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://imagetranslateai.org/"
+    },
+    {
+      "title": "notepadlink.online",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://notepadlink.online/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3342,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T18:03:13+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

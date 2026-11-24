@@ -1,0 +1,43 @@
+{
+  "x_user_id": "525304287",
+  "handle": "HiFrey",
+  "display_name": "Frey轰轰",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "出海电商",
+    "电商",
+    "变现"
+  ],
+  "summary": "电商 / 副业增长方向的中文 X 创作者（电商、变现）。本人 X 简介要点：「迎面吹来那自由的风！ eSIM 套餐/实体卡 测评 最准确的IP质量查询 URL shortener Whois RDAP…」",
+  "verified_works": [
+    {
+      "title": "ip.im",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ip.im"
+    },
+    {
+      "title": "eSIM.ss",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://eSIM.ss"
+    },
+    {
+      "title": "IP.cx",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://IP.cx"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 25131,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T20:33:41+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

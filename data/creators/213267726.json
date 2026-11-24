@@ -1,0 +1,32 @@
+{
+  "x_user_id": "213267726",
+  "handle": "cholf5",
+  "display_name": "周尔复",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "后端",
+    "AI",
+    "游戏"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（后端、AI、游戏）。本人 X 简介要点：「游戏后端主程｜独立游戏开发 | AI Enthusiast | 日啖词元三万万」",
+  "verified_works": [
+    {
+      "title": "github.com/cholf5",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/cholf5"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13388,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:30:59+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

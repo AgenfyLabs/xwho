@@ -1,0 +1,45 @@
+{
+  "x_user_id": "3876168012",
+  "handle": "remixdesigner",
+  "display_name": "Jimmy Cheung",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "设计",
+    "产品",
+    "工具分享"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、设计、产品）。本人 X 简介要点：「一半产品，一半设计；一边自驱，一边拖延；喜欢有趣的工具，也热衷于创造工具；目前在做独立产品。 开源图标库: 手表睡眠监测:…」",
+  "verified_works": [
+    {
+      "title": "github.com/xiaochunjimmy",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/xiaochunjimmy"
+    },
+    {
+      "title": "remixicon.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://remixicon.com"
+    },
+    {
+      "title": "apps.apple.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://apps.apple.com/app/6504674988"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 10443,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-20T18:59:01+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,43 @@
+{
+  "x_user_id": "1669276256",
+  "handle": "op7418",
+  "display_name": "歸藏(guizang.ai)",
+  "vertical": "media",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AIGC 周刊",
+    "AI 工具测评",
+    "AI 设计"
+  ],
+  "summary": "AI/AIGC 资讯与工具测评作者，X 简介写有「歸藏的 AIGC 周刊」和公众号「歸藏的AI工具箱」；开源多模型 Agent 桌面客户端 CodePilot。",
+  "verified_works": [
+    {
+      "title": "guizang.ai 资讯站",
+      "description": "「歸藏的 AI 资讯」站点，含深度长文与每日 AI 资讯条目。",
+      "url": "https://www.guizang.ai/"
+    },
+    {
+      "title": "CodePilot",
+      "description": "多模型 AI Agent 桌面客户端（Electron + Next.js）；2026-11-24 10:28（UTC+8）GitHub API 读到 6,520 star，最近推送 2026-11-22。",
+      "url": "https://github.com/op7418/CodePilot"
+    },
+    {
+      "title": "nexttoken 节目",
+      "description": "2026-11-23 原帖推荐收听一期 nexttoken，聊谷歌 Neo 与 Opus 5.5 等。",
+      "url": "https://x.com/op7418/status/2124692089044869386"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 190019,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,44 @@
+{
+  "x_user_id": "1725071613211893760",
+  "handle": "blankwebdev",
+  "display_name": "blank",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「💻 Founder of AITDK, EX Tencent ⛵️ Products」",
+  "verified_works": [
+    {
+      "title": "aitdk.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://aitdk.com/"
+    },
+    {
+      "title": "AITDK.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://AITDK.com"
+    },
+    {
+      "title": "SubmitDirs.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://SubmitDirs.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 7293,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T18:33:14+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

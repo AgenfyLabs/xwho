@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1790217107130695680",
+  "handle": "_KleinHe_",
+  "display_name": "KleinHE",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "产品",
+    "AI",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（产品、AI、工程师）。本人 X 简介要点：「22 y/o，founder 大学搞过兄弟会、硅谷当过工程师 AI coding 框架 Trellis 一号客服（两天 1k…」",
+  "verified_works": [
+    {
+      "title": "kleinhe.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://kleinhe.com"
+    },
+    {
+      "title": "github.com/Trellis",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/mindfold-ai/Trellis"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 998,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-02-21T23:38:27+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

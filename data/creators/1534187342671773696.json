@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1534187342671773696",
+  "handle": "DigitalNomadLC",
+  "display_name": "数字牧民LC",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AIGC",
+    "产品",
+    "教程"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AIGC、产品、教程）。本人 X 简介要点：「大家好，我是数字牧民LC。 乐于分享一些教程及故事。 本频道主要分享以下内容（包括但不限于）：ChatGPT和AIGC、有趣…」",
+  "verified_works": [
+    {
+      "title": "digitalnomadlc.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.digitalnomadlc.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5841,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-07T12:31:49+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xnav"
+  ],
+  "service_board": null
+}

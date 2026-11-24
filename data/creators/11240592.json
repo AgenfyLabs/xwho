@@ -1,0 +1,36 @@
+{
+  "x_user_id": "11240592",
+  "handle": "felixding",
+  "display_name": "丁宇 | DING Yu",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「互联网行业干了20多年，刚离职。没什么钱，但很有闲。 愿意免费帮你搭建网站、系统或解决技术问题。比如用AI做了网站却不会上线…」",
+  "verified_works": [
+    {
+      "title": "dingyu.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://dingyu.me/"
+    },
+    {
+      "title": "madebyaqua.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://madebyaqua.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 32058,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T23:32:42+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

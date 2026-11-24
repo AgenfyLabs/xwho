@@ -1,0 +1,40 @@
+{
+  "x_user_id": "806464682823282688",
+  "handle": "tuturetom",
+  "display_name": "Tom Huang",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "开源"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、开源）。本人 X 简介要点：「Co-founder & CEO @OpenDesignHQ @OpenDesignDevs The first colla…」",
+  "verified_works": [
+    {
+      "title": "open-design.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://open-design.ai/"
+    },
+    {
+      "title": "github.com/open-design",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "http://github.com/nexu-io/open-design"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 42079,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T20:44:55+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

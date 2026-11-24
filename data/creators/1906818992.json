@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1906818992",
+  "handle": "henuwangkai",
+  "display_name": "henu王凯",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "播客",
+    "投资",
+    "创业",
+    "效率工具"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（播客、投资、创业）。本人 X 简介要点：「「松鼠快看」：一站式追踪全网内容（公众号、播客、B站等）更新 × AI应用创业者｜Tokrepo / KeepRule 创始…」",
+  "verified_works": [
+    {
+      "title": "cryptozenith.xyz",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.cryptozenith.xyz/bnbhttps://tokrepo.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12087,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-04-13T14:11:02+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

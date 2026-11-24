@@ -1,0 +1,31 @@
+{
+  "x_user_id": "820285264819933184",
+  "handle": "lencx_",
+  "display_name": "lencx",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "Rust",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（Rust、AI）。本人 X 简介要点：「✍🏻 公众号「浮之静」 👨🏻‍💻 Web • Rust • Tauri • Electron 🚫 不看 • 不听 • 不说…」",
+  "verified_works": [
+    {
+      "title": "lencx.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://lencx.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 23345,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T13:15:58+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

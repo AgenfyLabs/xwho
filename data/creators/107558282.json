@@ -1,0 +1,31 @@
+{
+  "x_user_id": "107558282",
+  "handle": "huangzworks",
+  "display_name": "黄健宏",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "设计",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（设计、AI）。本人 X 简介要点：「计算机技术图书作者、译者，作品包括：《Redis设计与实现》、《Redis实战》、《Redis应用实例》、《SQL实战》、《…」",
+  "verified_works": [
+    {
+      "title": "huangz.works",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://huangz.works"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 18114,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T09:44:04+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

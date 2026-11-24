@@ -1,0 +1,41 @@
+{
+  "x_user_id": "975329340",
+  "handle": "shengxj1",
+  "display_name": "花果山大圣",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "前端",
+    "Web3",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、前端、Web3）。本人 X 简介要点：「不爱上班的程序员, 靠谱的前端讲师， 卖课为生，前端 Web3 程序员英语 私教, 独立开发 努力做最好的程序员讲师 油管主…」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/shengxj"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://www.youtube.com/@shengxj"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 54783,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:12:16+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xnav"
+  ],
+  "service_board": null
+}

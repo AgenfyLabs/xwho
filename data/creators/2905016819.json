@@ -1,0 +1,36 @@
+{
+  "x_user_id": "2905016819",
+  "handle": "aehyok",
+  "display_name": "AI少年",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "全栈",
+    "工具分享",
+    "教程"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、全栈、工具分享）。本人 X 简介要点：「📖 全栈独立开发者｜喜欢编程和爱折腾AI 🚀 AI实战｜AI工具评测｜AI教程| ESP32 硬件 🧠我的个人武器库： 🛰…」",
+  "verified_works": [
+    {
+      "title": "aehyok.best",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://aehyok.best"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12696,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T07:43:14+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

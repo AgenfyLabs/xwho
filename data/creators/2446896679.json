@@ -1,0 +1,34 @@
+{
+  "x_user_id": "2446896679",
+  "handle": "punk2898",
+  "display_name": "Punk（2898 🙌💎）",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI 编程",
+    "开源"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI 编程、开源）。本人 X 简介要点：「行业观察者 ｜开源输入法 PunkType ｜ Vibe Coding Enthusiast ｜定居新加坡」",
+  "verified_works": [
+    {
+      "title": "github.com/punk2898",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/punk2898"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 88091,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T08:59:52+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

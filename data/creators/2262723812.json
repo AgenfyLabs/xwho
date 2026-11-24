@@ -1,0 +1,36 @@
+{
+  "x_user_id": "2262723812",
+  "handle": "abskoop",
+  "display_name": "ahhhhfs",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、工具分享、AI）。本人 X 简介要点：「分享好用的 AI 工具、开源项目和互联网实用工具。 发现值得分享的软件，也记录实用技巧和折腾经验。 投稿欢迎 ｜EN号 @a…」",
+  "verified_works": [
+    {
+      "title": "dizhi.abskoop.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://dizhi.abskoop.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 759410,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T18:02:50+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

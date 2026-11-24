@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1521688129559613440",
+  "handle": "HiTw93",
+  "display_name": "Tw93",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "Pake",
+    "开源",
+    "MiaoYan"
+  ],
+  "summary": "开源作者，代表作 Pake：把任意网页打包成 Mac / Windows / Linux 轻量桌面应用。他在 2026-11-22 的原帖自述 Pake「has nearly 64K stars」；2026-11-18 的中文帖自述「CLI 持续开源 4 年有 123 个国家 6w 多开发者使用」。另有从 2020 年做起的原生 Markdown 笔记应用 MiaoYan：Mac 版保持免费开源，iPhone / iPad 走 App Store。本次 GitHub API 因匿名限额未能直接读到 Pake 的精确 star。",
+  "verified_works": [
+    {
+      "title": "Pake",
+      "description": "把任意网页打包成 Mac、Windows、Linux 轻量桌面应用的开源项目。星标数采用作者 2026-11-22 原帖自述「nearly 64K stars」，本次未用 GitHub API 读到精确值。",
+      "url": "https://github.com/tw93/Pake"
+    }
+  ],
+  "quote": {
+    "text": "Pake 终于终于支持桌面端了，可以把你的任何网页一键打包成 Mac、Windows、Linux 应用……CLI 持续开源 4 年有 123 个国家 6w 多开发者使用，喜欢 CLI 的直接免费使用",
+    "source_url": "https://x.com/HiTw93/status/2122960402665668728",
+    "published_at": "2026-11-18"
+  },
+  "followers_snapshot": {
+    "count": 166405,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

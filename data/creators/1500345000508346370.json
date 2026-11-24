@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1500345000508346370",
+  "handle": "li_wujie",
+  "display_name": "两万焦",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工程师",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工程师、AI）。本人 X 简介要点：「Product Creator & Full-Stack Engineer」",
+  "verified_works": [
+    {
+      "title": "wujieli.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://wujieli.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 404,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T22:02:10+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

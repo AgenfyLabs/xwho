@@ -1,0 +1,41 @@
+{
+  "x_user_id": "21855954",
+  "handle": "CMGS1988",
+  "display_name": "CMGS",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「Blog Author of travel around china 33/34 travel around world 3…」",
+  "verified_works": [
+    {
+      "title": "cmgs.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://cmgs.me"
+    },
+    {
+      "title": "cmgs.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://cmgs.me"
+    },
+    {
+      "title": "run2.sg",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://run2.sg"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14665,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T03:47:43+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

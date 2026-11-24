@@ -1,0 +1,27 @@
+{
+  "x_user_id": "79766814",
+  "handle": "SVScholar",
+  "display_name": "硅谷居士",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "综合观察",
+    "美股",
+    "投资",
+    "工程师"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（美股、投资、工程师）。本人 X 简介要点：「清华本科，美国计算机博士，硅谷软件工程师兼经理。 拥有20多年美股投资经验。过去10年，年化收益率约为20%。 我的畅销书《…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 124005,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:49:59+08:00",
+  "lead_sources": [
+    "xnav"
+  ],
+  "service_board": null
+}

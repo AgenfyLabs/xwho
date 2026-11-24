@@ -1,0 +1,45 @@
+{
+  "x_user_id": "1464791126041251840",
+  "handle": "HzaoHzao",
+  "display_name": "Hzao",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "Apple 开发",
+    "开发者",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、Apple 开发、开发者）。本人 X 简介要点：「Weekend indie developer Weekday software engineer @Google (vie…」",
+  "verified_works": [
+    {
+      "title": "blog.hzao.top",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://blog.hzao.top"
+    },
+    {
+      "title": "stealward.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://stealward.app"
+    },
+    {
+      "title": "numpkin.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://numpkin.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5673,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T14:45:25+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

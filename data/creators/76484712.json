@@ -1,0 +1,35 @@
+{
+  "x_user_id": "76484712",
+  "handle": "0xshimei",
+  "display_name": "0x小师妹",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "大模型",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、大模型、产品）。本人 X 简介要点：「Founder @ | AI Builder 深耕 AI Agent、LLM 应用与多智能体协作 专注 AI 自动化、AI…」",
+  "verified_works": [
+    {
+      "title": "SANYUE.AI",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://SANYUE.AI"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 8022,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:07:28+08:00",
+  "lead_sources": [
+    "xguide-anysome-apache"
+  ],
+  "service_board": null
+}

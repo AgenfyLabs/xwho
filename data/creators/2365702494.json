@@ -1,0 +1,31 @@
+{
+  "x_user_id": "2365702494",
+  "handle": "CurtisChengC",
+  "display_name": "火箭君 CC",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「创作带来自由 | 长期的生产力相关内容作者 | 经历过度丰富 | 关注我，获得截然不同的 生活工作观点和视角。」",
+  "verified_works": [
+    {
+      "title": "xlrocket.blog",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xlrocket.blog"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1482,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:04:12+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

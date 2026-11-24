@@ -1,0 +1,44 @@
+{
+  "x_user_id": "7122032",
+  "handle": "JJYing",
+  "display_name": "JJ Ying",
+  "vertical": "media",
+  "role_tags": [
+    "founder",
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "设计播客",
+    "设计网摘",
+    "字体工具"
+  ],
+  "summary": "UI 设计师，2015 年与 Leon Gao 发起设计网摘 & 播客 Anyway.FM；近期独立开发字体预览工具 Anyway.Fonts 与摸摸鱼计时器。",
+  "verified_works": [
+    {
+      "title": "Anyway.FM",
+      "description": "官网写明「2015 年由 JJ Ying 和 Leon Gao 发起」；2026-11-24 首页显示最近一期为第 195 期（8 月 26 日），网摘栏目仍在日更。",
+      "url": "https://anyway.fm/"
+    },
+    {
+      "title": "Anyway.Fonts",
+      "description": "2026-10-14 原帖发布：查缺字、看样张、试竖排、OpenType 特性查询的字体预览工具。",
+      "url": "https://x.com/JJYing/status/2110195956306399524"
+    },
+    {
+      "title": "摸摸鱼计时器",
+      "description": "X 简介写「最近独立开发了 🐟 摸摸鱼计时器」，链接 MoMoYu.app。",
+      "url": "http://MoMoYu.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12788,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

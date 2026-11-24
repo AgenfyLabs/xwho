@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1482045406544482311",
+  "handle": "nanshanjukr",
+  "display_name": "Marvix",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "综合观察",
+    "写作",
+    "时事评论"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（写作、时事评论）。本人 X 简介要点：「INFJ | 北美心理咨询在读硕士 | 喜欢阅读和写作 心理学、个人成长与家庭教育 →」",
+  "verified_works": [
+    {
+      "title": "unfinished-thoughts.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://unfinished-thoughts.com"
+    },
+    {
+      "title": "noesisapient.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://noesisapient.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5158,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T06:52:11+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

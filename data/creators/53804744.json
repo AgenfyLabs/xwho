@@ -1,0 +1,41 @@
+{
+  "x_user_id": "53804744",
+  "handle": "bnu_chenshuo",
+  "display_name": "Shuo Chen",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开发者",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开发者、AI）。本人 X 简介要点：「Software developer, electronic hobbyist.」",
+  "verified_works": [
+    {
+      "title": "chenshuo.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://chenshuo.com"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@ShuoChen"
+    },
+    {
+      "title": "nuedc.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://nuedc.org"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 11502,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T12:45:32+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

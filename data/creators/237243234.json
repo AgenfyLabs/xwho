@@ -1,0 +1,39 @@
+{
+  "x_user_id": "237243234",
+  "handle": "seclink",
+  "display_name": "Y11",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "创业者",
+    "大模型",
+    "创业"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（大模型、创业）。本人 X 简介要点：「找工作、找面试题、改简历、模拟面试。关注： 创业（冷启动） ｜ 认知心理学｜智能体 ｜ 强化学习 ｜ AWS RoboMak…」",
+  "verified_works": [
+    {
+      "title": "jobleap.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.jobleap.cn/"
+    },
+    {
+      "title": "jobleap.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://jobleap.cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 31872,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T16:15:51+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xiaomingx-apache",
+    "xnav"
+  ],
+  "service_board": null
+}

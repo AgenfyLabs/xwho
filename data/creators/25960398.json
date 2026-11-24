@@ -1,0 +1,33 @@
+{
+  "x_user_id": "25960398",
+  "handle": "pingchn",
+  "display_name": "Ping.",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「Aim to be a creator, Creator of @ideashellAI」",
+  "verified_works": [
+    {
+      "title": "pingchn.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://pingchn.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 20719,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T13:33:46+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

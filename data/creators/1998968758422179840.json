@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1998968758422179840",
+  "handle": "servasyy_ai",
+  "display_name": "huangserva",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "出海",
+    "创业",
+    "AI",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（出海、创业、AI）。本人 X 简介要点：「古早程序员 | AI出海 | 自由职业 机车游侠&机速购&骑享租创始人 15年前 freelance 起步 → 连续创业者…」",
+  "verified_works": [
+    {
+      "title": "servasyy.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://servasyy.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 43405,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:27:38+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

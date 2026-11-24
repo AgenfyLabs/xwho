@@ -1,0 +1,42 @@
+{
+  "x_user_id": "20571502",
+  "handle": "jesselaunz",
+  "display_name": "Jesse Lau 遁一子",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「小说《格物封神》 遁一子V-Blog 洞见无界 零基础学日语进度打卡」",
+  "verified_works": [
+    {
+      "title": "jesselau.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://jesselau.com/"
+    },
+    {
+      "title": "jesselau.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://jesselau.com/gefengshen/"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://youtube.com/@dunyizi"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 30732,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:22:20+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xnav"
+  ],
+  "service_board": null
+}

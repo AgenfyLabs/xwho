@@ -1,0 +1,25 @@
+{
+  "x_user_id": "561612944",
+  "handle": "geekplux",
+  "display_name": "GeekPlux",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工程师",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工程师、AI）。本人 X 简介要点：「Engineer who likes visualization. Running · bouldering · tenni…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 25052,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T10:23:58+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

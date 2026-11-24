@@ -1,0 +1,46 @@
+{
+  "x_user_id": "1932935705711513600",
+  "handle": "yanhua1010",
+  "display_name": "Yanhua",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "AI 视频",
+    "独立开发",
+    "出海"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、AI 视频、独立开发）。本人 X 简介要点：「独立开发者｜用 AI 做产品与内容 分享 Agent 工作流、AI 视频 / 漫剧、出海实战 🎬 🚗 🔎」",
+  "verified_works": [
+    {
+      "title": "yanhua.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.yanhua.dev/"
+    },
+    {
+      "title": "ReelToScript.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ReelToScript.com"
+    },
+    {
+      "title": "ToyboxWraps.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ToyboxWraps.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 38758,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:08:51+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,41 @@
+{
+  "x_user_id": "821238856703819776",
+  "handle": "strrlthedev",
+  "display_name": "STRRL.gpt",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「AI ~~铲屎官~~ 不那么需要铲屎了 /  ❤️‍🔥 / peace ✌️ / cooking / Ask Me Any…」",
+  "verified_works": [
+    {
+      "title": "wiki.strrl.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://wiki.strrl.dev"
+    },
+    {
+      "title": "boringboring.design",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://boringboring.design"
+    },
+    {
+      "title": "cal.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://cal.com/strrl/30min"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13005,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T07:22:03+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

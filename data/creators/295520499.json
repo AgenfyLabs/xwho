@@ -1,0 +1,42 @@
+{
+  "x_user_id": "295520499",
+  "handle": "xiaopeng163",
+  "display_name": "Peng Xiao 麦兜搞IT",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "工程师"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、工程师）。本人 X 简介要点：「Network/Cloud DevOps Engineer@ING Bank 🇳🇱｜B站/YouTube “麦兜搞IT”:…」",
+  "verified_works": [
+    {
+      "title": "xiaopeng163.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xiaopeng163.com"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://youtube.com/@xiaopeng163"
+    },
+    {
+      "title": "bit.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bit.ly/3NxHH2Z"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15931,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T05:53:46+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xiaomingx-apache"
+  ],
+  "service_board": null
+}

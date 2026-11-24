@@ -1,0 +1,43 @@
+{
+  "x_user_id": "847710142548160514",
+  "handle": "lvloomystery",
+  "display_name": "独立开发者｜欧维Ove",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI）。本人 X 简介要点：「独立开发者｜内容创作者 作品： Launch 独立开发前线」",
+  "verified_works": [
+    {
+      "title": "muselink.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://muselink.cc/ove"
+    },
+    {
+      "title": "launchsoar.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://launchsoar.com"
+    },
+    {
+      "title": "indiefront.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://indiefront.cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9543,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T14:19:14+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

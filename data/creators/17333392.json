@@ -1,0 +1,39 @@
+{
+  "x_user_id": "17333392",
+  "handle": "oschina",
+  "display_name": "Winter Lau (红薯)",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「开源中国创始人兼 CTO，目前主要精力在折腾 gitee 和 （模力方舟） ，还在坚持写码」",
+  "verified_works": [
+    {
+      "title": "moark.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://moark.ai"
+    },
+    {
+      "title": "moark.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://moark.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1820,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:41:57+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

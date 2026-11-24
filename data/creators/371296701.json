@@ -1,0 +1,35 @@
+{
+  "x_user_id": "371296701",
+  "handle": "fkysly",
+  "display_name": "马天翼",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI）。本人 X 简介要点：「Indie hacker & AI Coder dsh-market 作者 Vision Pro 开发者」",
+  "verified_works": [
+    {
+      "title": "github.com/dsh-market",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/dsh-market/dsh-market"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16011,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:27:43+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,45 @@
+{
+  "x_user_id": "2000617411247251456",
+  "handle": "yupi996",
+  "display_name": "程序员鱼皮",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "开源",
+    "全栈",
+    "产品"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、开源、全栈）。本人 X 简介要点：「专注 AI + 编程教育 | 编程导航站长 ⭐️ 全网 200w 关注，独立开发→腾讯全栈→创业中 😈 项目狂魔，10+上线…」",
+  "verified_works": [
+    {
+      "title": "github.com/liyupi",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/liyupi"
+    },
+    {
+      "title": "codefather.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://codefather.cn"
+    },
+    {
+      "title": "ai.codefather.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ai.codefather.cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 36064,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:24:15+08:00",
+  "lead_sources": [
+    "xnav"
+  ],
+  "service_board": null
+}

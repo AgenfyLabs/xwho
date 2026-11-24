@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1773919067688284160",
+  "handle": "YanHuiMi",
+  "display_name": "DennisMi",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「嘤其鸣矣，求其友声。 English/Mandarin Programmer/Photographer Learn Engl…」",
+  "verified_works": [
+    {
+      "title": "dennisthink.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.dennisthink.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1481,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T21:49:09+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

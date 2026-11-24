@@ -1,0 +1,44 @@
+{
+  "x_user_id": "1775864328887189504",
+  "handle": "MANISH1027512",
+  "display_name": "古一",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AIGC",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AIGC、AI）。本人 X 简介要点：「Founder of @vibeshotclub Building and for AIGC visual creators…」",
+  "verified_works": [
+    {
+      "title": "vibeshot.club",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://vibeshot.club"
+    },
+    {
+      "title": "vibeshot.club",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://vibeshot.club"
+    },
+    {
+      "title": "viko.fun",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://viko.fun"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 48433,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T20:26:07+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

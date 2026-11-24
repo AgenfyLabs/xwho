@@ -1,0 +1,42 @@
+{
+  "x_user_id": "1061781458107326464",
+  "handle": "hongming731",
+  "display_name": "ginobefun",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「👨‍💻 拥有十多年开发与架构经验 🌐 努力打造 🛠 全力开发 📱 正在构建 ✨ 致力于成为有趣的人，做有趣的事」",
+  "verified_works": [
+    {
+      "title": "ginonotes.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://ginonotes.com"
+    },
+    {
+      "title": "bestblogs.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://bestblogs.dev"
+    },
+    {
+      "title": "wenrun.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://wenrun.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12234,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T07:49:06+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xnav"
+  ],
+  "service_board": null
+}

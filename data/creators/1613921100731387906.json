@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1613921100731387906",
+  "handle": "CoderJeffLee",
+  "display_name": "写增长的子木",
+  "vertical": "geo",
+  "role_tags": [],
+  "sub_tags": [
+    "GEO",
+    "AEO",
+    "增长笔记"
+  ],
+  "summary": "增长黑客，公开在自己的站点 aeolab.net 上实操 GEO / AEO，并连载学习笔记。可核验的实践记录包括：他用一道面向美国市场的英文测试题做可见性测试，自述「12 条 AI 回答里，6 条提到 Notta，0 条推荐 Notta Memo」。目前仍是边学边做、公开记录的阶段，没有宣称大规模客户交付结果。",
+  "verified_works": [
+    {
+      "title": "aeolab.net",
+      "description": "他买下并用来实操 GEO / AEO、连载学习笔记的站点。可见性测试结果为自述抽样，不是交付合同。",
+      "url": "https://aeolab.net/"
+    }
+  ],
+  "quote": {
+    "text": "12 条 AI 回答里，6 条提到 Notta，0 条推荐 Notta Memo。",
+    "source_url": "https://x.com/CoderJeffLee/status/2123349421048143874",
+    "published_at": "2026-11-24"
+  },
+  "followers_snapshot": {
+    "count": 8293,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

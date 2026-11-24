@@ -1,0 +1,33 @@
+{
+  "x_user_id": "2365781",
+  "handle": "easychen",
+  "display_name": "EasyChen",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI）。本人 X 简介要点：「方糖气球（ ）博主，80后大叔，萌物控。做原型、敲代码、写吐槽小说、制四格漫画。无业，玩独立开发，偶尔卖课为生。信息流诸多日…」",
+  "verified_works": [
+    {
+      "title": "ftqq.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ftqq.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13220,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T10:29:35+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "40188441",
+  "handle": "wwek",
+  "display_name": "理鱼",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工具分享、AI）。本人 X 简介要点：「#公众号:流水理鱼 ，一人公司，工具+AI落地玩家」",
+  "verified_works": [
+    {
+      "title": "iamle.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.iamle.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 591,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-11T11:48:33+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

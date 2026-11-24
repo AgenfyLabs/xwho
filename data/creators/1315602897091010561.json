@@ -1,0 +1,42 @@
+{
+  "x_user_id": "1315602897091010561",
+  "handle": "OwenYoungZh",
+  "display_name": "Owen",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "沉浸式翻译",
+    "独立开发",
+    "Tab 星期四"
+  ],
+  "summary": "沉浸式翻译作者。产品官网为 immersivetranslate.com；GitHub 发布仓库 immersive-translate/immersive-translate 在 2026-11-24 可查到 19,876 star。第三方 AlphaMoat 根据 Chrome 应用商店公开数据统计，截至 2026-10 该扩展在 Chrome 端的用户数为 300 万。他现在更多在博客更新，也在上海组织小型开发者聚会「Tab 星期四」。",
+  "verified_works": [
+    {
+      "title": "沉浸式翻译",
+      "description": "产品官网。Chrome 商店简介中的「全球超过 3000 万用户」与英文「20M+ users worldwide」口径不一致，本次不采用。",
+      "url": "https://immersivetranslate.com"
+    },
+    {
+      "title": "immersive-translate/immersive-translate",
+      "description": "GitHub 发布仓库。2026-11-24 读取 GitHub API，19,876 star、1,170 fork。",
+      "url": "https://github.com/immersive-translate/immersive-translate"
+    }
+  ],
+  "quote": {
+    "text": "AI 类的我不知道哪家能受得了沉浸式翻译的量🙃",
+    "source_url": "https://x.com/OwenYoungZh/status/1782019570724917593",
+    "published_at": "2024-04-21"
+  },
+  "followers_snapshot": {
+    "count": 24999,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

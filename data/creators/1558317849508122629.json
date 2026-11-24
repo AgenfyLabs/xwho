@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1558317849508122629",
+  "handle": "CuiMao",
+  "display_name": "CuiMao",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开发者",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开发者、AI）。本人 X 简介要点：「Developer」",
+  "verified_works": [
+    {
+      "title": "space.bilibili.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://space.bilibili.com/3632308177341412?spm_id_from=333.337.search-card.all.click"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 82615,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T03:02:38+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

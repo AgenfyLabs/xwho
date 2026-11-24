@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1125309529145524224",
+  "handle": "wquguru",
+  "display_name": "WquGuru",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AIGC",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AIGC、AI）。本人 X 简介要点：「AI + Software + Robotics Newshub → AIGC(texts, videos, world m…」",
+  "verified_works": [
+    {
+      "title": "wqu.guru",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://wqu.guru"
+    },
+    {
+      "title": "wqu.guru",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://wqu.guru/newshub"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 28997,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T23:16:21+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

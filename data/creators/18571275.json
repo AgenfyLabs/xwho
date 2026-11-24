@@ -1,0 +1,38 @@
+{
+  "x_user_id": "18571275",
+  "handle": "balconychy",
+  "display_name": "balconychy(贝壳里奇)",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI）。本人 X 简介要点：「探索，分享，不设限。 关注认知成长、个人IP。深度探索AI。 独立开发者，Think in public, INTJ， 博客…」",
+  "verified_works": [
+    {
+      "title": "tedcai.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://tedcai.cc"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@balconychy"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14097,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:00:33+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

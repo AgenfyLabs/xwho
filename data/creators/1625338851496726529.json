@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1625338851496726529",
+  "handle": "Guoxiaoli0",
+  "display_name": "郭晓力",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "创业者",
+    "创业",
+    "商业观察"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（创业、商业观察）。本人 X 简介要点：「芦笋云收款（让自由职业收款更简单）」",
+  "verified_works": [
+    {
+      "title": "Guoxiaoli.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://Guoxiaoli.com/"
+    },
+    {
+      "title": "collect.lusun.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://collect.lusun.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 4350,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-18T15:01:18+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}
