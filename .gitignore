@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.vercel/
+.env*
+!.env.example
+next-env.d.ts
+*.tsbuildinfo
+coverage/
+.DS_Store
+npm-debug.log*
+.xwho-import.lock
+.xwho-import-*/
