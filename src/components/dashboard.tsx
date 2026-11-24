@@ -1,15 +1,17 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
-import { ApplicationInputSchema, ProfileInputSchema, type Identity, type ProfileInput } from "@/lib/identity";
+import { useCallback, useEffect, useState, type FormEvent } from "react";
+import { ProfileInputSchema, type Identity, type ProfileInput } from "@/lib/identity";
+import { applicationInput, pendingApplicationKey, takeApplication, withSuggestions } from "@/lib/application-form";
 import { validationMessage, verticalNames, verticals, type Creator, type Vertical } from "@/lib/schema";
 import type { WriteResult } from "@/lib/github-writer";
+import type { XApplication } from "@/lib/x-application";
 
 function useChange() {
   const [receipt, setReceipt] = useState<WriteResult | null>(null);
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
-  async function send(url: string, body: unknown) {
+  const send = useCallback(async (url: string, body: unknown) => {
     setBusy(true); setError(""); setReceipt(null);
     try {
       const response = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -18,7 +20,7 @@ function useChange() {
       setReceipt(data);
     } catch (e) { setError(e instanceof Error ? e.message : "网络连接失败，请重试"); }
     finally { setBusy(false); }
-  }
+  }, []);
   return { receipt, setReceipt, error, setError, busy, send };
 }
 function Feedback({ state, repo }: { state: ReturnType<typeof useChange>; repo: string }) {
@@ -34,24 +36,64 @@ function VerticalSelect({ value, set }: { value: Vertical | ""; set: (v: Vertica
   return <label>主赛道<select required value={value} onChange={e => set(e.target.value as Vertical)}>
     <option value="" disabled>选择主赛道</option>{verticals.map(v => <option key={v} value={v}>{verticalNames[v]}</option>)}</select></label>;
 }
-export function ApplicationForm({ previewOnly, repo }: { previewOnly: boolean; repo: string }) {
-  const [vertical, setVertical] = useState<Vertical | "">("");
-  const [summary, setSummary] = useState("");
-  const [works, setWorks] = useState("");
+type ApplicationFormProps = {
+  previewOnly: boolean; repo: string; ownerId?: string; suggestions?: XApplication;
+  canWrite?: boolean; attempt?: string; authFailed?: boolean;
+};
+export function ApplicationForm({ previewOnly, repo, ownerId, suggestions, canWrite = false, attempt, authFailed }: ApplicationFormProps) {
+  const [fields, setFields] = useState(() => withSuggestions(undefined, suggestions));
   const state = useChange();
+  const { send, setError } = state;
+  const endpoint = canWrite ? "/api/apply" : "/api/apply?preview=1";
+
+  useEffect(() => {
+    if (!attempt && !authFailed) return;
+    let saved;
+    try {
+      saved = takeApplication(sessionStorage, attempt, ownerId);
+    } catch { return; }
+    if (!saved) return;
+    const merged = withSuggestions(saved.fields, authFailed ? undefined : suggestions);
+    setFields(merged);
+    if (!attempt || authFailed || !suggestions) return;
+    const result = applicationInput(merged);
+    if (result.success) {
+      void send(saved.preview ? "/api/apply?preview=1" : endpoint, result.data);
+    } else {
+      const labels: Record<string, string> = { vertical: "主赛道", summary: "一句话简介", work_urls: "公开作品链接" };
+      const missing = new Set(result.error.issues.map(issue => labels[String(issue.path[0])]));
+      setError(`请补全或检查${[...missing].join("、")}，然后再提交。`);
+    }
+  }, [attempt, ownerId, authFailed, suggestions, endpoint, send, setError]);
+
+  function syncAndApply() {
+    if (!ownerId) return;
+    try {
+      const attempt = crypto.randomUUID();
+      sessionStorage.setItem(pendingApplicationKey, JSON.stringify({ id: ownerId, fields, attempt, expires: Date.now() + 600_000, preview: !canWrite }));
+      window.location.assign(`/api/auth/x/login?application=${attempt}`);
+    } catch { setError("浏览器无法暂存申请。可继续手动填写，或重新使用 X 登录以载入简介。"); }
+  }
   function submit(e: FormEvent) {
     e.preventDefault(); state.setError(""); state.setReceipt(null);
-    const result = ApplicationInputSchema.safeParse({ vertical, summary, work_urls: works.split(/\r?\n/).map(s => s.trim()).filter(Boolean) });
+    const result = applicationInput(fields);
     if (!result.success) { state.setError(validationMessage(result.error)); return; }
     if (previewOnly) state.setReceipt({ mode: "preview", path: "入库申请草稿 · 登录后绑定本人 X ID", document: result.data });
-    else void state.send("/api/apply", result.data);
+    else void send(endpoint, result.data);
   }
   return <section className="chapter"><h2>{previewOnly ? "预览入库申请" : "申请入库"}</h2>
-    <p className="muted">{previewOnly ? "在本地填写并预览申请内容。" : "提交后由编辑核对账号、作品和原始出处。"}</p>
-    <form className="editor" onSubmit={submit}><VerticalSelect value={vertical} set={setVertical} />
-      <label>一句话简介<textarea required value={summary} onChange={e => setSummary(e.target.value)} /></label>
-      <label>公开作品链接<small>至少一个 HTTP(S) 链接，每行一项。</small><textarea required value={works} onChange={e => setWorks(e.target.value)} /></label>
-      <button className="btn primary" disabled={state.busy}>{previewOnly ? "预览 JSON 补丁" : state.busy ? "正在提交…" : "提交入库申请"}</button>
+    <p id="application-mode" className="muted">{canWrite ? "提交后将创建公开的 GitHub 审核 PR，由编辑核对作品与出处。"
+      : previewOnly ? "当前可在本机预览申请内容。" : "启用 GitHub 写入后即可提交，当前可先预览申请内容。"}</p>
+    {ownerId && !suggestions && <div className="login-box"><p>从 X 读取本人公开简介和置顶帖，保留已填内容。资料齐全时{canWrite ? "自动提交审核" : "自动生成预览"}。</p>
+      <button type="button" className="btn" disabled={state.busy} onClick={syncAndApply}>{canWrite ? "用 X 简介自动申请" : "用 X 简介自动预览"}</button></div>}
+    {suggestions && <p className="muted">{suggestions.summary ? "已从 X 简介预填，可直接修改。" : "请填写适合公开的一句话简介。"}{suggestions.pinnedPost ? "作品候选取自你的公开置顶帖，可替换。" : "请提供一条自己的公开作品链接。"}</p>}
+    <form className="editor" onSubmit={submit}><VerticalSelect value={fields.vertical} set={vertical => setFields(f => ({ ...f, vertical }))} />
+      <label>一句话简介<textarea required value={fields.summary} onChange={e => setFields({ ...fields, summary: e.target.value })} /></label>
+      <label>公开作品链接<small>至少一个 HTTP(S) 链接，每行一项。</small><textarea required value={fields.works} onChange={e => setFields({ ...fields, works: e.target.value })} /></label>
+      <div className="actions">
+        {!canWrite && <button type="submit" className={previewOnly ? "btn primary" : "btn"} disabled={state.busy}>{state.busy ? "正在预览…" : "预览入库申请"}</button>}
+        {!previewOnly && <button type="submit" className="btn primary" aria-describedby="application-mode" disabled={!canWrite || state.busy}>{canWrite && state.busy ? "正在提交…" : "提交入库申请"}</button>}
+      </div>
     </form><Feedback state={state} repo={repo} /></section>;
 }
 export function ProfileForm({ c, repo }: { c: Creator; repo: string }) {

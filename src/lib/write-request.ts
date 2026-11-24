@@ -21,8 +21,9 @@ export async function writeRequest(request: NextRequest, kind: "profile" | "appl
     const change = kind === "profile"
       ? { kind, input: ProfileInputSchema.parse(body) } as const
       : { kind, input: ApplicationInputSchema.parse(body) } as const;
-    const local = process.env.GITHUB_TOKEN ? undefined : readDataset().creators.find(c => c.x_user_id === owner.id);
-    const result = await writeChange(owner, change, local);
+    const preview = kind === "application" && request.nextUrl.searchParams.get("preview") === "1";
+    const local = preview || !process.env.GITHUB_TOKEN ? readDataset().creators.find(c => c.x_user_id === owner.id) : undefined;
+    const result = await writeChange(owner, change, local, preview);
     return NextResponse.json(result, { headers: { "Cache-Control": "no-store" } });
   } catch (error) {
     const status = error instanceof ChangeError ? error.status : error instanceof ZodError ? 400 : 502;

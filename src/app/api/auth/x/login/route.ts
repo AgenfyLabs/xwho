@@ -3,7 +3,7 @@ import { beginOAuth, cookieOptions, FLOW_COOKIE, FLOW_TTL, missingOAuth } from "
 
 export function GET(request: NextRequest) {
   if (missingOAuth().length) return NextResponse.redirect(new URL("/dashboard?auth=configuration", request.url));
-  const flow = beginOAuth();
+  const flow = beginOAuth(Date.now(), request.nextUrl.searchParams.get("application"));
   const response = NextResponse.redirect(flow.url);
   response.cookies.set(FLOW_COOKIE, flow.cookie, cookieOptions(FLOW_TTL));
   response.headers.set("Cache-Control", "no-store");

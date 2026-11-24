@@ -7,10 +7,11 @@ export async function GET(request: NextRequest) {
   const query = request.nextUrl.searchParams;
   let session: string | undefined;
   try {
-    const verifier = verifyFlow(request.cookies.get(FLOW_COOKIE)?.value, query.get("state"));
+    const flow = verifyFlow(request.cookies.get(FLOW_COOKIE)?.value, query.get("state"));
+    if (flow.application) target.searchParams.set("application", flow.application);
     const code = query.get("code");
     if (!code || query.has("error")) throw new ChangeError(401, "登录已取消");
-    session = sessionCookie(await exchangeIdentity(code, verifier));
+    session = sessionCookie(await exchangeIdentity(code, flow.verifier));
   } catch (error) {
     target.searchParams.set("auth", error instanceof ChangeError && error.status === 403 ? "scope" : "failed");
   }

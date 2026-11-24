@@ -198,7 +198,7 @@
 
 ### 4.4 本人认领与申请工作台 `/dashboard`
 - **X OAuth 2.0（PKCE）登录**：
-  - 仅申请 `users.read` 和 `tweet.read` 两项只读权限（不申请发推、关注或私信权限）。回调通过 `GET /2/users/me` 读取当前登录用户的 `id`、`username`、`name`，以 `id` 匹配档案的 `x_user_id`。[X 官方权限映射](https://docs.x.com/fundamentals/authentication/guides/v2-authentication-mapping)
+  - 仅申请 `users.read` 和 `tweet.read` 两项只读权限。回调通过 `GET /2/users/me` 读取当前用户的 `id`、`username`、`name`，以 `id` 匹配档案的 `x_user_id`。同一次请求指定 `user.fields=description,protected,pinned_tweet_id`，用于本人申请预填。[X 官方身份接口](https://docs.x.com/x-api/users/get-my-user)
   - 使用 HttpOnly + SameSite=Lax 的 HMAC 签名 Cookie 保存登录态（依赖 `SESSION_SECRET`）。
 - **登录后分支**：
   1. **已在黄皮书库中（按 `x_user_id` 匹配）**：
@@ -206,6 +206,8 @@
      - 提供显眼的 **「一键隐藏我的档案」**（将 `claim_status` 设为 `"hidden"`，立即生效/提交变更；已隐藏用户再次登录可一键恢复）。
   2. **尚未入库**：
      - 展示「申请入库」表单：必填赛道、一句话简介、**至少 1 个公开可核验作品 URL**（表单和服务端双校验），提交后走 GitHub API 开出新创作者入库 PR 等待维护者审核。
+     - 公开账号可用 X bio 自动填写简介，唯一明确的赛道作为建议，本人公开置顶帖作为可编辑的作品候选。跳过联系与商业信息，受保护账号手填。没有足够信息时提示补齐必填项。
+     - 本人可主动选择一键申请。旧会话按原有两项权限重新获取 X 资料，保留已填字段，资料齐全时自动提交一次。普通登录仅预填。缺少 GitHub 写入凭据时，相同操作生成带本人身份的本地预览。
 - **优雅降级（本地预览/未配密钥也能跑通演示）**：
   - 若未配置 `X_CLIENT_ID` 或 `GITHUB_TOKEN`，页面不报错崩白，清晰提示缺哪些环境变量，并提供「预览生成的 JSON 补丁 / 跳转 `https://github.com/AgenfyLabs/xwho` 提 PR」兜底，方便本地开发和评审。
 

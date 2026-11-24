@@ -26,7 +26,7 @@ it("登录入口跳转至 X 且 scope 只含 users.read 和 tweet.read", () => {
 it("PKCE S256、签名、状态、有效期及 Cookie 标记", () => {
   const { cookie, url } = beginOAuth(100);
   const state = url.searchParams.get("state");
-  const verifier = verifyFlow(cookie, state, 101);
+  const { verifier } = verifyFlow(cookie, state, 101);
   expect(url.searchParams.get("code_challenge")).toBe(createHash("sha256").update(verifier).digest("base64url"));
   expect(() => verifyFlow(cookie, "other", 101)).toThrow();
   expect(() => verifyFlow(cookie, state, 700000)).toThrow();
@@ -41,19 +41,55 @@ it.each([
   { status: 200, redirect: "/dashboard", authenticated: true },
   { status: 403, redirect: "/dashboard?auth=scope", authenticated: false },
 ])("X 身份接口返回 $status 时，回调跳转至 $redirect", async ({ status, redirect, authenticated }) => {
-  const me = authenticated ? Response.json({ data: { ...owner, verified: false } }) : new Response(null, { status });
+  const me = authenticated ? Response.json({ data: { ...owner, verified: false, protected: false, description: "媒体人｜合作邮箱 fixture@example.invalid", pinned_tweet_id: "123" } }) : new Response(null, { status });
   const http = vi.fn()
     .mockResolvedValueOnce(Response.json({ access_token: "test-token", scope: "users.read tweet.read" }))
     .mockResolvedValueOnce(me);
+  if (!authenticated) http.mockResolvedValueOnce(new Response(null, { status: 403 }));
   vi.stubGlobal("fetch", http);
   const flow = beginOAuth();
   const req = new NextRequest(`https://xwho.example/api/auth/x/callback?code=test&state=${flow.url.searchParams.get("state")}`, { headers: { cookie: `xwho_oauth=${flow.cookie}` } });
   const res = await callback(req);
-  expect(http.mock.calls.map(([url]) => url)).toEqual(["https://api.x.com/2/oauth2/token", "https://api.x.com/2/users/me"]);
+  expect(http.mock.calls.map(([url]) => url)).toEqual(["https://api.x.com/2/oauth2/token", "https://api.x.com/2/users/me?user.fields=description,protected,pinned_tweet_id",
+    ...(!authenticated ? ["https://api.x.com/2/users/me"] : [])]);
   expect(res.headers.get("location")).toBe(`https://xwho.example${redirect}`);
   expect(res.cookies.has("xwho_session")).toBe(authenticated);
-  expect(readSession(res.cookies.get("xwho_session")?.value)).toEqual(authenticated ? owner : null);
+  expect(readSession(res.cookies.get("xwho_session")?.value)).toEqual(authenticated ? { ...owner, application: {
+    summary: "媒体人", vertical: "media", pinnedPost: `https://x.com/${owner.username}/status/123`,
+  } } : null);
   expect(res.cookies.get("xwho_oauth")?.value).toBe("");
+});
+it("X 限制扩展字段时仍可用基础身份登录", async () => {
+  vi.stubGlobal("fetch", vi.fn().mockResolvedValueOnce(Response.json({ access_token: "test-token" }))
+    .mockResolvedValueOnce(new Response(null, { status: 403 })).mockResolvedValueOnce(Response.json({ data: owner })));
+  const flow = beginOAuth();
+  const res = await callback(new NextRequest(`https://xwho.example/api/auth/x/callback?code=test&state=${flow.url.searchParams.get("state")}`,
+    { headers: { cookie: `xwho_oauth=${flow.cookie}` } }));
+  expect(readSession(res.cookies.get("xwho_session")?.value)).toEqual({ ...owner, application: { summary: "" } });
+});
+it("只有通过签名 state 校验的一键操作才返回申请标识，取消授权不触发写入", async () => {
+  const attempt = "cc0d6958-2bea-40a7-abca-68a787033995";
+  const start = login(new NextRequest(`https://xwho.example/api/auth/x/login?application=${attempt}`));
+  const state = new URL(start.headers.get("location")!).searchParams.get("state")!;
+  const req = (s: string) => new NextRequest(`https://xwho.example/api/auth/x/callback?state=${s}&error=access_denied`, {
+    headers: { cookie: `xwho_oauth=${start.cookies.get("xwho_oauth")!.value}` },
+  });
+  const response = await callback(req(state));
+  const query = new URL(response.headers.get("location")!).searchParams;
+  expect(query.get("application")).toBe(attempt); expect(query.get("auth")).toBe("failed");
+  expect(response.cookies.has("xwho_session")).toBe(false);
+  expect(new URL((await callback(req("invalid"))).headers.get("location")!).searchParams.has("application")).toBe(false);
+});
+it("本人显式预览在已配置 GitHub 时仍只生成本地申请", async () => {
+  vi.stubEnv("GITHUB_TOKEN", "unit-test-only");
+  vi.spyOn(data, "readDataset").mockReturnValue({ creators: [], milestones: [] });
+  const outbound = vi.fn(); vi.stubGlobal("fetch", outbound);
+  const res = await applyPost(new NextRequest("https://xwho.example/api/apply?preview=1", {
+    method: "POST", headers: { origin: "https://xwho.example", "content-type": "application/json", cookie: `xwho_session=${sessionCookie(owner)}` },
+    body: JSON.stringify({ vertical: "media", summary: "本人填写", work_urls: ["https://example.org/work"] }),
+  }));
+  expect(await res.json()).toMatchObject({ mode: "preview", document: { x_user_id: owner.id, status: "pending-review" } });
+  expect(outbound).not.toHaveBeenCalled();
 });
 it("认领只匹配数字 ID，同名不能代认领；隐藏必须主动恢复", () => {
   expect(() => editProfile(creator(), { ...owner, id: "2" }, { action: "hide" })).toThrow(/本人|登录/);

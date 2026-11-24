@@ -55,9 +55,11 @@ npm run import:pool -- --input /path/to/verified-directory --tier api-verified
 | GITHUB_BASE_BRANCH | 默认 main |
 | GITHUB_WRITE_MODE | 默认 pr，direct 仅对已有档案变更生效 |
 
-在 X 开发者控制台登记与 NEXT_PUBLIC_APP_URL 完全一致的 /api/auth/x/callback 回调。登录仅请求 `users.read` 和 `tweet.read`，这是 X 为 `GET /2/users/me` 列出的两项只读权限。回调换取访问令牌后，只调用该身份接口，取得本人的数字 ID、用户名和显示名。[X 官方权限映射](https://docs.x.com/fundamentals/authentication/guides/v2-authentication-mapping)
+在 X 开发者控制台登记与 NEXT_PUBLIC_APP_URL 完全一致的 /api/auth/x/callback 回调。登录仅请求 `users.read` 和 `tweet.read`。回调调用 `GET /2/users/me`，用本人的数字 ID、用户名和显示名识别身份，并从 `description`、`protected`、`pinned_tweet_id` 生成申请建议。[X 官方身份接口](https://docs.x.com/x-api/users/get-my-user)
 
-流程使用 PKCE S256 和随机 state，流程 Cookie 有效期为 10 分钟。身份核验成功后，服务器将上述三个字段写入有效期为 7 天的 HMAC 签名会话。Cookie 使用 HttpOnly、SameSite=Lax，HTTPS 附加 Secure。
+流程使用 PKCE S256 和随机 state，流程 Cookie 有效期为 10 分钟。服务器将身份与筛选后的申请建议写入 7 天的 HMAC 签名会话。Cookie 使用 HttpOnly、SameSite=Lax，HTTPS 附加 Secure。
+
+工作台会预填公开 bio 中适合公开的简介，只有赛道明确时才预选，作品候选使用本人公开置顶帖。已有会话可点「用 X 简介自动申请」同步 X 资料，保留已填内容并在资料齐全时提交。缺少必填项时在原表单补全。预览模式对应「用 X 简介自动预览」，可核对生成的 JSON。
 
 缺少 X 配置时，工作台可本地校验并预览申请 JSON。已验证身份但缺少 GITHUB_TOKEN 时，可预览本人档案或申请的 JSON 补丁。页面提供 GitHub 仓库入口。
 

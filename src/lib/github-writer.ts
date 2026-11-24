@@ -85,12 +85,12 @@ function documentFor(owner: Identity, change: Change, creator?: Creator) {
   return editProfile(creator, owner, change.input);
 }
 
-export async function writeChange(owner: Identity, change: Change, local?: Creator): Promise<WriteResult> {
+export async function writeChange(owner: Identity, change: Change, local?: Creator, preview = false): Promise<WriteResult> {
   const id = IdSchema.parse(owner.id);
   const profilePath = `data/creators/${id}.json`;
   const application = change.kind === "application";
   const path = application ? `data/applications/${id}.json` : profilePath;
-  if (!process.env.GITHUB_TOKEN) return { mode: "preview", path, document: documentFor(owner, change, local) };
+  if (preview || !process.env.GITHUB_TOKEN) return { mode: "preview", path, document: documentFor(owner, change, local) };
   const { base } = repoConfig();
   const mode = process.env.GITHUB_WRITE_MODE || "pr";
   if (!["direct", "pr"].includes(mode)) throw new ChangeError(503, "请检查 GITHUB_WRITE_MODE 配置");

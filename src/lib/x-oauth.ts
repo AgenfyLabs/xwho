@@ -1,6 +1,7 @@
 import { createHash, createHmac, randomBytes, timingSafeEqual } from "node:crypto";
 import { z } from "zod";
 import { ChangeError, IdentitySchema, type Identity } from "./identity";
+import { XApplicationSchema, xApplication } from "./x-application";
 
 export const SESSION_COOKIE = "xwho_session";
 export const FLOW_COOKIE = "xwho_oauth";
@@ -40,11 +41,13 @@ function open<T>(cookie: string | undefined, kind: string, schema: z.ZodType<T>,
     return schema.parse(value.data);
   } catch { return null; }
 }
-export function sessionCookie(owner: Identity, now = Date.now()) { return sign("session", IdentitySchema.parse(owner), SESSION_TTL, now); }
-export function readSession(cookie?: string, now = Date.now()) { return open(cookie, "session", IdentitySchema, now); }
-const flowSchema = z.strictObject({ state: z.string().min(32), verifier: z.string().min(43) });
+const sessionSchema = IdentitySchema.extend({ application: XApplicationSchema.optional() });
+type LoginSession = z.infer<typeof sessionSchema>;
+export function sessionCookie(owner: LoginSession, now = Date.now()) { return sign("session", sessionSchema.parse(owner), SESSION_TTL, now); }
+export function readSession(cookie?: string, now = Date.now()) { return open(cookie, "session", sessionSchema, now); }
+const flowSchema = z.strictObject({ state: z.string().min(32), verifier: z.string().min(43), application: z.uuid().optional() });
 const callback = () => `${appOrigin()}/api/auth/x/callback`;
-export function beginOAuth(now = Date.now()) {
+export function beginOAuth(now = Date.now(), application?: string | null) {
   if (missingOAuth().length) throw new ChangeError(503, "X 登录尚未配置");
   const state = randomBytes(32).toString("base64url");
   const verifier = randomBytes(48).toString("base64url");
@@ -53,14 +56,15 @@ export function beginOAuth(now = Date.now()) {
     response_type: "code", client_id: process.env.X_CLIENT_ID!, redirect_uri: callback(), scope: X_LOGIN_SCOPE,
     state, code_challenge: createHash("sha256").update(verifier).digest("base64url"), code_challenge_method: "S256",
   }).toString();
-  return { url, cookie: sign("oauth", { state, verifier }, FLOW_TTL, now) };
+  const attempt = z.uuid().safeParse(application);
+  return { url, cookie: sign("oauth", { state, verifier, application: attempt.success ? attempt.data : undefined }, FLOW_TTL, now) };
 }
 export function verifyFlow(cookie: string | undefined, state: string | null, now = Date.now()) {
   const flow = open(cookie, "oauth", flowSchema, now);
   if (!flow || !state || flow.state !== state) throw new ChangeError(400, "登录校验已失效，请重新登录");
-  return flow.verifier;
+  return flow;
 }
-export async function exchangeIdentity(code: string, verifier: string): Promise<Identity> {
+export async function exchangeIdentity(code: string, verifier: string): Promise<LoginSession> {
   const id = process.env.X_CLIENT_ID!;
   const secret = process.env.X_CLIENT_SECRET;
   const headers = new Headers({ "Content-Type": "application/x-www-form-urlencoded" });
@@ -69,8 +73,13 @@ export async function exchangeIdentity(code: string, verifier: string): Promise<
   const token = await fetch("https://api.x.com/2/oauth2/token", { method: "POST", headers, body, cache: "no-store" });
   if (!token.ok) throw new ChangeError(401, "X 授权码交换失败");
   const { access_token } = z.object({ access_token: z.string().min(1) }).parse(await token.json());
-  const me = await fetch("https://api.x.com/2/users/me", { headers: { Authorization: `Bearer ${access_token}` }, cache: "no-store" });
+  const userEndpoint = "https://api.x.com/2/users/me";
+  const lookup = { headers: { Authorization: `Bearer ${access_token}` }, cache: "no-store" } as const;
+  let me = await fetch(`${userEndpoint}?user.fields=description,protected,pinned_tweet_id`, lookup);
+  if (me.status === 400 || me.status === 403) me = await fetch(userEndpoint, lookup);
   if (me.status === 403) throw new ChangeError(403, "X 拒绝了当前只读权限下的身份查询");
   if (!me.ok) throw new ChangeError(401, "无法读取 X 登录身份");
-  return IdentitySchema.strip().parse((await me.json()).data);
+  const { data } = await me.json();
+  const identity: Identity = IdentitySchema.strip().parse(data);
+  return { ...identity, application: xApplication(data, identity.username) };
 }
