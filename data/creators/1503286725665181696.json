@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1503286725665181696",
+  "handle": "starbot_ever",
+  "display_name": "Star Boat⛵",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "SaaS",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（SaaS、AI）。本人 X 简介要点：「专注 B 端 mirco saas」",
+  "verified_works": [
+    {
+      "title": "showmebest.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://showmebest.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 2154,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-14T10:20:39+08:00",
+  "lead_sources": [
+    "list:1955875889310523835",
+    "list:2011224544821068243",
+    "list:2040768193241948456",
+    "list:2061247599521509429",
+    "list:2109280379039576400",
+    "list:2124468651550237082"
+  ],
+  "service_board": null
+}

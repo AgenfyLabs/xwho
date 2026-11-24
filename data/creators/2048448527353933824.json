@@ -1,0 +1,36 @@
+{
+  "x_user_id": "2048448527353933824",
+  "handle": "Sukiea1008",
+  "display_name": "Su",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工具分享、AI）。本人 X 简介要点：「ADHD｜INFJ｜思考｜更有生活的 AI 博主 个人网页👇」",
+  "verified_works": [
+    {
+      "title": "su-uni.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://su-uni.com"
+    },
+    {
+      "title": "Github.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://Github.com/doublesq97-ui"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6047,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:18:34+08:00",
+  "lead_sources": [
+    "list:2108752382914166937"
+  ],
+  "service_board": null
+}

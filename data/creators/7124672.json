@@ -1,0 +1,43 @@
+{
+  "x_user_id": "7124672",
+  "handle": "fankaishuoai",
+  "display_name": "范凯说AI",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、AI）。本人 X 简介要点：「💡 用 AI 创造价值，把个人能力经营成事业。 🌱 分享 AI 实践、个人 IP 与独立经营的思考。 🎓 系列课程： 📺 Y…」",
+  "verified_works": [
+    {
+      "title": "fankai.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://fankai.me"
+    },
+    {
+      "title": "fankaishuo.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://fankaishuo.ai"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://youtube.com/@fankaishuoai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 47726,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:32:05+08:00",
+  "lead_sources": [
+    "list:2108446759534104760",
+    "list:2112198758402244861",
+    "list:2120088948584153340"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1626674002969382912",
+  "handle": "mike_chong_zh",
+  "display_name": "迈克 Mike Chong",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "Apple 生态",
+    "视频",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（Apple 生态、视频、AI）。本人 X 简介要点：「英文 X @realMikeChong 努力让一起用 AI 创造属于我们自己的不公平优势。 做最好最快 Mac 录屏软件 @…」",
+  "verified_works": [
+    {
+      "title": "realmikechong.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://realmikechong.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16024,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:37:23+08:00",
+  "lead_sources": [
+    "list:1961235697677017443"
+  ],
+  "service_board": null
+}

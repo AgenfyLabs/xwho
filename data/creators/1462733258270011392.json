@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1462733258270011392",
+  "handle": "YuGuan1209",
+  "display_name": "鱼人#鱼馆",
+  "vertical": "general",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "创业",
+    "商业观察"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（创业、商业观察）。本人 X 简介要点：「8年老OG，鱼馆社区创始人，拥有万人＋的公域社群体系！ QQ群：763105706 打狗就用Ave，丝滑扫链，极速交易： 豹…」",
+  "verified_works": [
+    {
+      "title": "share.ave.ai?lang=zh-cn&code=YUGE888",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://share.ave.ai?lang=zh-cn&code=YUGE888"
+    },
+    {
+      "title": "bao.la",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://bao.la/c/fishman"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 45118,
+    "as_of": "2026-11-24T20:40:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:38:08+08:00",
+  "lead_sources": [
+    "list:2109552168340803818"
+  ],
+  "service_board": null
+}

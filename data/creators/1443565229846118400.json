@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1443565229846118400",
+  "handle": "cryptonerdcn",
+  "display_name": "NerdC",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「无用之人和他有用的AI ｜自留地」",
+  "verified_works": [
+    {
+      "title": "openclawindex.pages.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://openclawindex.pages.dev"
+    },
+    {
+      "title": "shorturl.at",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://shorturl.at/5JUNR"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14452,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T16:00:53+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

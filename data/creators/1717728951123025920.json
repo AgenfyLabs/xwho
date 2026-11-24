@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1717728951123025920",
+  "handle": "PMbackttfuture",
+  "display_name": "AI产品黄叔",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI Agent",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、产品、AI）。本人 X 简介要点：「两家公司AI产品顾问 Agent社团+系列课程」",
+  "verified_works": [
+    {
+      "title": "zhenganhuo.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.zhenganhuo.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 23726,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:27:58+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:1961235697677017443",
+    "list:2011224544821068243",
+    "list:2107361230671458651"
+  ],
+  "service_board": null
+}

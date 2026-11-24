@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1788123537099878400",
+  "handle": "songguoxiansen",
+  "display_name": "松果先森",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "大模型",
+    "提示词",
+    "AI 视频",
+    "AI 编程"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（大模型、提示词、AI 视频）。本人 X 简介要点：「关注AI技术：LLM、AI编程、AI图像、AI视频等。 免费提示词： 公众号：松果先森，扣666进AI群 AI交流群」",
+  "verified_works": [
+    {
+      "title": "opennana.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://opennana.com"
+    },
+    {
+      "title": "github.com/songguoxs",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/songguoxs"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 32155,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T10:01:46+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,29 @@
+{
+  "x_user_id": "4848269835",
+  "handle": "_FORAB",
+  "display_name": "AB Kuai.Dong",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "时事评论",
+    "生活"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（时事评论、生活）。本人 X 简介要点：「热爱研究、热爱家庭、热爱分享，2016 年入行从业。」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 156722,
+    "as_of": "2026-11-24T20:43:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:21:24+08:00",
+  "lead_sources": [
+    "list:1978334783357751625",
+    "list:2108446759534104760",
+    "list:2108554035381019109",
+    "list:2108752382914166937",
+    "list:2113479692531745017"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1789757492873789440",
+  "handle": "qihang_zeng6688",
+  "display_name": "启航",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "科技观察",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、科技观察、工具分享）。本人 X 简介要点：「📈X交流学习 🖥️AI工具分享 🎬AI科技视频分享 点击下方链接了解⬇️」",
+  "verified_works": [
+    {
+      "title": "my.feishu.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://my.feishu.cn/wiki/D8GvwjDJ4iUc68kDZwwcIOQanNb?from=from_copylink"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 23974,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:12:51+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2106180977165033490",
+    "list:2117554890109051373"
+  ],
+  "service_board": null
+}

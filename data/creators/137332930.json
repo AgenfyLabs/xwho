@@ -1,0 +1,34 @@
+{
+  "x_user_id": "137332930",
+  "handle": "cnfinancewatch",
+  "display_name": "华尔街观察 Xtrader",
+  "vertical": "finance",
+  "role_tags": [
+    "investor"
+  ],
+  "sub_tags": [
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「PhD | Professor | Investor || 证券行业资质试高分分析师 | 每日中美联动、权威研报与资金流、新…」",
+  "verified_works": [
+    {
+      "title": "macaostarbridge.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://macaostarbridge.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 140658,
+    "as_of": "2026-11-24T20:39:53+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:41:08+08:00",
+  "lead_sources": [
+    "list:2108446759534104760",
+    "list:2117576638409888117"
+  ],
+  "service_board": null
+}

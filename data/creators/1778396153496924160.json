@@ -1,0 +1,46 @@
+{
+  "x_user_id": "1778396153496924160",
+  "handle": "sven_ai",
+  "display_name": "毅行出海",
+  "vertical": "geo",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "出海",
+    "SEO",
+    "增长"
+  ],
+  "summary": "GEO / SEO / 出海增长方向的中文 X 创作者（独立开发、出海、SEO）。本人 X 简介要点：「⛵️ 独立开发者，分享AI出海、独立开发和营销增长相关知识干货！ 📈 Building - 帮你实现AI出海营销 & SEO…」",
+  "verified_works": [
+    {
+      "title": "sopilot.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://sopilot.net"
+    },
+    {
+      "title": "SoPilot.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://SoPilot.net"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 7746,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:56:42+08:00",
+  "lead_sources": [
+    "list:1955875889310523835",
+    "list:1961235697677017443",
+    "list:2040768193241948456",
+    "list:2061247599521509429",
+    "list:2109280379039576400",
+    "list:2118119863923192256",
+    "list:2124468651550237082"
+  ],
+  "service_board": null
+}

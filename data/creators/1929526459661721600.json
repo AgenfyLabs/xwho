@@ -1,0 +1,40 @@
+{
+  "x_user_id": "1929526459661721600",
+  "handle": "Chchenhao0129",
+  "display_name": "Hardy Chen",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "产品",
+    "创业",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、产品、创业）。本人 X 简介要点：「06年｜AI连续创业者 用 AI 做工作流和产品，累计变现五位数 分享实践与复盘｜欢迎交流投稿 Hardy Tasks、Ha…」",
+  "verified_works": [
+    {
+      "title": "hardy-ai-lab.top",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://hardy-ai-lab.top"
+    },
+    {
+      "title": "github.com/hardychen-19",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/hardychen-19"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3405,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T14:53:53+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,33 @@
+{
+  "x_user_id": "39941478",
+  "handle": "zaobaosg",
+  "display_name": "联合早报 Lianhe Zaobao",
+  "vertical": "media",
+  "role_tags": [
+    "brand-account"
+  ],
+  "sub_tags": [
+    "资讯",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（资讯、内容创作）。本人 X 简介要点：「《联合早报》网站和应用是新报业媒体有限公司属下的中文新闻与资讯平台。以第三只眼看大中华，客观新闻和深度评析是众多亚太区读者的…」",
+  "verified_works": [
+    {
+      "title": "zaobao.sg",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://www.zaobao.sg"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1809865,
+    "as_of": "2026-11-24T20:39:52+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:33:28+08:00",
+  "lead_sources": [
+    "list:2117854784849850419"
+  ],
+  "service_board": null
+}

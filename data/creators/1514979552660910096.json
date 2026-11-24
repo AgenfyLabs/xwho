@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1514979552660910096",
+  "handle": "shenfanlaogou",
+  "display_name": "神烦老狗",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、工具分享、AI）。本人 X 简介要点：「AI工具重度用户 Claude / ChatGPT / Grok 日常测评吐槽 开源录屏工具」",
+  "verified_works": [
+    {
+      "title": "laogou717.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.laogou717.com"
+    },
+    {
+      "title": "github.com/dogsc",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/laogou717/dogsc"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5039,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T07:37:51+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

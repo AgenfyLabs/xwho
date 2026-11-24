@@ -1,0 +1,44 @@
+{
+  "x_user_id": "17612854",
+  "handle": "plidezus",
+  "display_name": "少楠Plidezus",
+  "vertical": "general",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "创业",
+    "商业观察"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（创业、商业观察）。本人 X 简介要点：「Cofounder @ flomo/xiaobot/mubu 读： 写： 做」",
+  "verified_works": [
+    {
+      "title": "read.pmthinking.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://read.pmthinking.com/"
+    },
+    {
+      "title": "shaonan.blog",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://shaonan.blog"
+    },
+    {
+      "title": "flomoapp.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://flomoapp.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13346,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T15:25:34+08:00",
+  "lead_sources": [
+    "list:2117576638409888117",
+    "list:2120088948584153340"
+  ],
+  "service_board": null
+}

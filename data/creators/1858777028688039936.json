@@ -1,0 +1,41 @@
+{
+  "x_user_id": "1858777028688039936",
+  "handle": "FuSheng_0306",
+  "display_name": "傅盛",
+  "vertical": "general",
+  "role_tags": [
+    "founder",
+    "investor"
+  ],
+  "sub_tags": [
+    "安全",
+    "投资",
+    "创业",
+    "游戏"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（安全、投资、创业）。本人 X 简介要点：「猎豹移动董事长兼CEO，猎户星空董事长@orionstar2016 ｜ 生日3月6日，打造了早期的360安全卫士｜TikTo…」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/fusheng_Neo"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 66374,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T15:09:54+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:1961235697677017443",
+    "list:1978334783357751625",
+    "list:2011224544821068243",
+    "list:2112198758402244861",
+    "list:2120088948584153340"
+  ],
+  "service_board": null
+}

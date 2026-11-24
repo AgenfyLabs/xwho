@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1071224721046261760",
+  "handle": "karminski3",
+  "display_name": "karminski-牙医",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「A coder, road bike rider, server fortune teller, electronic wa…」",
+  "verified_works": [
+    {
+      "title": "kcores.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://kcores.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 40362,
+    "as_of": "2026-11-24T20:39:52+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-20T22:05:40+08:00",
+  "lead_sources": [
+    "list:1978334783357751625",
+    "list:2112198758402244861",
+    "list:2117964888643432831",
+    "list:2124863157478809789"
+  ],
+  "service_board": null
+}

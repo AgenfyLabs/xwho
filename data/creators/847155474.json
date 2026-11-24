@@ -1,0 +1,41 @@
+{
+  "x_user_id": "847155474",
+  "handle": "KZG6886",
+  "display_name": "KZG 口罩哥",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「本人 （抖音那个） 看期权数据 看机构etf数据 看大盘云图」",
+  "verified_works": [
+    {
+      "title": "optionbrief.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://optionbrief.com"
+    },
+    {
+      "title": "kzgflow.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://kzgflow.com"
+    },
+    {
+      "title": "kzgmap.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://kzgmap.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 51545,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:35:29+08:00",
+  "lead_sources": [
+    "list:2108446759534104760"
+  ],
+  "service_board": null
+}

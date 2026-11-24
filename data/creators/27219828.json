@@ -1,0 +1,45 @@
+{
+  "x_user_id": "27219828",
+  "handle": "wong2__",
+  "display_name": "wong2",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「自由开发者 Building Building Creator of ChatHub, ChatGPT for Google」",
+  "verified_works": [
+    {
+      "title": "github.com/wong2",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/wong2"
+    },
+    {
+      "title": "codex-resets.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://codex-resets.com"
+    },
+    {
+      "title": "slim.tools",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://slim.tools"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 19285,
+    "as_of": "2026-11-24T20:39:53+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T00:17:17+08:00",
+  "lead_sources": [
+    "list:2107361230671458651",
+    "list:2108752382914166937",
+    "list:2114630189598535837"
+  ],
+  "service_board": null
+}

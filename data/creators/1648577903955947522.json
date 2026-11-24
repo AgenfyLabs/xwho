@@ -1,0 +1,34 @@
+{
+  "x_user_id": "1648577903955947522",
+  "handle": "icycat",
+  "display_name": "冷酷小猫 IcyCat",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "增长",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（增长、AI）。本人 X 简介要点：「🤔 白天读神经科学博士，晚上用AI搞开发 🚀 在使用AI中思考 × 海外增长实战 💡 Build in Public 👽 X…」",
+  "verified_works": [
+    {
+      "title": "icy-cat.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://icy-cat.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 8815,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:55:44+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:2106180977165033490",
+    "list:2112198758402244861",
+    "list:2117554890109051373"
+  ],
+  "service_board": null
+}

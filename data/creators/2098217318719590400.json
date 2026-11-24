@@ -1,0 +1,36 @@
+{
+  "x_user_id": "2098217318719590400",
+  "handle": "wofuhuola",
+  "display_name": "炒鸡飞行员",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「我运营的中转站 claude成品号+托管网站」",
+  "verified_works": [
+    {
+      "title": "supergpt.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://supergpt.dev"
+    },
+    {
+      "title": "letsgoclaude.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://letsgoclaude.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 11329,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:40:21+08:00",
+  "lead_sources": [
+    "list:1978334783357751625"
+  ],
+  "service_board": null
+}

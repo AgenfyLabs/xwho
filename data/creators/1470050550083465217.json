@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1470050550083465217",
+  "handle": "SamuelQZQ",
+  "display_name": "DN-Samuel 🧑‍💻",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「全网130万粉丝 ，AI领域头部博主 Crypto Builder & Holder」",
+  "verified_works": [
+    {
+      "title": "qzq.at",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://qzq.at"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 20958,
+    "as_of": "2026-11-24T20:39:52+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-18T16:33:38+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:2106180977165033490",
+    "list:2124863157478809789"
+  ],
+  "service_board": null
+}

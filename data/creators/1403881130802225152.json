@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1403881130802225152",
+  "handle": "BTCdayu",
+  "display_name": "大宇",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "投资",
+    "AI",
+    "游戏"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（投资、AI、游戏）。本人 X 简介要点：「投资研究、AI砖家、游戏制作人 微博、公众号同名 仅是个人记录，没有任何建议。」",
+  "verified_works": [
+    {
+      "title": "btcdayu.gitbook.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://btcdayu.gitbook.io/dayu/dao-hang-yu-ru-men/bi-quan-xin-shou-ru-men/di-1-bu-jiao-yi-suo-zhu-c"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 328565,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T06:06:23+08:00",
+  "lead_sources": [
+    "list:1978334783357751625",
+    "list:2108446759534104760",
+    "list:2108752382914166937",
+    "list:2113479692531745017"
+  ],
+  "service_board": null
+}

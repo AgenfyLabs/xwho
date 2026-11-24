@@ -1,0 +1,44 @@
+{
+  "x_user_id": "1637740320829087745",
+  "handle": "wangdefou",
+  "display_name": "得否",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工具分享、AI）。本人 X 简介要点：「🦁 X文科生搞AI第一人，ENTJ-A 🫵 政企创孵中心导师，人社部人工智能训练师，企业AI转型顾问 💰 AI助农卖苹果 🎨…」",
+  "verified_works": [
+    {
+      "title": "wangdefou.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://wangdefou.com"
+    },
+    {
+      "title": "apple.defou.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://apple.defou.ai"
+    },
+    {
+      "title": "markx.defou.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://markx.defou.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 18424,
+    "as_of": "2026-11-24T20:39:10+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:30:44+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2106180977165033490",
+    "list:2108446759534104760",
+    "list:2117554890109051373"
+  ],
+  "service_board": null
+}

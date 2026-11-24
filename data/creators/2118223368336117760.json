@@ -1,0 +1,33 @@
+{
+  "x_user_id": "2118223368336117760",
+  "handle": "stringers_cn",
+  "display_name": "什么值得做 Stringers",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI）。本人 X 简介要点：「独立开发者的机会雷达：找一两个人能做、现在还来得及的小生意。」",
+  "verified_works": [
+    {
+      "title": "stringers.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://stringers.io"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3897,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T15:54:38+08:00",
+  "lead_sources": [
+    "list:1955875889310523835"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,32 @@
+{
+  "x_user_id": "2059527956540604420",
+  "handle": "garylau_ai",
+  "display_name": "Claude最严厉的父亲",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AIGC",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AIGC、AI）。本人 X 简介要点：「AIGC | AI Rider | Local AI First Specializing in AI video gene…」",
+  "verified_works": [
+    {
+      "title": "garylau.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://garylau.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5495,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:38:15+08:00",
+  "lead_sources": [
+    "list:2011224544821068243",
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

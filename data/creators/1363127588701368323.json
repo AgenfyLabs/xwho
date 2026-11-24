@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1363127588701368323",
+  "handle": "Ion_Mio_",
+  "display_name": "离离子",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「Creator of @newapi_ai ｜Building @Seefs_」",
+  "verified_works": [
+    {
+      "title": "github.com/Calcium-Ion",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/Calcium-Ion"
+    },
+    {
+      "title": "astrlink.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://astrlink.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 7618,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T16:44:29+08:00",
+  "lead_sources": [
+    "list:1978334783357751625",
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1572779645828997120",
+  "handle": "0xcryptoHowe",
+  "display_name": "Howe 祛魅 | 𝟎𝐱𝐔",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「Building @allscale_zh 没退圈，频道发言多」",
+  "verified_works": [
+    {
+      "title": "linktr.ee",
+      "description": "本人 X 资料中公开的外链（链接聚合页）",
+      "url": "https://linktr.ee/cryptoHowe"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 7390,
+    "as_of": "2026-11-24T20:40:18+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-09T22:43:33+08:00",
+  "lead_sources": [
+    "list:1965586171616264644",
+    "list:2109552168340803818"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1422919666305888264",
+  "handle": "0x88FFA357",
+  "display_name": "绣花锂",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「碎碎念偏多，技术内容较少」",
+  "verified_works": [
+    {
+      "title": "nvme0n1p.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://nvme0n1p.dev"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3059,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:36:51+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

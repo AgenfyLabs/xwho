@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1444149179333312516",
+  "handle": "songsong",
+  "display_name": "宋宋",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工具分享",
+    "教程",
+    "AI",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工具分享、教程、AI）。本人 X 简介要点：「🚀游戏开发工程师 💡分享AI相关的知识和工具 ✍️写小白教程 | 如何用AI杠杆自己 主打一个能看懂，照着能产出的友好体验」",
+  "verified_works": [
+    {
+      "title": "my.feishu.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://my.feishu.cn/wiki/S6gNwDpoMiGiCYkQHqKcRRD9nRe?from=from_copylink"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15005,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:00:01+08:00",
+  "lead_sources": [
+    "list:2106180977165033490"
+  ],
+  "service_board": null
+}

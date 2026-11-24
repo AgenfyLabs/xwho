@@ -1,0 +1,28 @@
+{
+  "x_user_id": "1560671619218960384",
+  "handle": "silsrc",
+  "display_name": "scr.c",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "Linux",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、Linux、工程师）。本人 X 简介要点：「开源爱好，万能工程师（存疑），现代魔法老中登，不擅长写代码，假装是计算机科学家，Linux Kernel Hacker。」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12258,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T01:00:13+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

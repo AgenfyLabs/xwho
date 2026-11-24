@@ -1,0 +1,29 @@
+{
+  "x_user_id": "1998006140286935041",
+  "handle": "QingQ77",
+  "display_name": "Geek Lite",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「✨分享一些有用好玩的 GitHub 项目」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 32879,
+    "as_of": "2026-11-24T20:40:17+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T20:33:57+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2040768193241948456",
+    "list:2106180977165033490",
+    "list:2108593047076479465",
+    "list:2108752382914166937"
+  ],
+  "service_board": null
+}

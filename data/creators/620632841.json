@@ -1,0 +1,43 @@
+{
+  "x_user_id": "620632841",
+  "handle": "nytchinese",
+  "display_name": "纽约时报中文网",
+  "vertical": "media",
+  "role_tags": [
+    "brand-account"
+  ],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「纽约时报中文网官方X帐号。Official X Account of The New York Times Chinese…」",
+  "verified_works": [
+    {
+      "title": "cn.nytimes.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://cn.nytimes.com"
+    },
+    {
+      "title": "apple.co",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://apple.co/2aLBQZl"
+    },
+    {
+      "title": "bit.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://bit.ly/2qbAFH4"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3805589,
+    "as_of": "2026-11-24T20:39:52+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T18:00:00+08:00",
+  "lead_sources": [
+    "list:2117854784849850419"
+  ],
+  "service_board": null
+}

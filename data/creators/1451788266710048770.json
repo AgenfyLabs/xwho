@@ -1,0 +1,27 @@
+{
+  "x_user_id": "1451788266710048770",
+  "handle": "cnpoliwatch",
+  "display_name": "中国人事观察",
+  "vertical": "media",
+  "role_tags": [
+    "brand-account"
+  ],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「实事求是」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 122937,
+    "as_of": "2026-11-24T20:39:52+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T10:10:19+08:00",
+  "lead_sources": [
+    "list:2117854784849850419"
+  ],
+  "service_board": null
+}

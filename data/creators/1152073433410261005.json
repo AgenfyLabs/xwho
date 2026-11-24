@@ -1,0 +1,34 @@
+{
+  "x_user_id": "1152073433410261005",
+  "handle": "10xmylife",
+  "display_name": "海明Dev",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "科技观察",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、科技观察、AI）。本人 X 简介要点：「AI、科技、独立开发 And I thank God I'm alive」",
+  "verified_works": [
+    {
+      "title": "heylink.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://heylink.me/hammingdev"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 17434,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T13:59:41+08:00",
+  "lead_sources": [
+    "list:1955875889310523835"
+  ],
+  "service_board": null
+}

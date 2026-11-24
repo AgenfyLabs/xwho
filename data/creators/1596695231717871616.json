@@ -1,0 +1,40 @@
+{
+  "x_user_id": "1596695231717871616",
+  "handle": "dontbesilent",
+  "display_name": "dontbesilent",
+  "vertical": "media",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "视频"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（开源、视频）。本人 X 简介要点：「💻 开源了我的商业/内容方法论：dbskill 📱 抖音/小红书/视频号：dontbesilent 聊赚钱 🎟️ 1.22…」",
+  "verified_works": [
+    {
+      "title": "mp.weixin.qq.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://mp.weixin.qq.com/s/S2EM4NesVz4tWsdFYDP93w?from=groupmessage&isappinstalled=1&scene=1&clickti"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 95526,
+    "as_of": "2026-11-24T20:39:53+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:30:06+08:00",
+  "lead_sources": [
+    "list:1748001702341665088",
+    "list:1961235697677017443",
+    "list:2011224544821068243",
+    "list:2107361230671458651",
+    "list:2114630189598535837",
+    "list:2117554890109051373",
+    "list:2120088948584153340",
+    "list:2124850893338099810"
+  ],
+  "service_board": null
+}

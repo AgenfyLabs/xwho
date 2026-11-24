@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1726455823919149056",
+  "handle": "atxhdq1124",
+  "display_name": "郑国成",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "内容创作",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（内容创作、科技观察）。本人 X 简介要点：「油管频道」",
+  "verified_works": [
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@%E9%83%91%E5%9B%BD%E6%88%90%E5%B0%8F%E5%8F%B7"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13222,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-10-26T14:07:09+08:00",
+  "lead_sources": [
+    "list:1978334783357751625"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,33 @@
+{
+  "x_user_id": "913320844411019265",
+  "handle": "agintender",
+  "display_name": "danny",
+  "vertical": "crypto",
+  "role_tags": [],
+  "sub_tags": [
+    "Web3",
+    "加密研究"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（Web3、加密研究）。本人 X 简介要点：「barista @youcanshortit by @marginx_io Tweets are NFA. Not here…」",
+  "verified_works": [
+    {
+      "title": "substack.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://substack.com/@agintender"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 34706,
+    "as_of": "2026-11-24T20:40:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T17:32:54+08:00",
+  "lead_sources": [
+    "list:2108554035381019109",
+    "list:2113479692531745017",
+    "mention-graph:@wublockchain12"
+  ],
+  "service_board": null
+}

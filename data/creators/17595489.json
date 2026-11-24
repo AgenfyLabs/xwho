@@ -1,0 +1,33 @@
+{
+  "x_user_id": "17595489",
+  "handle": "RFA_Chinese",
+  "display_name": "自由亚洲电台",
+  "vertical": "media",
+  "role_tags": [
+    "brand-account"
+  ],
+  "sub_tags": [
+    "资讯",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（资讯、内容创作）。本人 X 简介要点：「提供准确及时的新闻资讯以及评论，为多元意见及声音提供平台。RT≠Endorsement」",
+  "verified_works": [
+    {
+      "title": "rfa.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://www.rfa.org/mandarin"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1753057,
+    "as_of": "2026-11-24T20:39:52+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:38:22+08:00",
+  "lead_sources": [
+    "list:2117854784849850419"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,27 @@
+{
+  "x_user_id": "1888068903794102272",
+  "handle": "shitunote",
+  "display_name": "马识途",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "AIGC",
+    "视频",
+    "工具分享",
+    "教程"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（AIGC、视频、工具分享）。本人 X 简介要点：「📈 AI产业观察，AI与工作、生活 🤖 垂类模型测评、AI工具使用教程 🎨 AIGC探索，AI创意视频制作 👨‍💻 AI+自…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6374,
+    "as_of": "2026-11-24T20:39:53+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:53:23+08:00",
+  "lead_sources": [
+    "list:2114630189598535837"
+  ],
+  "service_board": null
+}

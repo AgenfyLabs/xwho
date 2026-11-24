@@ -1,0 +1,43 @@
+{
+  "x_user_id": "1619961638140149766",
+  "handle": "justinleei",
+  "display_name": "李举刚",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "investor"
+  ],
+  "sub_tags": [
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（产品、AI）。本人 X 简介要点：「AI产品合伙人 | · | wx: JustinLeei」",
+  "verified_works": [
+    {
+      "title": "lijugang.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://lijugang.ai"
+    },
+    {
+      "title": "beeger.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://beeger.cn"
+    },
+    {
+      "title": "snapwriter.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://snapwriter.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 10712,
+    "as_of": "2026-11-24T20:46:19+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-16T14:24:07+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

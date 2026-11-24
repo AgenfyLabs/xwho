@@ -1,0 +1,34 @@
+{
+  "x_user_id": "1711302205914112000",
+  "handle": "gloridust1024",
+  "display_name": "Ethan Zou",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI、开发者）。本人 X 简介要点：「🛠️Dev/PM | Gen Z | 💭infp | 🏠远程工作&独立开发 👆Developer of Tikmy | 油迹…」",
+  "verified_works": [
+    {
+      "title": "isethan.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://isethan.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 2827,
+    "as_of": "2026-11-24T20:44:04+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T03:56:56+08:00",
+  "lead_sources": [
+    "list:2040768193241948456"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,26 @@
+{
+  "x_user_id": "2026298489899241472",
+  "handle": "K362687",
+  "display_name": "南一",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、内容创作）。本人 X 简介要点：「聊人性、视频分享，记录生活」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 22155,
+    "as_of": "2026-11-24T20:43:41+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T19:56:57+08:00",
+  "lead_sources": [
+    "list:1961235697677017443",
+    "list:2108593047076479465"
+  ],
+  "service_board": null
+}
