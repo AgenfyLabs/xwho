@@ -6,6 +6,7 @@ export const SESSION_COOKIE = "xwho_session";
 export const FLOW_COOKIE = "xwho_oauth";
 export const SESSION_TTL = 7 * 86400;
 export const FLOW_TTL = 10 * 60;
+export const X_LOGIN_SCOPE = "users.read tweet.read";
 export function appOrigin() {
   return new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000").origin;
 }
@@ -49,7 +50,7 @@ export function beginOAuth(now = Date.now()) {
   const verifier = randomBytes(48).toString("base64url");
   const url = new URL("https://x.com/i/oauth2/authorize");
   url.search = new URLSearchParams({
-    response_type: "code", client_id: process.env.X_CLIENT_ID!, redirect_uri: callback(), scope: "users.read",
+    response_type: "code", client_id: process.env.X_CLIENT_ID!, redirect_uri: callback(), scope: X_LOGIN_SCOPE,
     state, code_challenge: createHash("sha256").update(verifier).digest("base64url"), code_challenge_method: "S256",
   }).toString();
   return { url, cookie: sign("oauth", { state, verifier }, FLOW_TTL, now) };

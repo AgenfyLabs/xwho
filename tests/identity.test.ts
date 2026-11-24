@@ -1,10 +1,11 @@
 import { createHash } from "node:crypto";
 import { NextRequest } from "next/server";
 import { afterEach, beforeEach, expect, it, vi } from "vitest";
-import { beginOAuth, cookieOptions, exchangeIdentity, readSession, sessionCookie, verifyFlow } from "../src/lib/x-oauth";
+import { beginOAuth, cookieOptions, readSession, sessionCookie, verifyFlow } from "../src/lib/x-oauth";
 import { ApplicationInputSchema, editProfile, ProfileInputSchema } from "../src/lib/identity";
 import { POST as profilePost } from "../src/app/api/profile/route";
 import { POST as applyPost } from "../src/app/api/apply/route";
+import { GET as login } from "../src/app/api/auth/x/login/route";
 import { GET as callback } from "../src/app/api/auth/x/callback/route";
 import CreatorPage from "../src/app/creator/[handle]/page";
 import * as data from "../src/lib/data";
@@ -15,11 +16,17 @@ beforeEach(() => {
   vi.stubEnv("GITHUB_TOKEN", ""); vi.stubEnv("NEXT_PUBLIC_APP_URL", "https://xwho.example");
 });
 afterEach(() => { vi.unstubAllEnvs(); vi.unstubAllGlobals(); vi.restoreAllMocks(); });
-it("PKCE S256、仅 users.read、签名、状态、有效期及 Cookie 标记", () => {
+it("登录入口跳转至 X 且 scope 只含 users.read 和 tweet.read", () => {
+  const res = login(new NextRequest("https://xwho.example/api/auth/x/login"));
+  expect(res.status).toBe(307);
+  const url = new URL(res.headers.get("location")!);
+  expect(url.origin + url.pathname).toBe("https://x.com/i/oauth2/authorize");
+  expect(url.searchParams.getAll("scope")).toEqual(["users.read tweet.read"]);
+});
+it("PKCE S256、签名、状态、有效期及 Cookie 标记", () => {
   const { cookie, url } = beginOAuth(100);
   const state = url.searchParams.get("state");
   const verifier = verifyFlow(cookie, state, 101);
-  expect(url.searchParams.get("scope")).toBe("users.read");
   expect(url.searchParams.get("code_challenge")).toBe(createHash("sha256").update(verifier).digest("base64url"));
   expect(() => verifyFlow(cookie, "other", 101)).toThrow();
   expect(() => verifyFlow(cookie, state, 700000)).toThrow();
@@ -30,17 +37,22 @@ it("PKCE S256、仅 users.read、签名、状态、有效期及 Cookie 标记", 
   expect(readSession(session, 8 * 86400000)).toBeNull();
   expect(cookieOptions(20)).toMatchObject({ httpOnly: true, sameSite: "lax", secure: true });
 });
-it("回调只从官方 /users/me 建立身份，权限不足不签发会话", async () => {
-  const http = vi.fn().mockResolvedValueOnce(Response.json({ access_token: "test-token" })).mockResolvedValueOnce(Response.json({ data: { ...owner, verified: false } }));
+it.each([
+  { status: 200, redirect: "/dashboard", authenticated: true },
+  { status: 403, redirect: "/dashboard?auth=scope", authenticated: false },
+])("X 身份接口返回 $status 时，回调跳转至 $redirect", async ({ status, redirect, authenticated }) => {
+  const me = authenticated ? Response.json({ data: { ...owner, verified: false } }) : new Response(null, { status });
+  const http = vi.fn()
+    .mockResolvedValueOnce(Response.json({ access_token: "test-token", scope: "users.read tweet.read" }))
+    .mockResolvedValueOnce(me);
   vi.stubGlobal("fetch", http);
-  expect(await exchangeIdentity("test-code", "test-verifier")).toEqual(owner);
-  expect(http.mock.calls[1][0]).toBe("https://api.x.com/2/users/me");
   const flow = beginOAuth();
-  http.mockResolvedValueOnce(Response.json({ access_token: "test-token" })).mockResolvedValueOnce(new Response(null, { status: 403 }));
   const req = new NextRequest(`https://xwho.example/api/auth/x/callback?code=test&state=${flow.url.searchParams.get("state")}`, { headers: { cookie: `xwho_oauth=${flow.cookie}` } });
   const res = await callback(req);
-  expect(res.headers.get("location")).toBe("https://xwho.example/dashboard?auth=scope");
-  expect(res.cookies.has("xwho_session")).toBe(false);
+  expect(http.mock.calls.map(([url]) => url)).toEqual(["https://api.x.com/2/oauth2/token", "https://api.x.com/2/users/me"]);
+  expect(res.headers.get("location")).toBe(`https://xwho.example${redirect}`);
+  expect(res.cookies.has("xwho_session")).toBe(authenticated);
+  expect(readSession(res.cookies.get("xwho_session")?.value)).toEqual(authenticated ? owner : null);
   expect(res.cookies.get("xwho_oauth")?.value).toBe("");
 });
 it("认领只匹配数字 ID，同名不能代认领；隐藏必须主动恢复", () => {

@@ -55,7 +55,9 @@ npm run import:pool -- --input /path/to/verified-directory --tier api-verified
 | GITHUB_BASE_BRANCH | 默认 main |
 | GITHUB_WRITE_MODE | 默认 pr，direct 仅对已有档案变更生效 |
 
-在 X 开发者控制台登记与 NEXT_PUBLIC_APP_URL 完全一致的 /api/auth/x/callback 回调。流程使用 PKCE S256、随机 state、10 分钟流程 Cookie 和 7 天 HMAC 会话。Cookie 使用 HttpOnly、SameSite=Lax，HTTPS 附加 Secure。会话只保存数字 ID、用户名和显示名。应用仅请求 users.read。X 官方权限映射给 GET /2/users/me 同时列出 tweet.read 与 users.read。若上游拒绝当前权限，工作台会提示，本次无法认领。扩大授权范围需要项目方明确决定。[X 官方权限映射](https://docs.x.com/fundamentals/authentication/guides/v2-authentication-mapping)
+在 X 开发者控制台登记与 NEXT_PUBLIC_APP_URL 完全一致的 /api/auth/x/callback 回调。登录仅请求 `users.read` 和 `tweet.read`，这是 X 为 `GET /2/users/me` 列出的两项只读权限。回调换取访问令牌后，只调用该身份接口，取得本人的数字 ID、用户名和显示名。[X 官方权限映射](https://docs.x.com/fundamentals/authentication/guides/v2-authentication-mapping)
+
+流程使用 PKCE S256 和随机 state，流程 Cookie 有效期为 10 分钟。身份核验成功后，服务器将上述三个字段写入有效期为 7 天的 HMAC 签名会话。Cookie 使用 HttpOnly、SameSite=Lax，HTTPS 附加 Secure。
 
 缺少 X 配置时，工作台可本地校验并预览申请 JSON。已验证身份但缺少 GITHUB_TOKEN 时，可预览本人档案或申请的 JSON 补丁。页面提供 GitHub 仓库入口。
 

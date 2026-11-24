@@ -54,7 +54,7 @@
 │   │   ├── schema.ts                   # Creator / Milestone / ServiceBoard Zod Schema
 │   │   ├── data.ts                     # 数据读取、筛选、排序、分页与隐藏过滤
 │   │   ├── digest.ts                   # 「中推今日大事件」按 UTC+8 分组与推文草稿生成器
-│   │   ├── x-oauth.ts                  # X OAuth 2.0 PKCE（最小权限 users.read）+ 签名 Cookie 会话
+│   │   ├── x-oauth.ts                  # X OAuth 2.0 PKCE（只读权限 users.read 和 tweet.read）+ 签名 Cookie 会话
 │   │   └── github-writer.ts            # 将认领修改/隐藏/入库申请写入 GitHub（PR 或 direct 模式）
 │   └── app/
 │       ├── page.tsx                    # 首页：500+ 创作者黄皮书目录
@@ -198,7 +198,7 @@
 
 ### 4.4 本人认领与申请工作台 `/dashboard`
 - **X OAuth 2.0（PKCE）登录**：
-  - 仅申请最小只读权限 `users.read`（不申请发推、关注或私信权限），拿回当前登录用户的 `x_user_id`、`username`、`name`。
+  - 仅申请 `users.read` 和 `tweet.read` 两项只读权限（不申请发推、关注或私信权限）。回调通过 `GET /2/users/me` 读取当前登录用户的 `id`、`username`、`name`，以 `id` 匹配档案的 `x_user_id`。[X 官方权限映射](https://docs.x.com/fundamentals/authentication/guides/v2-authentication-mapping)
   - 使用 HttpOnly + SameSite=Lax 的 HMAC 签名 Cookie 保存登录态（依赖 `SESSION_SECRET`）。
 - **登录后分支**：
   1. **已在黄皮书库中（按 `x_user_id` 匹配）**：
@@ -231,7 +231,7 @@
 # 应用公开访问地址（本地开发 http://localhost:3000）
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 
-# X OAuth 2.0（只需 users.read 只读权限）
+# X OAuth 2.0（仅请求 users.read 和 tweet.read 两项只读权限）
 X_CLIENT_ID=
 X_CLIENT_SECRET=
 
@@ -268,6 +268,6 @@ Codex 在结束初始化前必须全部完成并验证通过以下项目：
 - [ ] 完成全部目录结构、四大页面、X OAuth 2.0 路由、GitHub 写入层、`validate-data.ts`、`import-pool.ts`、GitHub Actions CI 与 PR 模板、以及 `AGENTS.md` / `README.md`。
 - [ ] 放入至少 3–5 条示例骨架数据（或等待导入真实 500+ 数据文件；若放示例数据，在 README 明确标注为占位示例，切勿冒充已核验真实创作者，最好直接留好 `import-pool.ts` 待导入真实 500+ 数据）。
 - [ ] `npm run validate:data` 退出码 `0`。
-- [ ] `npm test` 全部通过（至少覆盖：Schema 校验、重复 `x_user_id`/`handle` 拦截、`unclaimed` 带 `service_board` 拦截、`hidden` 过滤与 404、`events` 按 UTC+8 日期分组与推文草稿输出）。
+- [ ] `npm test` 全部通过（至少覆盖：Schema 校验、重复 `x_user_id`/`handle` 拦截、`unclaimed` 带 `service_board` 拦截、`hidden` 过滤与 404、`events` 按 UTC+8 日期分组与推文草稿输出，以及 X 登录跳转只请求 `users.read` 和 `tweet.read`）。
 - [ ] `npm run build` 生产构建零报错通过。
 - [ ] 确认未配置 `.env` 时本地 `npm run dev` 首页、详情页、`/events`、`/dashboard` 均可正常打开且无服务端崩溃。
