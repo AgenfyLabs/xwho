@@ -1,0 +1,41 @@
+{
+  "x_user_id": "1747086497520742400",
+  "handle": "chaosflutt28952",
+  "display_name": "chaosflutter",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "产品",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（产品、程序员）。本人 X 简介要点：「程序员、生产者 - 产品： - 产品： - 博客」",
+  "verified_works": [
+    {
+      "title": "siphon.ink",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://siphon.ink"
+    },
+    {
+      "title": "memowise.ink",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://memowise.ink"
+    },
+    {
+      "title": "zhengchao.link",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zhengchao.link"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5108,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-05-25T20:45:43+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

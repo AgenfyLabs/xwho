@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1792608085409939456",
+  "handle": "Astronaut_1216",
+  "display_name": "叫我阿杭",
+  "vertical": "media",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "提示词",
+    "独立开发",
+    "产品",
+    "创业"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（提示词、独立开发、产品）。本人 X 简介要点：「🐺01年 连续创业者 | 提示词专家丨AI工具测评分享丨前AI产品经理 📚文科生丨AI自媒体博主丨独立开发丨AI收入6位数…」",
+  "verified_works": [
+    {
+      "title": "zephyr8.asia",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://zephyr8.asia"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 32121,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:58:03+08:00",
+  "lead_sources": [
+    "xnav"
+  ],
+  "service_board": null
+}

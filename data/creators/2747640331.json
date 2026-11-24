@@ -1,0 +1,41 @@
+{
+  "x_user_id": "2747640331",
+  "handle": "xiqingongzi",
+  "display_name": "Bestony | 白宦成",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "写作",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、写作、产品）。本人 X 简介要点：「Creator & 独立开发者， 站长。聊独立开发、产品研发、自由职业和读书写作。 Ex-@BytedanceTalk In…」",
+  "verified_works": [
+    {
+      "title": "ixiqin.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.ixiqin.com/"
+    },
+    {
+      "title": "goodfirstissue.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://goodfirstissue.org"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 10359,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T21:56:56+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

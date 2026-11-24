@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1689969438484033536",
+  "handle": "o12er_banana",
+  "display_name": "分形香蕉",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「开源爱好者，@kanaries_data 创始人，@ob12er 的中文号；副业」",
+  "verified_works": [
+    {
+      "title": "github.com/ObservedObserver",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/ObservedObserver"
+    },
+    {
+      "title": "runcell.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://runcell.dev"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 642,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-10-10T11:25:12+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

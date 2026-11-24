@@ -1,0 +1,43 @@
+{
+  "x_user_id": "5967912",
+  "handle": "tinyfool",
+  "display_name": "Tinyfool",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "程序员"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、程序员）。本人 X 简介要点：「Youtuber 20年老程序员，业已退休，不以写代码为主业。 不是英语老师，但开发了\"英语轻松读\"，做了广受好评的学习英语…」",
+  "verified_works": [
+    {
+      "title": "codechina.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://codechina.org/"
+    },
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://youtube.com/c/tinyfoolgmail"
+    },
+    {
+      "title": "tinyurl.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://tinyurl.com/2j928ecm"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 197399,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:31:39+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

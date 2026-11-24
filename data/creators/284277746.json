@@ -1,0 +1,33 @@
+{
+  "x_user_id": "284277746",
+  "handle": "johnny____11",
+  "display_name": "Johnny",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "Apple 开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（Apple 开发、AI）。本人 X 简介要点：「iOS 工程師 | Co-Founder of Bus+ 最近做了一個很讚的天氣 app」",
+  "verified_works": [
+    {
+      "title": "apps.apple.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://apps.apple.com/app/apple-store/id6762736722?pt=1224644&ct=t1&mt=8"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 4149,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-07-05T12:21:34+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

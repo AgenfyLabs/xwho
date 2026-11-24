@@ -1,0 +1,40 @@
+{
+  "x_user_id": "720424990663774208",
+  "handle": "daqi029",
+  "display_name": "Mengqi Pei",
+  "vertical": "geo",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "AI 编程",
+    "增长",
+    "产品",
+    "AI"
+  ],
+  "summary": "GEO / SEO / 出海增长方向的中文 X 创作者（AI 编程、增长、产品）。本人 X 简介要点：「🌍 Builder 🩺 AI 产品增长顾问。帮已上线产品找转化试用付费和 Onboarding 卡点 ⭐️ Ex-Aliba…」",
+  "verified_works": [
+    {
+      "title": "mengqi.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://mengqi.cc"
+    },
+    {
+      "title": "vcc.mengqi.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://vcc.mengqi.cc"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5452,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:45:18+08:00",
+  "lead_sources": [
+    "x-yuzong"
+  ],
+  "service_board": null
+}

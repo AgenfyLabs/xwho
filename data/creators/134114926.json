@@ -1,0 +1,39 @@
+{
+  "x_user_id": "134114926",
+  "handle": "jimmyhuli",
+  "display_name": "Jimmy狐狸",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "财经投资",
+    "AI 编程",
+    "科技观察",
+    "美股"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（AI 编程、科技观察、美股）。本人 X 简介要点：「Vibe Investing & Vibe Coding 两年30倍，投资、分享美股的成长科技股 个人Substack： ，…」",
+  "verified_works": [
+    {
+      "title": "hulicalendar.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://hulicalendar.com"
+    },
+    {
+      "title": "jimmyhuli.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://jimmyhuli.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 24915,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T05:42:45+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,43 @@
+{
+  "x_user_id": "86696715",
+  "handle": "hzlzh",
+  "display_name": "自力6XStudio",
+  "vertical": "media",
+  "role_tags": [
+    "founder",
+    "ex-bigtech",
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "播客",
+    "设计"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（独立开发、播客、设计）。本人 X 简介要点：「6X Studio 创始人 | @fyfyFM 枫言枫语播客主播 | 前腾讯设计师 📱 App：@LockLauncherA…」",
+  "verified_works": [
+    {
+      "title": "hzlzh.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://hzlzh.app"
+    },
+    {
+      "title": "xyzrank.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xyzrank.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 43778,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:20:36+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

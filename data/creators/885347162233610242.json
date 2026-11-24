@@ -1,0 +1,44 @@
+{
+  "x_user_id": "885347162233610242",
+  "handle": "ai_xiaomu",
+  "display_name": "黄小木",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "大模型",
+    "AIGC",
+    "教程",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（大模型、AIGC、教程）。本人 X 简介要点：「👨‍💻 5 * Dgx Spark 玩家，本地越狱大模型爱好者。 💼 分享 AIGC 经验，AI小白教程，AI落地案例。 👭…」",
+  "verified_works": [
+    {
+      "title": "pay.imhxm.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://pay.imhxm.com"
+    },
+    {
+      "title": "imhxm.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://imhxm.com"
+    },
+    {
+      "title": "aftno.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://aftno.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 57772,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:12:00+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

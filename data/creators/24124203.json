@@ -1,0 +1,37 @@
+{
+  "x_user_id": "24124203",
+  "handle": "waylybaye",
+  "display_name": "Baye",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "OpenCat",
+    "独立开发",
+    "App"
+  ],
+  "summary": "简介写的是：「一个自由的程序员，以卖 App 为生。边全球旅居边创作产品。」公开作品包括熊猫吃短信、DAMA、ServerCat、OpenCat、Miley。其中 OpenCat 仍在更新，是面向 Mac / iOS 的 AI 客户端。本次没有找到他本人公布的下载量或营收数字。",
+  "verified_works": [
+    {
+      "title": "OpenCat",
+      "description": "面向 Mac / iOS 的 AI 客户端，官网可打开。本次未采用无法核对的下载量或营收数字。",
+      "url": "https://opencat.app"
+    }
+  ],
+  "quote": {
+    "text": "不睡了，起来更新 OpenCat，连夜提交审核，明天早上 OpenCat Cloud 用户们睡醒大概就能玩到最新模型了。",
+    "source_url": "https://x.com/waylybaye/status/1834299455631491556",
+    "published_at": "2024-09-12"
+  },
+  "followers_snapshot": {
+    "count": 165625,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

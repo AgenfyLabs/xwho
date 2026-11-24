@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1226419222474936320",
+  "handle": "canghe",
+  "display_name": "苍何",
+  "vertical": "geo",
+  "role_tags": [
+    "founder",
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "GEO",
+    "前排 GEO",
+    "wesight"
+  ],
+  "summary": "前阿里工程师、Microsoft MVP，X 简介为 @wesight_ai 创始人。向阳乔木在第二届 GEO 大会嘉宾介绍里写明：他有一家 GEO 服务公司「前排 GEO」，这次会讲落地服务实战。大会结束后，苍何自己发了复盘长帖。本次未找到可核对的客户数量或合同额。",
+  "verified_works": [
+    {
+      "title": "第二届 GEO 大会踩坑复盘",
+      "description": "大会结束后公开发布的复盘长帖，提出 GEO 的本质是在建设 AI 信任资产。本次未打开「前排 GEO」独立官网，也不写入客户数量。",
+      "url": "https://x.com/canghe/status/2124542534802403711"
+    }
+  ],
+  "quote": {
+    "text": "GEO的本质是在建设AI信任资产，所以无论是你在选择服务商还是你在选择客户，都要选择一些长期主义的，愿意持续运营的。",
+    "source_url": "https://x.com/canghe/status/2124542534802403711",
+    "published_at": "2026-11-24"
+  },
+  "followers_snapshot": {
+    "count": 48429,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

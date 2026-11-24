@@ -1,0 +1,41 @@
+{
+  "x_user_id": "8504312",
+  "handle": "lexrus",
+  "display_name": "Lex Tang",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "Apple 开发",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（Apple 开发、开发者）。本人 X 简介要点：「iOS/macOS developer Building My apps」",
+  "verified_works": [
+    {
+      "title": "lex.sh",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://lex.sh"
+    },
+    {
+      "title": "lex.sh",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://lex.sh/sublist"
+    },
+    {
+      "title": "lex.sh",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://lex.sh/apps"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 28202,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:06:01+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,27 @@
+{
+  "x_user_id": "1474067654",
+  "handle": "lijigang",
+  "display_name": "李继刚",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「我与 AI 周旋久，宁做我」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 58664,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T12:11:00+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xguide-anysome-apache",
+    "xnav"
+  ],
+  "service_board": null
+}

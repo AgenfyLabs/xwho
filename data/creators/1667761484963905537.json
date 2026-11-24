@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1667761484963905537",
+  "handle": "fetalkpodcast",
+  "display_name": "前端輕鬆聊",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "前端",
+    "科技观察",
+    "工程师"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（前端、科技观察、工程师）。本人 X 简介要点：「前端輕鬆聊是一個在北美科技公司擔任 Staff Software Engineer, Eric @sdusteric 所主持…」",
+  "verified_works": [
+    {
+      "title": "fetalk.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://fetalk.dev"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3287,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T11:58:00+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

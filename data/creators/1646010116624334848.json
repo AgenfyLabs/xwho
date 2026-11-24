@@ -1,0 +1,44 @@
+{
+  "x_user_id": "1646010116624334848",
+  "handle": "weijunext",
+  "display_name": "weijunext",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "SaaS",
+    "出海"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、SaaS、出海）。本人 X 简介要点：「⛵️出海软件开发｜英国远程工作｜ Next.js SaaS 模板： ｜ Nextjs 中文文档： ｜ 开源」",
+  "verified_works": [
+    {
+      "title": "weijunext.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://weijunext.com"
+    },
+    {
+      "title": "nexty.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://nexty.dev"
+    },
+    {
+      "title": "nextjscn.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://nextjscn.org"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14393,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T11:38:37+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

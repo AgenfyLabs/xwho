@@ -1,0 +1,38 @@
+{
+  "x_user_id": "86485620",
+  "handle": "adaaaamwen",
+  "display_name": "Adam Wen",
+  "vertical": "media",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "Python",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（Python、内容创作）。本人 X 简介要点：「欢迎创作者来撩｜@pythonhunter__ Co-Founder｜OSQDU 成员 | 戒断碳酸饮料失败者」",
+  "verified_works": [
+    {
+      "title": "darkof.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://darkof.me"
+    },
+    {
+      "title": "zhubai.love",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://zhubai.love"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 2929,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-08-12T11:33:54+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

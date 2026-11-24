@@ -1,0 +1,33 @@
+{
+  "x_user_id": "2585632027",
+  "handle": "im23pds",
+  "display_name": "23pds (山哥)",
+  "vertical": "crypto",
+  "role_tags": [],
+  "sub_tags": [
+    "比特币",
+    "Web3",
+    "AI"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（比特币、Web3、AI）。本人 X 简介要点：「Dad/@SlowMist_Team Partner&CISO/#Web3 Security Researcher/RedT…」",
+  "verified_works": [
+    {
+      "title": "slowmist.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.slowmist.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16131,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T07:51:07+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

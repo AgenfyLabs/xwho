@@ -1,0 +1,36 @@
+{
+  "x_user_id": "4872036415",
+  "handle": "MooenyChu",
+  "display_name": "穆尼",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "内容创作"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、内容创作）。本人 X 简介要点：「资深自媒体从业者 ，Video Creator，常旅客玩家。收集分享各种互联网“垃圾”🤦‍♂️。 YouTube个人主页：…」",
+  "verified_works": [
+    {
+      "title": "goo.gl",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://goo.gl/dwHnCE"
+    },
+    {
+      "title": "hz.montaigne.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://hz.montaigne.io"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 35159,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-19T08:42:30+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

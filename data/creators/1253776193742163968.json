@@ -1,0 +1,43 @@
+{
+  "x_user_id": "1253776193742163968",
+  "handle": "sun0225SUN",
+  "display_name": "小孙同学（沉淀版）",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "前端",
+    "科技观察",
+    "产品",
+    "摄影"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（前端、科技观察、产品）。本人 X 简介要点：「🖥️ 前端小学生（React）｜📸 摄影爱好者（Nikon）｜🛸 旅行探索家（体验派）｜🚴 骑行蹭风选手（ Java 鱼雷…」",
+  "verified_works": [
+    {
+      "title": "guoqi.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://guoqi.dev"
+    },
+    {
+      "title": "cyc.earth",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://cyc.earth"
+    },
+    {
+      "title": "camlife.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://camlife.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5899,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T17:33:08+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

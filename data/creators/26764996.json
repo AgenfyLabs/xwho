@@ -1,0 +1,33 @@
+{
+  "x_user_id": "26764996",
+  "handle": "csdncto",
+  "display_name": "jiang tao",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "开发者",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开发者、AI）。本人 X 简介要点：「Founder, CEO of CSDN, No.1 Chinese Developer Community」",
+  "verified_works": [
+    {
+      "title": "blog.csdn.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://blog.csdn.net/jiangtao/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9668,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-07-29T07:00:33+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

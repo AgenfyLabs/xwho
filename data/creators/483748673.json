@@ -1,0 +1,43 @@
+{
+  "x_user_id": "483748673",
+  "handle": "mindaoyang",
+  "display_name": "Mindao（杨民道）",
+  "vertical": "crypto",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "DeFi",
+    "稳定币",
+    "AI x Crypto"
+  ],
+  "summary": "dForce 创始人兼 CEO，此前创立 Blockpower、联合创立 Hashingbot，曾任职弘毅投资与渣打直投；在 X 上写稳定币格局与 DeFi 结构评论，发帖频率较低。",
+  "verified_works": [
+    {
+      "title": "dForce 创始人",
+      "description": "Crunchbase 人物页列为 Founder & CEO @ dForce；dForce 官方号简介为 DeFAI 网络。",
+      "url": "https://www.crunchbase.com/person/mindao-yang"
+    },
+    {
+      "title": "Decrypt 专访",
+      "description": "Decrypt 对 dForce 创始人 Mindao Yang 的专访。",
+      "url": "https://decrypt.co/26069/exclusive-an-interview-with-dforce-founder-mindao-yang"
+    },
+    {
+      "title": "稳定币三派系评论",
+      "description": "2026-07-01 原帖把稳定币分为正生 USDC、去中心化 USDS/DAI、野生 USDT，并判断 USDC 护城河最弱。",
+      "url": "https://x.com/mindaoyang/status/2072198197393621279"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 59967,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

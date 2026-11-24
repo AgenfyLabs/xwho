@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1640604020766298113",
+  "handle": "s1ntone",
+  "display_name": "野原新之栋 Sintone",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "Apple 生态",
+    "出海",
+    "效率工具"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、Apple 生态、出海）。本人 X 简介要点：「🖥️ macOS 独立开发者 | 效率工具爱好者 📹 @ScreenSageApp Mac 录屏- 让录屏直出课程变得简单…」",
+  "verified_works": [
+    {
+      "title": "sintoneli.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://sintoneli.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6859,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:40:10+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

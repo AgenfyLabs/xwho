@@ -1,0 +1,41 @@
+{
+  "x_user_id": "38167656",
+  "handle": "JefferyTatsuya",
+  "display_name": "Jeffery Kaneda　金田達也",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「(AI搜索引擎） - （企业知识引擎） - Felo字幕会议纪要」",
+  "verified_works": [
+    {
+      "title": "jeff.circleo.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://jeff.circleo.me"
+    },
+    {
+      "title": "Sparticle.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://Sparticle.com"
+    },
+    {
+      "title": "Felo.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://Felo.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 22893,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-03T11:01:36+08:00",
+  "lead_sources": [
+    "xnav"
+  ],
+  "service_board": null
+}

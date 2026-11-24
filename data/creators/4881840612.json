@@ -1,0 +1,40 @@
+{
+  "x_user_id": "4881840612",
+  "handle": "9yearfish",
+  "display_name": "9YearFish",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "出海",
+    "产品",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、出海、产品）。本人 X 简介要点：「👨‍💻10 年程序员独立开发了一个小众行业的 ERP，服务国内头部商家。 💡今年目标 2B 业务的新产品出海必须盈利（说了两…」",
+  "verified_works": [
+    {
+      "title": "aoxiang.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://aoxiang.me"
+    },
+    {
+      "title": "freemd2pdf.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://freemd2pdf.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14092,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-16T16:16:52+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

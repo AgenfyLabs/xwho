@@ -1,0 +1,43 @@
+{
+  "x_user_id": "920141035212124161",
+  "handle": "JourneymanChina",
+  "display_name": "Journeyman",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "出海",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（出海、AI）。本人 X 简介要点：「🛠 Noteey创始人 正在打造最好的视觉笔记软件 💰 前Videoshow联合创始人 🤓 All In 出海 | 斜杠中年…」",
+  "verified_works": [
+    {
+      "title": "noteey.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://noteey.com/"
+    },
+    {
+      "title": "noteey.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://noteey.com"
+    },
+    {
+      "title": "videoshowapp.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://videoshowapp.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 42875,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:18:40+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

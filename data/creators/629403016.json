@@ -1,0 +1,42 @@
+{
+  "x_user_id": "629403016",
+  "handle": "loki_yan_seo",
+  "display_name": "Loki Yan",
+  "vertical": "geo",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "SEO",
+    "GEO",
+    "First Optimise"
+  ],
+  "summary": "墨尔本的 SEO 与 GEO（AI Search）顾问，First Optimise 联合创始人。个人站和演讲页可核对他的公开演讲：Google Search Central Deep Dive APAC 2025、Google Search Central Live Sydney 2026、Ahrefs Evolve Singapore 2026。其 about 页自述：First Optimise 在 2026 年获 APAC Search Awards Best Start-Up Agency。",
+  "verified_works": [
+    {
+      "title": "Loki Yan 关于页",
+      "description": "公开身份为墨尔本 SEO 与 GEO 顾问、First Optimise 联合创始人。APAC Search Awards 为站点自述。",
+      "url": "https://lokiyan.com/about"
+    },
+    {
+      "title": "Loki Yan 演讲页",
+      "description": "列出 Google Search Central Deep Dive APAC 2025、Google Search Central Live Sydney 2026、Ahrefs Evolve Singapore 2026。",
+      "url": "https://lokiyan.com/speaking"
+    }
+  ],
+  "quote": {
+    "text": "GEO 的趋势：从 AI 点进来的访客，比传统搜进来的更值钱。",
+    "source_url": "https://x.com/loki_yan_seo/status/2116429328758304865",
+    "published_at": "2026-11-24"
+  },
+  "followers_snapshot": {
+    "count": 8720,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

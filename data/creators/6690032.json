@@ -1,0 +1,37 @@
+{
+  "x_user_id": "6690032",
+  "handle": "vista8",
+  "display_name": "向阳乔木",
+  "vertical": "geo",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "GEO",
+    "GEO 大会",
+    "AI 营销"
+  ],
+  "summary": "前字节跳动商业化 AI 产品经理，与姚金刚合著《AI 营销：从 SEO 到 GEO》《AI 领导力》，共同组织 GEO 大会和 WaytoAGI 的 GEO 公开课。个人站点写明两人联合做企业 GEO 咨询、培训和落地。2026-11-22 大会结束后，他对比第一届（北京）和第二届（深圳），自述「参加人数翻了三倍，分享嘉宾人数好像翻了两倍。」",
+  "verified_works": [
+    {
+      "title": "qiaomu.ai 关于页",
+      "description": "写明与姚金刚联合做企业 GEO 咨询、培训和落地，并合著《AI 营销：从 SEO 到 GEO》《AI 领导力》。",
+      "url": "https://www.qiaomu.ai/about/"
+    }
+  ],
+  "quote": {
+    "text": "GEO 一直是黑盒，有了这套系统后，所有 AI Agent 有没有抓取过你的信息，一清二楚。",
+    "source_url": "https://x.com/vista8/status/2114579446795788675",
+    "published_at": "2026-11-24"
+  },
+  "followers_snapshot": {
+    "count": 138884,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

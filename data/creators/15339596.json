@@ -1,0 +1,32 @@
+{
+  "x_user_id": "15339596",
+  "handle": "nihui",
+  "display_name": "nihui",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "程序员",
+    "游戏"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（程序员、游戏）。本人 X 简介要点：「春雨为观，香月为邻 | 喜欢玩游戏时看风景 | 想成为优秀的程序员 | 看上去是女装大佬实际并不是（ | 上海老阿姨 | q…」",
+  "verified_works": [
+    {
+      "title": "github.com/nihui",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/nihui"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 44356,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T20:39:29+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

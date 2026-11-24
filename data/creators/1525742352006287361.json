@@ -1,0 +1,29 @@
+{
+  "x_user_id": "1525742352006287361",
+  "handle": "Michael_Liu93",
+  "display_name": "憨厚的麦总",
+  "vertical": "general",
+  "role_tags": [
+    "investor"
+  ],
+  "sub_tags": [
+    "综合观察",
+    "时事评论",
+    "生活"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（时事评论、生活）。本人 X 简介要点：「Ex-VC & Banker Turned Degen, See You In The Trenches.」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 86310,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T02:17:43+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

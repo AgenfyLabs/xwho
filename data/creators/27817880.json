@@ -1,0 +1,43 @@
+{
+  "x_user_id": "27817880",
+  "handle": "MapleShadow",
+  "display_name": "枫影 Justin Yan",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "Apple 开发",
+    "Apple 生态",
+    "播客",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（Apple 开发、Apple 生态、播客）。本人 X 简介要点：「👨🏻‍💻一个苹果开发者 🎙️@fyfyFM 枫言枫语主播 ☕️Just in 迈理 📱Just Focus for Mac/…」",
+  "verified_works": [
+    {
+      "title": "justinyan.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://justinyan.me"
+    },
+    {
+      "title": "xyzrank.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xyzrank.com"
+    },
+    {
+      "title": "newsbot.justinyan.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://newsbot.justinyan.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16186,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T17:38:10+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

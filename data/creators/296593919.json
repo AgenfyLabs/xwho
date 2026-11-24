@@ -1,0 +1,46 @@
+{
+  "x_user_id": "296593919",
+  "handle": "vikingmute",
+  "display_name": "Viking",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "全栈",
+    "SaaS",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、全栈、SaaS）。本人 X 简介要点：「独立开发者 自由职业 作品 TinyShip 现代化全栈 SaaS 开发平台，支持国内外双市场 Monorepo 架构 三框…」",
+  "verified_works": [
+    {
+      "title": "vikingz.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://vikingz.me"
+    },
+    {
+      "title": "tinyship.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://tinyship.cn"
+    },
+    {
+      "title": "easycv.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://easycv.cn"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 70298,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:38:27+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xiaomingx-apache"
+  ],
+  "service_board": null
+}

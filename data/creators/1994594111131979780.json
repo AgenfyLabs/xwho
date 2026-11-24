@@ -1,0 +1,30 @@
+{
+  "x_user_id": "1994594111131979780",
+  "handle": "XiaohuiAI666",
+  "display_name": "程序员小灰",
+  "vertical": "media",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "AIGC",
+    "创业",
+    "程序员"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（AIGC、创业、程序员）。本人 X 简介要点：「公众号/知乎【程序员小灰】作者，畅销书《漫画算法》作者 前京东程序员，10年自媒体创业经历，全网70W垂直粉丝，专业指导AI…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 27666,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T20:50:00+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xguide-anysome-apache",
+    "xnav"
+  ],
+  "service_board": null
+}

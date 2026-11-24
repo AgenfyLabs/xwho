@@ -1,0 +1,42 @@
+{
+  "x_user_id": "1545677736932364289",
+  "handle": "yaojingang",
+  "display_name": "姚金刚",
+  "vertical": "geo",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "GEOFlow",
+    "GEO 大会",
+    "开源"
+  ],
+  "summary": "中文区 GEO 开源工具和行业活动的核心组织者之一。开源项目 GEOFlow 是面向企业官网的 GEO 内容工程与多站点分发系统，GitHub 仓库 yaojingang/GEOFlow 在 2026-11-24 可查到 4,192 star。他还维护 yao-geo-skills 等开源仓库，并开源了 GEOInflow。2026-11-06，他和 @vista8 向阳乔木一起把《GEO白皮书》《GEO红皮书》《GEO蓝皮书》开源，原帖自述合计 33 万字。他发起并举办第二届 GEO 大会（2026-11-21 至 11-22，深圳宝安）。",
+  "verified_works": [
+    {
+      "title": "GEOFlow",
+      "description": "面向企业官网的 GEO 内容工程与多站点分发系统。2026-11-24 GitHub API 读取到 4,192 star、957 fork。",
+      "url": "https://github.com/yaojingang/GEOFlow"
+    },
+    {
+      "title": "GEOFlow 官网",
+      "description": "GEOFlow 产品官网。",
+      "url": "https://www.geoflow.me"
+    }
+  ],
+  "quote": {
+    "text": "把正确的信息，投放到正确的平台，就是GEO最朴素的逻辑",
+    "source_url": "https://x.com/yaojingang/status/2118346254803464193",
+    "published_at": "2026-11-24"
+  },
+  "followers_snapshot": {
+    "count": 24484,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

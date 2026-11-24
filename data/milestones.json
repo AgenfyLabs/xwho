@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "id": "m-media-001",
+    "x_user_id": "1492195583699951620",
+    "event_type": "oss",
+    "summary": "AIHOT 2.0 上线并正式开源（采集、评分、聚簇流程与生产 Prompt）",
+    "source_url": "https://weibo.com/5700099573/RkjK4At1t",
+    "event_date": "2026-09-29",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-media-002",
+    "x_user_id": "1580781",
+    "event_type": "writing",
+    "summary": "《科技爱好者周刊》第 420 期《最分心的一年》发布",
+    "source_url": "https://github.com/ruanyf/weekly/blob/master/docs/issue-420.md",
+    "event_date": "2026-11-20",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-media-003",
+    "x_user_id": "7122032",
+    "event_type": "launch",
+    "summary": "发布字体预览工具 Anyway.Fonts",
+    "source_url": "https://x.com/JJYing/status/2110195956306399524",
+    "event_date": "2026-10-14",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-media-004",
+    "x_user_id": "3178231",
+    "event_type": "writing",
+    "summary": "发布 P vs NP 科普视频",
+    "source_url": "https://x.com/dotey/status/2124681897263444343",
+    "event_date": "2026-11-23",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-media-005",
+    "x_user_id": "1492195583699951620",
+    "event_type": "writing",
+    "summary": "AIHOT 上线半年，首次为一条新闻（黄仁勋辞职）打出 98 分",
+    "source_url": "https://x.com/Khazix0918/status/2120885807653474789",
+    "event_date": "2026-11-12",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-crypto-001",
+    "x_user_id": "17552210",
+    "event_type": "writing",
+    "summary": "公开拆解 Lighter 被盗 1500 多万美金事件及门罗币洗币路径",
+    "source_url": "https://x.com/evilcos/status/2122308834807193815",
+    "event_date": "2026-11-16",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-crypto-002",
+    "x_user_id": "17552210",
+    "event_type": "writing",
+    "summary": "慢雾公开 iOS 利用链样本溯源结果",
+    "source_url": "https://x.com/evilcos/status/2122881148724650247",
+    "event_date": "2026-11-18",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-crypto-003",
+    "x_user_id": "1459632769353482240",
+    "event_type": "writing",
+    "summary": "分析 Glamsterdam 升级可能提前至明年 1 月底 2 月初及 L1 扩容影响",
+    "source_url": "https://x.com/lanhubiji/status/2124690315126952197",
+    "event_date": "2026-11-23",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-crypto-004",
+    "x_user_id": "779201879913803776",
+    "event_type": "writing",
+    "summary": "整理三大稳定币半年总量下降约 10% 的数据",
+    "source_url": "https://x.com/0xTodd/status/2120708772553523314",
+    "event_date": "2026-11-12",
+    "submitted_by": "editor"
+  }
+]

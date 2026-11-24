@@ -1,0 +1,31 @@
+{
+  "x_user_id": "11243542",
+  "handle": "wangeguo",
+  "display_name": "国子",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开发者",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开发者、AI）。本人 X 简介要点：「Free & OSS Developer | @OpenBuildxyz BuilderHero」",
+  "verified_works": [
+    {
+      "title": "github.com/wangeguo",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/wangeguo"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1279,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T23:37:48+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

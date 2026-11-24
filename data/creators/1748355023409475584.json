@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1748355023409475584",
+  "handle": "Tsla99T",
+  "display_name": "TSLA99T",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、工程师）。本人 X 简介要点：「Ex-Tesla AI Engineer | Law School JD Candidate. I will not wor…」",
+  "verified_works": [
+    {
+      "title": "youtube.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.youtube.com/@TSLA99T"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 29361,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:12:22+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

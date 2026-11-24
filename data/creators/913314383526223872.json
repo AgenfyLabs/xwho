@@ -1,0 +1,44 @@
+{
+  "x_user_id": "913314383526223872",
+  "handle": "chunxiangai",
+  "display_name": "赵纯想",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「Founder of ✒️ CrommaCode 🎮」",
+  "verified_works": [
+    {
+      "title": "chunxiang.space",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://chunxiang.space"
+    },
+    {
+      "title": "laper.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://laper.ai"
+    },
+    {
+      "title": "cromma.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://cromma.ai/code"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 49590,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:23:02+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

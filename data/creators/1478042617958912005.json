@@ -1,0 +1,34 @@
+{
+  "x_user_id": "1478042617958912005",
+  "handle": "knowledgefxg",
+  "display_name": "知识分享官",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "AI 编程",
+    "科技观察",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（AI 编程、科技观察、AI）。本人 X 简介要点：「热爱知识，没事分享点有趣硬核的东西,包含英语学习，AI编程，科技软件，资源网站等等。来都来了，点点关注😘。」",
+  "verified_works": [
+    {
+      "title": "en.knowledgefxg.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://en.knowledgefxg.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 213864,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T02:38:52+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

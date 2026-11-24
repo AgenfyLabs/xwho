@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1580781",
+  "handle": "ruanyf",
+  "display_name": "ruanyf（阮一峰）",
+  "vertical": "media",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "Newsletter",
+    "科技爱好者周刊",
+    "技术写作"
+  ],
+  "summary": "《科技爱好者周刊》作者，每周五发布，内容在 GitHub 开源；截至 2026-11 已出到第 420 期。",
+  "verified_works": [
+    {
+      "title": "科技爱好者周刊",
+      "description": "GitHub 仓库 ruanyf/weekly 在 2026-11-24 10:28（UTC+8）读到 108,613 star；README 列出最新一期为第 420 期《最分心的一年》。",
+      "url": "https://github.com/ruanyf/weekly"
+    },
+    {
+      "title": "个人博客",
+      "description": "X 简介所挂 ruanyifeng.com。",
+      "url": "http://www.ruanyifeng.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 211040,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

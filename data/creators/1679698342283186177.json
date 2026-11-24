@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1679698342283186177",
+  "handle": "MinLiBuilds",
+  "display_name": "实践哥 Li",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI Agent",
+    "大模型",
+    "AI 视频",
+    "视频"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、大模型、AI 视频）。本人 X 简介要点：「AI Builder｜连续创业，折腾不止 AI 干货 · 本地大模型 · AI Agent · AI 视频 · AI 产品…」",
+  "verified_works": [
+    {
+      "title": "minlibuilds.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://minlibuilds.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 28356,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:33:02+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xguide-anysome-apache",
+    "xnav"
+  ],
+  "service_board": null
+}

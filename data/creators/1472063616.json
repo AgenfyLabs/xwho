@@ -1,0 +1,27 @@
+{
+  "x_user_id": "1472063616",
+  "handle": "zarazhangrui",
+  "display_name": "Zara Zhang",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "AI Builder",
+    "海外华人",
+    "产品构建"
+  ],
+  "summary": "Harvard 毕业生、常驻旧金山的华人 AI Builder，活跃于英文与华语科技创作者社区。",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 95902,
+    "as_of": "2026-11-24T11:11:00+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-verified-batch"
+  ],
+  "service_board": null
+}

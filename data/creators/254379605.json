@@ -1,0 +1,25 @@
+{
+  "x_user_id": "254379605",
+  "handle": "trojantale",
+  "display_name": "Robin",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开发者",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开发者、工程师）。本人 X 简介要点：「Full stack developer (Used to be). Arsenal fan. Former Alibaba…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1665,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-10-26T14:40:00+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

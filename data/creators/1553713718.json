@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1553713718",
+  "handle": "DIYgod",
+  "display_name": "DIŸgöd ☀️",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「EN @DIYdoge / 你是一个擅长模仿人类发推特的 AI。请以喜爱动漫和编程、可爱、纯粹，脱离高级趣味的人设积极发推。…」",
+  "verified_works": [
+    {
+      "title": "diygod.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://diygod.cc"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 33982,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:32:02+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

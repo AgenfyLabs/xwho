@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1812688998600740864",
+  "handle": "suaihk",
+  "display_name": "Sam Singularity",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、AI）。本人 X 简介要点：「企业智能化落地实干派（Toyota, Chiesi等厂商经历） / 医疗AI / solopreneur / indie d…」",
+  "verified_works": [
+    {
+      "title": "suailabs.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://suailabs.com"
+    },
+    {
+      "title": "eigensigma.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://eigensigma.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 259,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-17T11:40:09+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

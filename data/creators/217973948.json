@@ -1,0 +1,36 @@
+{
+  "x_user_id": "217973948",
+  "handle": "fuxiaohei",
+  "display_name": "傅小黑",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "工程师",
+    "游戏"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（工程师、游戏）。本人 X 简介要点：「开发工程师，业务开发小镇建设小游戏」",
+  "verified_works": [
+    {
+      "title": "fuxiaohei.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://fuxiaohei.me"
+    },
+    {
+      "title": "littletown.fuxiaohei.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://littletown.fuxiaohei.me/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1952,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T10:51:05+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

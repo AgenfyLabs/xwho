@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1473591",
+  "handle": "tianyi",
+  "display_name": "Tianyi Cui",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「Work on @DeepSeekHarness and other projects at @deepseek_ai Pr…」",
+  "verified_works": [
+    {
+      "title": "deepseek.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://deepseek.com/harness/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 59873,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T23:48:15+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

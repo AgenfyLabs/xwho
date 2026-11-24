@@ -1,0 +1,36 @@
+{
+  "x_user_id": "929287386596491264",
+  "handle": "YunYouJun",
+  "display_name": "YunYouJun 云游君",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「希望能成为一个有趣的人。 希望能创造出可以成为别人回忆的事物。 享受创作：@YunLeFun 记录生活：@yyjmoe」",
+  "verified_works": [
+    {
+      "title": "yunyoujun.cn",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://yunyoujun.cn"
+    },
+    {
+      "title": "github.com/YunYouJun",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "http://github.com/YunYouJun"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 4151,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-21T22:20:04+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1694598361461215232",
+  "handle": "alanblogsooo",
+  "display_name": "世界是棵树",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "提示词",
+    "设计",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（提示词、设计、产品）。本人 X 简介要点：「产品经理、设计师，AI 爱好者。 YOOART IMAGE 聚合 20+ AI 生图模型： YOOAI 海量 AI 生图提示…」",
+  "verified_works": [
+    {
+      "title": "image.yooart.top",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://image.yooart.top"
+    },
+    {
+      "title": "yooai.site",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://yooai.site"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 979,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T20:53:16+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

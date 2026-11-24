@@ -1,0 +1,38 @@
+{
+  "x_user_id": "950460643173216256",
+  "handle": "idoubicc",
+  "display_name": "idoubi",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev",
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "ShipAny",
+    "MCP.so",
+    "ThinkAny"
+  ],
+  "summary": "前腾讯支付后台工程师，2023 年 10 月裸辞后连续做 AI 产品。公开产品线包括 ShipAny、MCP.so、ThinkAny、Termany、FastClaw 等。个人站点「关于我」页自述：ShipAny 首发预售四小时销售额破 1 万美金；MCP.so 曾被 a16z 投资报告引用，最高月访问量 270 万；ThinkAny 最高月访问量 60 万。X 原帖可直接核对的成绩是其自述：部分推广者在 ShipAny 联盟赚到的返佣已破万刀。",
+  "verified_works": [
+    {
+      "title": "idoubi 关于我",
+      "description": "个人站点关于页，列出 ShipAny、MCP.so、ThinkAny 等产品。预售销售额与月访问量为站点自述，本次未在 X 原帖找到对应细拆。",
+      "url": "https://idoubi.ai/zh/about"
+    }
+  ],
+  "quote": {
+    "text": "shipany 自己的联盟营销系统就是一个典型的 case，部分推广者在 shipany 联盟赚到的返佣金已破万刀。",
+    "source_url": "https://x.com/idoubicc/status/2122251528321069231",
+    "published_at": "2026-11-16"
+  },
+  "followers_snapshot": {
+    "count": 29745,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,41 @@
+{
+  "x_user_id": "19173205",
+  "handle": "oldj",
+  "display_name": "oldj",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "写作",
+    "程序员"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（写作、程序员）。本人 X 简介要点：「程序员，科幻迷，业余写作爱好者。翻译过一些技术书，开发了并维护着 等项目。」",
+  "verified_works": [
+    {
+      "title": "oldj.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://oldj.net"
+    },
+    {
+      "title": "WonderPen.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://WonderPen.app"
+    },
+    {
+      "title": "Tuji.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://Tuji.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 14441,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T15:04:50+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

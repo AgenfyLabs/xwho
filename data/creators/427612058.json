@@ -1,0 +1,35 @@
+{
+  "x_user_id": "427612058",
+  "handle": "yuxiyou",
+  "display_name": "尤雨溪",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "前端"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、前端）。本人 X 简介要点：「@evanyou 的中文小号。@voidzerodev 创始人，开源软件开发者，Vue / Vite 作者。此号只聊技术无关…」",
+  "verified_works": [
+    {
+      "title": "evanyou.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://evanyou.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 130563,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T06:19:33+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xiaomingx-apache"
+  ],
+  "service_board": null
+}

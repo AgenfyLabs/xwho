@@ -1,0 +1,37 @@
+{
+  "x_user_id": "720680424234557440",
+  "handle": "Linmiv",
+  "display_name": "Linmi",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "增长",
+    "产品"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（增长、产品）。本人 X 简介要点：「探索未知，迭代新知，沉淀认知｜ | Notion 中文社区负责人｜探索项目管理 ｜Twitter 是笔记 ｜帮助小产品增长」",
+  "verified_works": [
+    {
+      "title": "linmi.cc",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://linmi.cc"
+    },
+    {
+      "title": "meso.ac",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://meso.ac"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 53516,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-19T13:01:01+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "xiaomingx-apache"
+  ],
+  "service_board": null
+}

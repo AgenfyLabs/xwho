@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1152854102906298368",
+  "handle": "x_sanjin",
+  "display_name": "熊三金Cole",
+  "vertical": "crypto",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "Web3",
+    "AI"
+  ],
+  "summary": "Web3 / 加密方向的中文 X 创作者（Web3、AI）。本人 X 简介要点：「Testnetx Founder｜不盲从，不追高，死磕 Web3 早期机遇｜專注分享 #AI #Web3 #Airdrop…」",
+  "verified_works": [
+    {
+      "title": "kol.center",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://kol.center"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 15083,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T23:15:00+08:00",
+  "lead_sources": [
+    "xguide-anysome-apache"
+  ],
+  "service_board": null
+}

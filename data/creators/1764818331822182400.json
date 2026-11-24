@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1764818331822182400",
+  "handle": "xiaohu",
+  "display_name": "小互",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "科技观察",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（科技观察、AI）。本人 X 简介要点：「带你了解全球最前沿科技、AI动态...」",
+  "verified_works": [
+    {
+      "title": "xiaohu.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://xiaohu.ai"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 128518,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:14:43+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

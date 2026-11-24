@@ -1,0 +1,41 @@
+{
+  "x_user_id": "779799806",
+  "handle": "catmangox",
+  "display_name": "猫总",
+  "vertical": "finance",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "财经投资",
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「人在陆家嘴，已经肉身移民法国和日本。海带级金融从业人员，业余金融分析师，专业母猫配种。V2EX老成员，刚刚还完贷款，现在是大…」",
+  "verified_works": [
+    {
+      "title": "catman.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://catman.app"
+    },
+    {
+      "title": "keihan.co",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://keihan.co"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 190092,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:24:26+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

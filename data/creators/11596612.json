@@ -1,0 +1,32 @@
+{
+  "x_user_id": "11596612",
+  "handle": "leafwind",
+  "display_name": "leafwind🐹",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "综合观察",
+    "科技观察",
+    "时事评论"
+  ],
+  "summary": "泛话题评论方向的中文 X 创作者（科技观察、时事评论）。本人 X 简介要点：「寫作｜攝影｜🇹🇼➡️🇯🇵 （趁還能）用科技養活自己，用興趣讓自己活得開心。」",
+  "verified_works": [
+    {
+      "title": "midori.land",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://midori.land"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 5594,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T11:59:17+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1267444107552546816",
+  "handle": "kasong2048",
+  "display_name": "Kasong",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "前端",
+    "设计",
+    "AI",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（前端、设计、AI）。本人 X 简介要点：「Author of 《React设计原理》(React internals). 5 yrs solo founder. No…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 13812,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-19T14:47:22+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

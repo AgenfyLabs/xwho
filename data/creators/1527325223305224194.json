@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1527325223305224194",
+  "handle": "benshandebiao",
+  "display_name": "本山德彪",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "创业",
+    "AI",
+    "工程师",
+    "游戏"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（创业、AI、工程师）。本人 X 简介要点：「前腾讯工程师，现 AI 创业，在 X 分享创业经历 💰 目前小游戏 MRR ¥16K 现在在做： 🐜」",
+  "verified_works": [
+    {
+      "title": "ants.pomodiary.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://ants.pomodiary.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 11195,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:50:33+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

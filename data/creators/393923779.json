@@ -1,0 +1,41 @@
+{
+  "x_user_id": "393923779",
+  "handle": "meathill1",
+  "display_name": "Meathill",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "全栈",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（全栈、工程师）。本人 X 简介要点：「好吃好玩好写代码。全栈工程师，兴趣使然的分享者。经常活跃在重庆机场附近，路过的同学欢迎找我喝咖啡。」",
+  "verified_works": [
+    {
+      "title": "meathill.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://meathill.com/"
+    },
+    {
+      "title": "baifo.life",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://baifo.life"
+    },
+    {
+      "title": "dyqr.me",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://dyqr.me"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6675,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:48:18+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

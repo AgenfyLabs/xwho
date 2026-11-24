@@ -1,0 +1,33 @@
+{
+  "x_user_id": "110483357",
+  "handle": "gidot",
+  "display_name": "Gidot",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "程序员",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（程序员、AI）。本人 X 简介要点：「排版助手作者、老程序员、书虫上脑、间歇性胡言乱语。 The creator of the Gidot Typesetter,…」",
+  "verified_works": [
+    {
+      "title": "zmk.ink",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zmk.ink"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1008,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T19:27:08+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

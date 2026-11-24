@@ -1,0 +1,27 @@
+{
+  "x_user_id": "1588767133344813056",
+  "handle": "KyrieCheungYep",
+  "display_name": "Kyrie",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「AI-Era Thinker 前大厂 R&D｜现居曼谷做 BD 世界自有进程，人生自有主张 指薪修祜，永绥吉劭」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6449,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-08T11:44:41+08:00",
+  "lead_sources": [
+    "xguide-anysome-apache"
+  ],
+  "service_board": null
+}

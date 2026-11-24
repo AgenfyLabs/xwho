@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1249322582869852161",
+  "handle": "ianneo_ai",
+  "display_name": "Ian (伊恩)",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开源",
+    "设计",
+    "AI",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、设计、AI）。本人 X 简介要点：「懂审美的 AI Builder，GitHub 万星、Dribbble 万粉，接设计项目和顾问 Engineer Notes…」",
+  "verified_works": [
+    {
+      "title": "ianneo.xyz",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://ianneo.xyz"
+    },
+    {
+      "title": "denotes.dev",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://denotes.dev"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 21501,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:45:15+08:00",
+  "lead_sources": [
+    "x-yuzong"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1830880351801221120",
+  "handle": "frxiaobei",
+  "display_name": "凡人小北",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "创业者",
+    "AI",
+    "创业"
+  ],
+  "summary": "创业 / 商业方向的中文 X 创作者（AI、创业）。本人 X 简介要点：「个人 观点｜商业与管理｜AI 落地 大道至简」",
+  "verified_works": [
+    {
+      "title": "frxiaobei.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.frxiaobei.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 26842,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T23:02:12+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

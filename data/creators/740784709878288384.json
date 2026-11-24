@@ -1,0 +1,38 @@
+{
+  "x_user_id": "740784709878288384",
+  "handle": "tison1096",
+  "display_name": "tison",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "开源",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、AI）。本人 X 简介要点：「Co-Founder @scopedbio Board Director & Incubator Mentor @TheAS…」",
+  "verified_works": [
+    {
+      "title": "scopedb.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.scopedb.io"
+    },
+    {
+      "title": "github.com/tisonkun",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/tisonkun/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 11070,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:31:22+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "50940456",
+  "handle": "kaifulee",
+  "display_name": "Kai-Fu Lee",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "ai-exec",
+    "bigtech-exec",
+    "ex-bigtech",
+    "investor",
+    "founder"
+  ],
+  "sub_tags": [
+    "AI 高管",
+    "大模型创业",
+    "风险投资"
+  ],
+  "summary": "零一万物（01.AI）CEO、创新工场董事长、前 Google 中国总裁，著有《AI Superpowers》《AI 2041》《AI Native》。",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1332289,
+    "as_of": "2026-11-24T11:11:00+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-verified-batch"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,31 @@
+{
+  "x_user_id": "701397734046076928",
+  "handle": "jinjinledaofm",
+  "display_name": "津津乐道播客",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "播客",
+    "科技观察"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（播客、科技观察）。本人 X 简介要点：「在一派纷繁芜杂里，我们为愉悦双耳而生。科技、教育、文化、美食、生活、技能、情绪……严肃认真却不刻板，拒绝空泛浮夸。与专业且有…」",
+  "verified_works": [
+    {
+      "title": "dao.fm",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://dao.fm"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3492,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-09-02T14:52:13+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

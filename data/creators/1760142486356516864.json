@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1760142486356516864",
+  "handle": "sh_awai",
+  "display_name": "Y.Sir",
+  "vertical": "geo",
+  "role_tags": [],
+  "sub_tags": [
+    "出海",
+    "增长"
+  ],
+  "summary": "GEO / SEO / 出海增长方向的中文 X 创作者（出海、增长）。本人 X 简介要点：「Web出海选手 导航站(DR50)」",
+  "verified_works": [
+    {
+      "title": "submito.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://submito.net"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 556,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-03T07:30:42+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

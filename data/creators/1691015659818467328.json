@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1691015659818467328",
+  "handle": "chuckchen_zh",
+  "display_name": "Chuck Chen",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "创业",
+    "工具分享",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（创业、工具分享、AI）。本人 X 简介要点：「💻 技术创业者，脱离9-5，屡败屡创 📸 自启动构建非AI工具 ✍️ 写下的才是我能思考的 🥷 @chuckchen中文分身」",
+  "verified_works": [
+    {
+      "title": "1tongkuan.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.1tongkuan.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 85,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-10-23T07:45:58+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

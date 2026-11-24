@@ -1,0 +1,30 @@
+{
+  "x_user_id": "1338075202798809089",
+  "handle": "qinbafrank",
+  "display_name": "qinbafrank",
+  "vertical": "finance",
+  "role_tags": [
+    "investor"
+  ],
+  "sub_tags": [
+    "财经投资",
+    "科技观察",
+    "投资",
+    "宏观"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（科技观察、投资、宏观）。本人 X 简介要点：「Investor in AI、Crypto、TMT，跟踪最前沿科技趋势、野生宏观政经观察、研究全球资本流动性、周期趋势投资。…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 165472,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:51:22+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

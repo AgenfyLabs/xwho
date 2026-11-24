@@ -1,0 +1,31 @@
+{
+  "x_user_id": "14896493",
+  "handle": "Amztion",
+  "display_name": "Liang",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "摄影",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（摄影、开发者）。本人 X 简介要点：「❤@kerry_meng；AppleOS Developer，喜欢到处闲逛旅行，旧能源汽车古法驾驶传承人，前人力两轮车爱好者…」",
+  "verified_works": [
+    {
+      "title": "amztion.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://amztion.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 1503,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T22:47:39+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

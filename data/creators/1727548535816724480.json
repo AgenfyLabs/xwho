@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1727548535816724480",
+  "handle": "shao__meng",
+  "display_name": "meng shao",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI Agent",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、AI）。本人 X 简介要点：「追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践 拆解架构、选型与企业落地案例 前…」",
+  "verified_works": [
+    {
+      "title": "github.com/shaom",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/shaom"
+    },
+    {
+      "title": "github.com/shaom",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "http://github.com/shaom"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 37900,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:42:28+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

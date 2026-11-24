@@ -1,0 +1,42 @@
+{
+  "x_user_id": "2815325906",
+  "handle": "bourneliu66",
+  "display_name": "刘小排",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "Raphael AI",
+    "独立开发",
+    "AI 图像"
+  ],
+  "summary": "Raphael AI（raphael.app）的独立开发者。官方介绍页写明：产品由他开发和运营，2025 年 1 月上线，是浏览器里用的 AI 图片 / 视频生成工具。他本人在 2025-12-08 的原帖自述：Raphael 月活来到半年新高 659,520，并判断「12月重回1M月活，应该毫无悬念」。收入「都新高了」是他的自述，该帖没有给出具体金额。",
+  "verified_works": [
+    {
+      "title": "Raphael AI",
+      "description": "浏览器里用的 AI 图片 / 视频生成工具。官方介绍页写明由他开发和运营，2025 年 1 月上线。月活 659,520 为本人原帖自述。",
+      "url": "https://raphael.app"
+    },
+    {
+      "title": "Raphael AI 官方介绍页",
+      "description": "写明产品由他开发和运营，2025 年 1 月上线。",
+      "url": "https://raphael.app/zh/about"
+    }
+  ],
+  "quote": {
+    "text": "Raphael 的月活来到了半年以来新高，659.52K\n12月重回1M月活，应该毫无悬念！",
+    "source_url": "https://x.com/bourneliu66/status/1998059867182182836",
+    "published_at": "2025-12-08"
+  },
+  "followers_snapshot": {
+    "count": 36479,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

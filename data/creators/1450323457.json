@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1450323457",
+  "handle": "no13bus",
+  "display_name": "DanielJia",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "全栈",
+    "工程师"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（全栈、工程师）。本人 X 简介要点：「🚀 在瑞典的一名全栈工程师。 👉🏻 爱好拍照📸，hiking🥾 ，最近在培养健身爱好🏋️。 👉🏻 创造东西是一种自我表达和分…」",
+  "verified_works": [
+    {
+      "title": "danieljia.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://danieljia.com"
+    },
+    {
+      "title": "apps.apple.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://apps.apple.com/us/app/id1672208469"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3100,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T02:06:03+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

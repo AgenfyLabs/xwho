@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1402449532810502150",
+  "handle": "daiming_cn",
+  "display_name": "戴铭",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "开源",
+    "Apple 开发"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、Apple 开发）。本人 X 简介要点：「iOS、macOS 平台 Swift 开发者，极客时间《iOS开发高手课》和纸书《跟戴铭学iOS编程》作者。Github」",
+  "verified_works": [
+    {
+      "title": "ming1016.github.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://ming1016.github.io/"
+    },
+    {
+      "title": "github.com/ming1016",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/ming1016"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 2634,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-09-29T12:33:21+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

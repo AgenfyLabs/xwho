@@ -1,0 +1,49 @@
+{
+  "x_user_id": "17552210",
+  "handle": "evilcos",
+  "display_name": "Cos(余弦)",
+  "vertical": "crypto",
+  "role_tags": [
+    "founder",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "Web3 安全",
+    "钱包安全",
+    "攻击溯源"
+  ],
+  "summary": "慢雾科技（SlowMist）创始人，《区块链黑暗森林自救手册》作者；持续公开拆解被盗事件、钱包与终端安全风险。",
+  "verified_works": [
+    {
+      "title": "SlowMist 创始人",
+      "description": "X 简介：Founder of @SlowMist_Team；SlowMist 官方号简介为 2018 年成立的区块链安全公司。",
+      "url": "https://x.com/SlowMist_Team"
+    },
+    {
+      "title": "《区块链黑暗森林自救手册》",
+      "description": "README 署名「作者：余弦@慢雾安全团队」，有中英日韩阿等版本；2026-11-24 GitHub API 读到 6,901 star。",
+      "url": "https://github.com/slowmist/Blockchain-dark-forest-selfguard-handbook"
+    },
+    {
+      "title": "Lighter 被盗事件拆解",
+      "description": "2026-11-16 原帖：Lighter 被盗 1500 多万美金、L1 提走超 1000 万美金，并追踪约 350 万美金换成门罗币。",
+      "url": "https://x.com/evilcos/status/2122308834807193815"
+    },
+    {
+      "title": "iOS 利用链样本溯源",
+      "description": "2026-11-18 原帖：慢雾抓取 iOS 利用链样本，溯源某后台面板功能（含相册 OCR 助记词扫描等）。",
+      "url": "https://x.com/evilcos/status/2122881148724650247"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 127767,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

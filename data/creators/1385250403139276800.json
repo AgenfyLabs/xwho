@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1385250403139276800",
+  "handle": "Tumeng05",
+  "display_name": "土猛的员外",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "科技观察",
+    "产品",
+    "创业"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、科技观察、产品）。本人 X 简介要点：「👨‍💻 ：TorchV（萌嘉科技）创始人 企业级AI知识引擎/企业上下文/本体 分享创业实战、产品思考与行业观察 公众号：土…」",
+  "verified_works": [
+    {
+      "title": "torchv.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://www.torchv.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 8521,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-19T14:49:55+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

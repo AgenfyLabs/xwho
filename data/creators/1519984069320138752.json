@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1519984069320138752",
+  "handle": "zolplay",
+  "display_name": "Zolplay",
+  "vertical": "general",
+  "role_tags": [],
+  "sub_tags": [
+    "设计产品",
+    "设计",
+    "产品"
+  ],
+  "summary": "设计 / 产品方向的中文 X 创作者（设计、产品）。本人 X 简介要点：「❖ A design studio for people with high standards. Our lil webs…」",
+  "verified_works": [
+    {
+      "title": "zolplay.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zolplay.com"
+    },
+    {
+      "title": "zolplay.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://zolplay.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 3686,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-09-26T09:54:24+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

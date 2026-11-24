@@ -1,0 +1,35 @@
+{
+  "x_user_id": "232519529",
+  "handle": "AlchainHust",
+  "display_name": "花叔",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "oss-author"
+  ],
+  "sub_tags": [
+    "开源",
+    "产品",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（开源、产品、AI）。本人 X 简介要点：「不会写代码的AI Native Coder，所有产品都是AI写的。 持有GitHub 12万+ 🌟 做过的事👇 → 女娲.s…」",
+  "verified_works": [
+    {
+      "title": "huasheng.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://huasheng.ai/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 74375,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T07:04:06+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,28 @@
+{
+  "x_user_id": "2863771",
+  "handle": "turingbook",
+  "display_name": "刘江/LIU Jiang",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "程序员",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（程序员、AI）。本人 X 简介要点：「Exploring AGI. Co-Founder of Turing Company. ex Meituan, BAAI,…」",
+  "verified_works": [],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 55792,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T18:07:16+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

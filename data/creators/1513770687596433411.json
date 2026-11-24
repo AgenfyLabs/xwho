@@ -1,0 +1,31 @@
+{
+  "x_user_id": "1513770687596433411",
+  "handle": "iWillDev",
+  "display_name": "Will",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（视频、AI）。本人 X 简介要点：「很多用户说，这是他们目前用过最好的YouTube中英双语字幕插件。 有兴趣的话，不妨去试试 🔗 无需注册，免费即可体验核心功…」",
+  "verified_works": [
+    {
+      "title": "subkun.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://subkun.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12148,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T07:13:16+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

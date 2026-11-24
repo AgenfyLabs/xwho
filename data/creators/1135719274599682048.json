@@ -1,0 +1,38 @@
+{
+  "x_user_id": "1135719274599682048",
+  "handle": "pupilcc",
+  "display_name": "Martini",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "独立开发",
+    "Apple 开发"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（独立开发、Apple 开发）。本人 X 简介要点：「Indie hacker | builder Building Pacevia — iOS app for Apple He…」",
+  "verified_works": [
+    {
+      "title": "blog.pupilcc.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://blog.pupilcc.com"
+    },
+    {
+      "title": "UnrollX.app",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://UnrollX.app"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 727,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-16T11:34:02+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

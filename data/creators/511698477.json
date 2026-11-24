@@ -1,0 +1,31 @@
+{
+  "x_user_id": "511698477",
+  "handle": "cxjwin",
+  "display_name": "码良",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "Apple 开发",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（Apple 开发、AI）。本人 X 简介要点：「纯血 iOS 开发 & Tech Lead｜金牌面试官｜AI 订阅狂 职场观察 · 管理思考 · 大厂面试段子手 分享真实的…」",
+  "verified_works": [
+    {
+      "title": "cxjwin.ai.studio",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://cxjwin.ai.studio/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 8792,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:08:14+08:00",
+  "lead_sources": [
+    "xguide-anysome-apache"
+  ],
+  "service_board": null
+}

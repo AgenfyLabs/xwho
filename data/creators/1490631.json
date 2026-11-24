@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1490631",
+  "handle": "Fenng",
+  "display_name": "Fenng（冯大辉）",
+  "vertical": "media",
+  "role_tags": [
+    "founder",
+    "ex-bigtech"
+  ],
+  "sub_tags": [
+    "科技评论",
+    "公众号",
+    "互联网观察"
+  ],
+  "summary": "公众号「小道消息」创办者，前丁香园 CTO、前支付宝数据库团队负责人，现为无码科技创始人；在 X 上高频点评 AI 与科技公司动态。",
+  "verified_works": [
+    {
+      "title": "个人站 dbanotes.net",
+      "description": "自述为无码科技创始人；2010-06 起任丁香园 CTO，此前在支付宝工作五年有余并负责数据库技术团队。",
+      "url": "https://dbanotes.net/siteinfo.html"
+    },
+    {
+      "title": "「小道消息」创办者",
+      "description": "凤凰网科技报道其为「丁香园CTO、小道消息创办者」。",
+      "url": "https://tech.ifeng.com/c/7eWz7wfFyMZ"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 219943,
+    "as_of": "2026-11-24T10:27:15+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

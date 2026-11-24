@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1115132187962007553",
+  "handle": "pythonhunter__",
+  "display_name": "捕蛇者说",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "Python",
+    "播客",
+    "程序员"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（Python、播客、程序员）。本人 X 简介要点：「一档关于编程、程序员和 Python的播客 听众群 ⓣ.ⓜⓔ/+51gd0XRoi0RhNzI1 主播 @adaaaamwe…」",
+  "verified_works": [
+    {
+      "title": "pythonhunter.org",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://pythonhunter.org"
+    },
+    {
+      "title": "afdian.net",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://afdian.net/@pythonhunter"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9970,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-06-16T13:42:13+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

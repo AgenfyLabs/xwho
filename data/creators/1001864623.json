@@ -1,0 +1,36 @@
+{
+  "x_user_id": "1001864623",
+  "handle": "akokoi1",
+  "display_name": "WY",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "独立开发",
+    "Apple 开发",
+    "Go"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、独立开发、Apple 开发）。本人 X 简介要点：「AI Agent开发 | AI工具测试与实战教程 | AI教育工具探索 | Golang/PHP/JavaScript/Da…」",
+  "verified_works": [
+    {
+      "title": "wedulab.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://wedulab.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 21008,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:58:58+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

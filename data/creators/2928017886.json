@@ -1,0 +1,37 @@
+{
+  "x_user_id": "2928017886",
+  "handle": "hank_zhao",
+  "display_name": "Hank_Zhao",
+  "vertical": "ai-dev",
+  "role_tags": [],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「🏃🏻‍♂️跑步/🚴骑行/⛏Vim/ 💎Obsidian/Build Something wonderful/跑步主页」",
+  "verified_works": [
+    {
+      "title": "github.com/zhaohongxuan",
+      "description": "本人 X 资料中公开的外链（GitHub 主页/仓库）",
+      "url": "https://github.com/zhaohongxuan"
+    },
+    {
+      "title": "zhaohongxuan.github.io",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://zhaohongxuan.github.io/workouts"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 9272,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T14:07:14+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

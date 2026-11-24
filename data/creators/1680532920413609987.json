@@ -1,0 +1,37 @@
+{
+  "x_user_id": "1680532920413609987",
+  "handle": "alin_zone",
+  "display_name": "阿蔺A-Lin",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder",
+    "oss-author"
+  ],
+  "sub_tags": [
+    "AI Agent",
+    "开源",
+    "工具分享",
+    "教程"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI Agent、开源、工具分享）。本人 X 简介要点：「🧠 AI 工具实操｜Obsidian / Grok Bot / Codex / 开源 Agent 📚 Obsidian 知识…」",
+  "verified_works": [
+    {
+      "title": "aisparkedu.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://aisparkedu.com/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 12521,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T09:46:51+08:00",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

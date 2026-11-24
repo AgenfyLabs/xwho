@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1131442257675083777",
+  "handle": "cellinlab",
+  "display_name": "Cell 细胞",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "播客",
+    "AI"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（播客、AI）。本人 X 简介要点：「🎯 AI & Crypto & DIY · 探索个体与社区的更多可能 ｜ 🌱 build 造物矩阵 @ZaoWuJuZhen…」",
+  "verified_works": [
+    {
+      "title": "zaowujuzhen.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://zaowujuzhen.com"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 35383,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T10:38:42+08:00",
+  "lead_sources": [
+    "dennisthink-mit",
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}

@@ -1,0 +1,39 @@
+{
+  "x_user_id": "1346799420709294081",
+  "handle": "erchenlu1",
+  "display_name": "卢尔辰",
+  "vertical": "finance",
+  "role_tags": [
+    "investor"
+  ],
+  "sub_tags": [
+    "财经投资",
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「长期主义投资人/Long-termist investor 独立分析师 跨学科研究者 公众号：卢尔辰 文章合集： Tg: 仅…」",
+  "verified_works": [
+    {
+      "title": "chenlongtermism.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://chenlongtermism.com/subscribe"
+    },
+    {
+      "title": "tinyurl.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://tinyurl.com/46dvtzb6"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 52913,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T20:18:14+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

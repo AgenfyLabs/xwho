@@ -1,0 +1,35 @@
+{
+  "x_user_id": "1928711169419956224",
+  "handle": "GoSailGlobal",
+  "display_name": "Jason Zhu（GEO）",
+  "vertical": "geo",
+  "role_tags": [],
+  "sub_tags": [
+    "GEO",
+    "GoSail Lab",
+    "增长复盘"
+  ],
+  "summary": "显示名写着「Jason Zhu（GEO）」。他公开复盘过自己两个网站的流量结构，并在 2026-10-26 发过一周增长复盘，自述「chatgpt 第一次排到第一」「AI 引荐几乎翻倍」。他也把 GEO 归纳成五阶段：Reach → Search → Cite → Describe → Measure。他同时在做 GoSail Lab、X 增长和 MCN；上述排名和引荐变化是他本人对自家站点的复盘，标为自述。",
+  "verified_works": [
+    {
+      "title": "GoSail Lab / 社群页",
+      "description": "公开身份页。社群页主打 X 涨粉与 FDE，不是纯 GEO 机构。",
+      "url": "https://jasonzhu.ai/zh/club"
+    }
+  ],
+  "quote": {
+    "text": "做 GEO，第一步不是改文章，是先弄清两件事：你的用户在用哪个 AI，这个 AI 联网时从哪取资料",
+    "source_url": "https://x.com/GoSailGlobal/status/2120399410916147268",
+    "published_at": "2026-11-24"
+  },
+  "followers_snapshot": {
+    "count": 40105,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

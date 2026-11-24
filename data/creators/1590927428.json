@@ -1,0 +1,33 @@
+{
+  "x_user_id": "1590927428",
+  "handle": "hwwaanng",
+  "display_name": "Hwang",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "AI",
+    "开发者"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（AI、开发者）。本人 X 简介要点：「Design/Vibe/Shape Founder ► @airbuild early @bridge_surf @AFFi…」",
+  "verified_works": [
+    {
+      "title": "air.build",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://air.build"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 23728,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-24T00:23:19+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

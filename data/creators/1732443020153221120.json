@@ -1,0 +1,42 @@
+{
+  "x_user_id": "1732443020153221120",
+  "handle": "eryidebiji",
+  "display_name": "二一的笔记",
+  "vertical": "media",
+  "role_tags": [],
+  "sub_tags": [
+    "视频",
+    "效率工具",
+    "工具分享"
+  ],
+  "summary": "科技内容 / 媒体方向的中文 X 创作者（视频、效率工具、工具分享）。本人 X 简介要点：「我长期关注知识管理、效率工具与个人工作流的搭建，在这里与你分享我的思考和判断。 Obsidian 模板： 我做的视频」",
+  "verified_works": [
+    {
+      "title": "21makes.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://21makes.com"
+    },
+    {
+      "title": "21obsidian.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://21obsidian.com"
+    },
+    {
+      "title": "21makes.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://21makes.com/video"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 6793,
+    "as_of": "2026-11-24T10:55:42+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-22T14:03:20+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

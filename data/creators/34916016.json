@@ -1,0 +1,43 @@
+{
+  "x_user_id": "34916016",
+  "handle": "SaitoWu",
+  "display_name": "Saito",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "founder"
+  ],
+  "sub_tags": [
+    "创业",
+    "AI"
+  ],
+  "summary": "AI / 开发方向的中文 X 创作者（创业、AI）。本人 X 简介要点：「🌈 创业 10 年，👨‍🚀 现投身硬地骇客 🤨 正在探究这个世界是如何运转 👉🏻 Ex🦄 Co-Founder 👉🏻 Pod…」",
+  "verified_works": [
+    {
+      "title": "hardhacker.com",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "https://hardhacker.com"
+    },
+    {
+      "title": "podwise.ai",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://podwise.ai"
+    },
+    {
+      "title": "bit.ly",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://bit.ly/alumni-saito"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 16029,
+    "as_of": "2026-11-24T10:56:14+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "last_post_at": "2026-11-23T21:27:37+08:00",
+  "lead_sources": [
+    "dennisthink-mit"
+  ],
+  "service_board": null
+}

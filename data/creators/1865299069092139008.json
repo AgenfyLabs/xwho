@@ -1,0 +1,47 @@
+{
+  "x_user_id": "1865299069092139008",
+  "handle": "indie_maker_fox",
+  "display_name": "Fox",
+  "vertical": "ai-dev",
+  "role_tags": [
+    "indie-dev"
+  ],
+  "sub_tags": [
+    "MkSaaS",
+    "TanStarter",
+    "MkImage"
+  ],
+  "summary": "MkSaaS、TanStarter、MkImage 的作者，简介写「主业是大厂高工，副业搞独立开发」。X 简介自述「产品出海，2 年收入破 $10 万美刀」，本次检索没有找到对应的细拆原帖，故不把 10 万美金写成已对账数字。可核对的近况是：他在 2026-11-16 公示自家发布平台 Better Launch 上线次日数据，自述用户量 1.3K、总收入 $118。",
+  "verified_works": [
+    {
+      "title": "MkSaaS",
+      "description": "可打开的产品站。简介中的「2 年收入破 $10 万美刀」为简介自述，本次未找到细拆对账原帖。",
+      "url": "https://mksaas.com"
+    },
+    {
+      "title": "TanStarter",
+      "description": "可打开的产品站。",
+      "url": "https://TanStarter.dev"
+    },
+    {
+      "title": "MkImage",
+      "description": "可打开的产品站。",
+      "url": "https://MkImage.ai"
+    }
+  ],
+  "quote": {
+    "text": "昨日数据：\n用户量：1.3K\n浏览量：2.2K\n注册量：+122 人\n提交量：+156 个\n总收入：$118 🤑",
+    "source_url": "https://x.com/indie_maker_fox/status/2122133450794873300",
+    "published_at": "2026-11-16"
+  },
+  "followers_snapshot": {
+    "count": 17813,
+    "as_of": "2026-11-24T09:00:00+08:00"
+  },
+  "verification_tier": "deep-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "manual-deep-verified"
+  ],
+  "service_board": null
+}

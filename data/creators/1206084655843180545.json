@@ -1,0 +1,32 @@
+{
+  "x_user_id": "1206084655843180545",
+  "handle": "Svwang1",
+  "display_name": "硅谷王川 Chuan",
+  "vertical": "finance",
+  "role_tags": [],
+  "sub_tags": [
+    "财经投资",
+    "投资",
+    "财经"
+  ],
+  "summary": "财经投资方向的中文 X 创作者（投资、财经）。本人 X 简介要点：「Twitter is my Chain-Of-Thought. Reading history is my end-to-e…」",
+  "verified_works": [
+    {
+      "title": "chuan.us",
+      "description": "本人 X 资料中公开的外链（个人站 / 项目站）",
+      "url": "http://chuan.us/"
+    }
+  ],
+  "quote": null,
+  "followers_snapshot": {
+    "count": 191424,
+    "as_of": "2026-11-24T10:56:44+08:00"
+  },
+  "verification_tier": "api-verified",
+  "claim_status": "unclaimed",
+  "lead_sources": [
+    "x-yuzong",
+    "xnav"
+  ],
+  "service_board": null
+}
