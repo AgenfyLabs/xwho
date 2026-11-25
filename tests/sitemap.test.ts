@@ -26,9 +26,7 @@ it("站点地图包含每一页的公开名片，自动反映新增、改名和�
   ].sort());
 });
 
-it("robots.txt 向所有爬虫提供正式域名的站点地图地址", () => {
+it("robots.txt 向所有爬虫提供正式域名的站点地图地址，并禁止抓取本人名片", () => {
   const robots = readFileSync(new URL("../src/app/robots.txt", import.meta.url), "utf8");
-  expect(robots).toMatch(/^User-agent: \*$/m);
-  expect(robots).toMatch(/^Allow: \/$/m);
-  expect(robots).toMatch(/^Sitemap: https:\/\/xwho\.org\/sitemap\.xml$/m);
+  expect(robots).toBe("User-agent: *\nAllow: /\nDisallow: /dashboard\n\nSitemap: https://xwho.org/sitemap.xml\n");
 });

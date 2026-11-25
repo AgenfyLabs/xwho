@@ -4,9 +4,10 @@ import { CreatorCard } from "@/components/creator-card";
 import { ApplicationForm, ProfileForm, SignedIn } from "@/components/dashboard";
 import { directory, readDataset } from "@/lib/data";
 import { githubWriteMode, repoUrl } from "@/lib/github-writer";
+import { dashboardDescription, dashboardTitle, privateMetadata } from "@/lib/seo";
 import { missingOAuth, readSession, SESSION_COOKIE } from "@/lib/x-oauth";
 
-export const metadata = { title: "我的名片" };
+export const metadata = privateMetadata(dashboardTitle, dashboardDescription);
 const authMessages: Record<string, string> = {
   configuration: "现在可以先填写申请，预览一下你的资料。",
   failed: "这次没能登录。点下方按钮，再用 X 账号试一次。",

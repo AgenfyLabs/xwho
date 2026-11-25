@@ -1,7 +1,8 @@
 import type { MetadataRoute } from "next";
 import { publicCreators, readDataset } from "@/lib/data";
+import { siteOrigin } from "@/lib/seo";
 
-const origin = "https://xwho.org";
+const origin = siteOrigin;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const creators = publicCreators(readDataset().creators);
