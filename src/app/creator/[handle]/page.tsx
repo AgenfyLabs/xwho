@@ -5,8 +5,9 @@ import { notFound } from "next/navigation";
 import { ExternalLink } from "lucide-react";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { JsonLd } from "@/components/json-ld";
-import { publicCreatorByHandle, readDataset } from "@/lib/data";
+import { publicCreatorByHandle, publicCreators, readDataset } from "@/lib/data";
 import { breadcrumbJsonLd, categoryPath, creatorCrumbs, similarCreators } from "@/lib/discovery";
+import { rankingsForCreator } from "@/lib/rankings";
 import { displayTime, groupEvents, publicEvents } from "@/lib/digest";
 import { eventNames, HttpUrlSchema, roleNames, tierNames, verticalNames } from "@/lib/schema";
 import { creatorDescription, creatorPath, creatorProfileJsonLd, creatorTitle, indexableMetadata } from "@/lib/seo";
@@ -15,6 +16,12 @@ const loadCreatorPage = cache((handle: string) => {
   const { creators, milestones } = readDataset();
   return { creators, creator: publicCreatorByHandle(creators, handle), milestones };
 });
+
+export const revalidate = 3600;
+
+export function generateStaticParams() {
+  return publicCreators(readDataset().creators).map(creator => ({ handle: creator.handle }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }): Promise<Metadata> {
   const { creator } = loadCreatorPage((await params).handle);
@@ -35,6 +42,7 @@ export default async function CreatorPage({ params }: { params: Promise<{ handle
   const board = c.claim_status === "claimed" ? c.service_board : null;
   const crumbs = creatorCrumbs(c);
   const similar = similarCreators(creators, c);
+  const rankings = rankingsForCreator(creators, c);
   return <div className="reading">
     <JsonLd data={creatorProfileJsonLd(c)} />
     <JsonLd data={breadcrumbJsonLd(crumbs)} />
@@ -61,6 +69,12 @@ export default async function CreatorPage({ params }: { params: Promise<{ handle
         <p>{creator.summary}</p>
       </li>)}</ul>
       <Link className="text-link" href={categoryPath(c.vertical)}>查看全部{verticalNames[c.vertical]}</Link>
+    </section>}
+    {rankings.length > 0 && <section className="chapter"><h2>收录排行</h2>
+      <ul className="entries">{rankings.map(({ ranking, place, path }) => <li key={ranking.id}>
+        <Link className="text-link" href={path}>{ranking.title}</Link>
+        <span className="meta"> · 第 {place} 名 / {ranking.creators.length} 人</span>
+      </li>)}</ul>
     </section>}
     <section className="board chapter"><h2>本人合作与联系留言板</h2>
       {c.claim_status === "unclaimed" ? <><p>这张名片还没认领，联系方式由创作者自己填写。</p><Link className="btn primary" href="/dashboard">这是我，认领名片</Link></>

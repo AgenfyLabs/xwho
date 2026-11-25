@@ -1,11 +1,13 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { RankingArticle } from "@/components/ranking";
 import { Breadcrumb } from "@/components/breadcrumb";
 import { JsonLd } from "@/components/json-ld";
 import { readDataset } from "@/lib/data";
 import {
   breadcrumbJsonLd, categoryCrumbs, categoryDescription, categoryJsonLd, categoryPath, creatorsInVertical, isVertical,
 } from "@/lib/discovery";
+import { verticalRanking } from "@/lib/rankings";
 import { creatorPath, indexableMetadata } from "@/lib/seo";
 import { tierNames, verticalNames, verticals } from "@/lib/schema";
 
@@ -18,7 +20,10 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ vertical: string }> }) {
   const { vertical } = await params;
   if (!isVertical(vertical)) notFound();
-  const count = creatorsInVertical(readDataset().creators, vertical).length;
+  const creators = readDataset().creators;
+  const ranking = verticalRanking(creators, vertical);
+  if (ranking) return indexableMetadata({ title: ranking.title, description: ranking.description, path: ranking.path });
+  const count = creatorsInVertical(creators, vertical).length;
   return indexableMetadata({
     title: verticalNames[vertical],
     description: categoryDescription(vertical, count),
@@ -30,6 +35,8 @@ export default async function TrackPage({ params }: { params: Promise<{ vertical
   const { vertical } = await params;
   if (!isVertical(vertical)) notFound();
   const creators = readDataset().creators;
+  const ranking = verticalRanking(creators, vertical);
+  if (ranking) return <RankingArticle ranking={ranking} crumbs={categoryCrumbs(vertical)} />;
   const people = creatorsInVertical(creators, vertical);
   const name = verticalNames[vertical];
   const description = categoryDescription(vertical, people.length);
