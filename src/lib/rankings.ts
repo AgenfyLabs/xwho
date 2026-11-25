@@ -1,6 +1,6 @@
 import { publicCreators } from "./data";
-import { categoryPath, type Crumb } from "./discovery";
-import { creatorPath, siteOrigin, siteTitle } from "./seo";
+import { categoryPath, isVertical, type Crumb } from "./discovery";
+import { clipText, creatorPath, siteOrigin, siteTitle } from "./seo";
 import { roleNames, verticalNames, type Creator, type Role, type Vertical } from "./schema";
 
 export const rankingsPath = "/rankings";
@@ -9,6 +9,7 @@ export const rankingsDescription = "汇总中文 X 创作者的赛道、身份�
 export const rankingsIntro = "这些排行都来自已经公开的创作者档案。赛道榜就是原来的六个赛道页，按主赛道字段收录，避免同一批人再占一个重复地址。身份榜看角色标签，主题榜看子标签里写明的方向。档案没有语言、地区或粉丝增长字段：中文范围来自收录标准，名次只比较每人最近一次粉丝快照。少于 10 人的分类不单独立页。";
 export const rankingBasis = "排名依据是档案中的粉丝快照人数，从高到低。快照时点使用东八区（+08:00），与人数成对保存，不是打开本页时的实时粉丝。没有历史快照，因此不计算涨粉。人数相同则深度核验排在接口核验之前；仍相同则按用户名排序，保证顺序稳定。核验层级只在平局时起作用，表示资料核对深度。隐藏档案不进入榜单。";
 export const minRankingSize = 10;
+export const rankingPageSize = 100;
 
 export const rankingGroups = [
   { id: "overall", title: "总榜" },
@@ -146,10 +147,95 @@ export function boardRankingParams(creators: Creator[]) {
   return publishedRankings(creators).filter(ranking => ranking.kind === "board").map(ranking => ({ slug: ranking.id }));
 }
 
+export function rankingPageCount(total: number) {
+  return Math.max(1, Math.ceil(total / rankingPageSize));
+}
+
+export function parseRankingPage(value: string) {
+  if (!/^[1-9]\d*$/.test(value)) return null;
+  return Number(value);
+}
+
+export function rankingPagePath(path: string, page: number) {
+  return page <= 1 ? path : `${path}/${page}`;
+}
+
+export function pageForPlace(place: number) {
+  return Math.max(1, Math.ceil(place / rankingPageSize));
+}
+
+export function rankingWindow(total: number, page: number) {
+  const pages = rankingPageCount(total);
+  if (!Number.isInteger(page) || page < 1 || page > pages) return null;
+  return { page, pages, total, from: (page - 1) * rankingPageSize + 1, to: Math.min(total, page * rankingPageSize) };
+}
+
+export function sliceRanking<T>(items: T[], page: number) {
+  const window = rankingWindow(items.length, page);
+  if (!window) return null;
+  return { ...window, items: items.slice(window.from - 1, window.to) };
+}
+
+export function rankingPageTitle(ranking: Pick<PublishedRanking, "title">, page = 1) {
+  return page <= 1 ? ranking.title : `${ranking.title} · 第 ${page} 页`;
+}
+
+export function rankingPageDescription(ranking: Pick<PublishedRanking, "description" | "creators">, page = 1) {
+  if (page <= 1) return ranking.description;
+  const window = rankingWindow(ranking.creators.length, page);
+  if (!window) return ranking.description;
+  return clipText(`第 ${window.from}–${window.to} 名，共 ${window.total} 人。${ranking.description}`);
+}
+
+export function rankingPageCrumbs(base: Crumb[], path: string, page: number): Crumb[] {
+  if (page <= 1) return base;
+  return [...base, { name: `第 ${page} 页`, path: rankingPagePath(path, page) }];
+}
+
+function paginationParams(creators: Creator[], kind: PublishedRanking["kind"]) {
+  return publishedRankings(creators).filter(ranking => ranking.kind === kind).flatMap(ranking => {
+    const pages = rankingPageCount(ranking.creators.length);
+    if (pages < 2) return [];
+    return Array.from({ length: pages }, (_, index) => ({ id: ranking.id, page: String(index + 1) }));
+  });
+}
+
+export function boardPaginationParams(creators: Creator[]) {
+  return paginationParams(creators, "board").map(({ id, page }) => ({ slug: id, page }));
+}
+
+export function verticalPaginationParams(creators: Creator[]) {
+  return paginationParams(creators, "vertical").map(({ id, page }) => ({ vertical: id, page }));
+}
+
+export function rankingOverflowPaths(creators: Creator[]) {
+  return publishedRankings(creators).flatMap(ranking => {
+    const pages = rankingPageCount(ranking.creators.length);
+    return Array.from({ length: Math.max(0, pages - 1) }, (_, index) => rankingPagePath(ranking.path, index + 2));
+  });
+}
+
+export function loadBoardPage(creators: Creator[], slug: string, rawPage: string) {
+  const page = parseRankingPage(rawPage);
+  const ranking = rankingBySlug(creators, slug);
+  if (!ranking || page == null || page > rankingPageCount(ranking.creators.length)) return null;
+  return { ranking, page };
+}
+
+export function loadVerticalPage(creators: Creator[], vertical: string, rawPage: string) {
+  if (!isVertical(vertical)) return null;
+  const page = parseRankingPage(rawPage);
+  const ranking = verticalRanking(creators, vertical);
+  if (!ranking || page == null || page > rankingPageCount(ranking.creators.length)) return null;
+  return { ranking, page, vertical };
+}
+
 export function rankingsForCreator(creators: Creator[], creator: Creator) {
   return publishedRankings(creators).flatMap(ranking => {
     const place = ranking.creators.findIndex(person => person.x_user_id === creator.x_user_id);
-    return place < 0 ? [] : [{ ranking, place: place + 1 }];
+    if (place < 0) return [];
+    const rank = place + 1;
+    return [{ ranking, place: rank, path: rankingPagePath(ranking.path, pageForPlace(rank)) }];
   });
 }
 
@@ -160,24 +246,24 @@ export function rankingsCrumbs(): Crumb[] {
   ];
 }
 
-export function rankingCrumbs(ranking: Pick<PublishedRanking, "title" | "path">): Crumb[] {
-  return [
+export function rankingCrumbs(ranking: Pick<PublishedRanking, "title" | "path">, page = 1): Crumb[] {
+  return rankingPageCrumbs([
     { name: "首页", path: "/" },
     { name: rankingsTitle, path: rankingsPath },
     { name: ranking.title, path: ranking.path },
-  ];
+  ], ranking.path, page);
 }
 
 const websiteRef = { "@type": "WebSite", name: siteTitle, url: siteOrigin };
 
-function itemList(items: { name: string; path: string }[], order?: string) {
+function itemList(items: { name: string; path: string }[], order?: string, start = 1) {
   return {
     "@type": "ItemList",
     numberOfItems: items.length,
     ...(order ? { itemListOrder: order } : {}),
     itemListElement: items.map((item, index) => ({
       "@type": "ListItem",
-      position: index + 1,
+      position: start + index,
       name: item.name,
       url: absoluteUrl(item.path),
     })),
@@ -197,18 +283,21 @@ export function rankingsIndexJsonLd(rankings: PublishedRanking[]) {
   };
 }
 
-export function rankingJsonLd(ranking: PublishedRanking) {
+export function rankingJsonLd(ranking: PublishedRanking, page = 1) {
+  const slice = sliceRanking(ranking.creators, page);
+  if (!slice) throw new Error(`排行页超出范围 · ${ranking.path} · ${page}`);
   return {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
-    name: ranking.title,
-    url: absoluteUrl(ranking.path),
-    description: ranking.description,
+    name: rankingPageTitle(ranking, page),
+    url: absoluteUrl(rankingPagePath(ranking.path, page)),
+    description: rankingPageDescription(ranking, page),
     inLanguage: "zh-CN",
     isPartOf: { ...websiteRef },
     mainEntity: itemList(
-      ranking.creators.map(creator => ({ name: creator.display_name, path: creatorPath(creator) })),
+      slice.items.map(creator => ({ name: creator.display_name, path: creatorPath(creator) })),
       "https://schema.org/ItemListOrderDescending",
+      slice.from,
     ),
   };
 }
@@ -220,7 +309,11 @@ export function rankingsLlmsSection(creators: Creator[]) {
     "## 排行榜",
     "",
     `- [${rankingsTitle}](${absoluteUrl(rankingsPath)}): ${rankingsDescription}`,
-    ...rankings.map(ranking => `- [${ranking.title}](${absoluteUrl(ranking.path)}): ${ranking.creators.length} 位，按粉丝快照从高到低`),
+    ...rankings.map(ranking => {
+      const pages = rankingPageCount(ranking.creators.length);
+      const paging = pages > 1 ? `，每页 ${rankingPageSize} 人，共 ${pages} 页` : "";
+      return `- [${ranking.title}](${absoluteUrl(ranking.path)}): ${ranking.creators.length} 位，按粉丝快照从高到低${paging}`;
+    }),
     "",
   ];
   return lines.join("\n");

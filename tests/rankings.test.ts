@@ -5,7 +5,8 @@ import { readDataset } from "../src/lib/data";
 import { breadcrumbJsonLd, categoryPath, llmsText, tracksDescription } from "../src/lib/discovery";
 import {
   boardRankingParams, minRankingSize, publishedRankings, rankCreators, rankingBasis, rankingBySlug,
-  rankingCrumbs, rankingJsonLd, rankingsCrumbs, rankingsDescription, rankingsForCreator, rankingsIndexJsonLd,
+  rankingCrumbs, rankingJsonLd, rankingOverflowPaths, rankingPageCount, rankingPageDescription, rankingPagePath,
+  rankingPageSize, rankingPageTitle, rankingsCrumbs, rankingsDescription, rankingsForCreator, rankingsIndexJsonLd,
   rankingsLlmsSection, rankingsPath, rankingsTitle,
 } from "../src/lib/rankings";
 import { eventsDescription, serializeJsonLd, siteDescription } from "../src/lib/seo";
@@ -112,8 +113,48 @@ it("创作者只链到自己入选的榜，名次按粉丝快照计算", () => {
   const placed = rankingsForCreator(roster, top);
   expect(placed.map(item => item.ranking.id)).toEqual(["followers", "media", "investors"]);
   expect(placed.every(item => item.place === 1)).toBe(true);
+  expect(placed.every(item => item.path === item.ranking.path)).toBe(true);
   const outsider = creator({ x_user_id: "99", handle: "outsider", vertical: "ai-dev", role_tags: [] });
   expect(rankingsForCreator(roster, outsider)).toEqual([]);
+});
+
+it("超过 100 人的榜按页切开，ItemList 和 canonical 只覆盖当前页", () => {
+  const roster = people(rankingPageSize + 1);
+  const ranking = rankingBySlug(roster, "followers");
+  expect(ranking).toBeDefined();
+  if (!ranking) return;
+  expect(rankingPageCount(ranking.creators.length)).toBe(2);
+  expect(rankingPagePath(ranking.path, 1)).toBe("/rankings/followers");
+  expect(rankingPagePath(ranking.path, 2)).toBe("/rankings/followers/2");
+  expect(rankingPageTitle(ranking, 2)).toBe("中文 X 创作者排行 · 第 2 页");
+  expect(rankingPageDescription(ranking, 2)).toContain("第 101–101 名");
+  expect(rankingPageDescription(ranking, 2).length).toBeLessThanOrEqual(160);
+
+  const first = JSON.parse(serializeJsonLd(rankingJsonLd(ranking, 1)));
+  const second = JSON.parse(serializeJsonLd(rankingJsonLd(ranking, 2)));
+  expect(first.url).toBe("https://xwho.org/rankings/followers");
+  expect(first.mainEntity.numberOfItems).toBe(rankingPageSize);
+  expect(first.mainEntity.itemListElement).toHaveLength(rankingPageSize);
+  expect(first.mainEntity.itemListElement.map((item: { position: number }) => item.position)[0]).toBe(1);
+  expect(second.url).toBe("https://xwho.org/rankings/followers/2");
+  expect(second.description).toContain("第 101–101 名");
+  expect(second.mainEntity.numberOfItems).toBe(1);
+  expect(second.mainEntity.itemListElement).toEqual([
+    { "@type": "ListItem", position: 101, name: "创作者0", url: "https://xwho.org/creator/u00" },
+  ]);
+  const firstUrls = new Set(first.mainEntity.itemListElement.map((item: { url: string }) => item.url));
+  expect(firstUrls.has("https://xwho.org/creator/u00")).toBe(false);
+  expect(rankingCrumbs(ranking, 2).map(item => item.path)).toEqual([
+    "/", "/rankings", "/rankings/followers", "/rankings/followers/2",
+  ]);
+  expect(rankingOverflowPaths(roster)).toEqual(["/rankings/followers/2", "/tracks/media/2"]);
+
+  const low = roster[0];
+  expect(low).toBeDefined();
+  if (!low) return;
+  expect(rankingsForCreator(roster, low).find(item => item.ranking.id === "followers")).toMatchObject({
+    place: 101, path: "/rankings/followers/2",
+  });
 });
 
 it("llms 排行榜一节接在原有简介之后，不写入隐藏档案或留言板", () => {
@@ -163,6 +204,26 @@ it("现有档案恰好生成 10 到 15 个满员榜，赛道榜沿用 /tracks", 
     path: categoryPath("crypto"), title: "加密货币 KOL 排行",
   });
   expect(rankings.find(ranking => ranking.id === "ai-dev")?.path).toBe("/tracks/ai-dev");
+  const followers = rankings.find(ranking => ranking.id === "followers");
+  expect(followers).toBeDefined();
+  if (followers) {
+    expect(followers.creators.length).toBeGreaterThan(rankingPageSize);
+    const page = JSON.parse(serializeJsonLd(rankingJsonLd(followers, 1)));
+    expect(page.mainEntity.numberOfItems).toBe(rankingPageSize);
+    expect(page.mainEntity.itemListElement).toHaveLength(rankingPageSize);
+    expect(page.url).toBe("https://xwho.org/rankings/followers");
+    const later = JSON.parse(serializeJsonLd(rankingJsonLd(followers, 2)));
+    expect(later.mainEntity.itemListElement[0].position).toBe(101);
+    expect(later.url).toBe("https://xwho.org/rankings/followers/2");
+  }
+  const overflow = rankingOverflowPaths(readDataset().creators);
+  expect(overflow).toContain("/rankings/followers/2");
+  expect(overflow).toContain("/tracks/ai-dev/2");
+  expect(overflow).not.toContain("/rankings/followers");
+  expect(overflow.every(path => Number(path.split("/").at(-1)) >= 2)).toBe(true);
+  for (const ranking of rankings) {
+    if (ranking.creators.length <= rankingPageSize) expect(overflow.some(path => path.startsWith(`${ranking.path}/`))).toBe(false);
+  }
   const slugs = boardRankingParams(readDataset().creators).map(item => item.slug);
   for (const vertical of verticals) expect(slugs).not.toContain(vertical);
   expect(rankingBySlug(readDataset().creators, "ai-dev")).toBeUndefined();

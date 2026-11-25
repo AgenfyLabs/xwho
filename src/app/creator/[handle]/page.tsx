@@ -71,8 +71,8 @@ export default async function CreatorPage({ params }: { params: Promise<{ handle
       <Link className="text-link" href={categoryPath(c.vertical)}>查看全部{verticalNames[c.vertical]}</Link>
     </section>}
     {rankings.length > 0 && <section className="chapter"><h2>收录排行</h2>
-      <ul className="entries">{rankings.map(({ ranking, place }) => <li key={ranking.id}>
-        <Link className="text-link" href={ranking.path}>{ranking.title}</Link>
+      <ul className="entries">{rankings.map(({ ranking, place, path }) => <li key={ranking.id}>
+        <Link className="text-link" href={path}>{ranking.title}</Link>
         <span className="meta"> · 第 {place} 名 / {ranking.creators.length} 人</span>
       </li>)}</ul>
     </section>}

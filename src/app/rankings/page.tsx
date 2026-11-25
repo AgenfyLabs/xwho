@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/json-ld";
 import { readDataset } from "@/lib/data";
 import { breadcrumbJsonLd } from "@/lib/discovery";
 import {
-  publishedRankings, rankingBasis, rankingGroups, rankingsCrumbs, rankingsDescription, rankingsIndexJsonLd,
+  publishedRankings, rankingBasis, rankingGroups, rankingPageCount, rankingsCrumbs, rankingsDescription, rankingsIndexJsonLd,
   rankingsIntro, rankingsPath, rankingsTitle,
 } from "@/lib/rankings";
 import { indexableMetadata } from "@/lib/seo";
@@ -27,11 +27,14 @@ export default function RankingsPage() {
       const items = rankings.filter(ranking => ranking.group === group.id);
       if (!items.length) return null;
       return <section key={group.id} className="chapter"><h2>{group.title}</h2>
-        <ul className="entries">{items.map(ranking => <li key={ranking.id}>
-          <Link className="text-link" href={ranking.path}>{ranking.title}</Link>
-          <span className="meta"> · {ranking.creators.length} 人</span>
-          <p>{ranking.description}</p>
-        </li>)}</ul>
+        <ul className="entries">{items.map(ranking => {
+          const pages = rankingPageCount(ranking.creators.length);
+          return <li key={ranking.id}>
+            <Link className="text-link" href={ranking.path}>{ranking.title}</Link>
+            <span className="meta"> · {ranking.creators.length} 人{pages > 1 ? ` · ${pages} 页` : ""}</span>
+            <p>{ranking.description}</p>
+          </li>;
+        })}</ul>
       </section>;
     })}
   </div>;

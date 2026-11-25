@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { publicCreators, readDataset } from "@/lib/data";
 import { categoryPath, tracksPath } from "@/lib/discovery";
-import { boardRankingParams, rankingsPath } from "@/lib/rankings";
+import { boardRankingParams, rankingOverflowPaths, rankingsPath } from "@/lib/rankings";
 import { verticals } from "@/lib/schema";
 import { siteOrigin } from "@/lib/seo";
 
@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${origin}${rankingsPath}` },
     ...verticals.map(vertical => ({ url: `${origin}${categoryPath(vertical)}` })),
     ...boardRankingParams(creators).map(({ slug }) => ({ url: `${origin}${rankingsPath}/${slug}` })),
+    ...rankingOverflowPaths(creators).map(path => ({ url: `${origin}${path}` })),
     ...publicCreators(creators).map(({ handle }) => ({ url: `${origin}/creator/${handle}` })),
   ];
 }

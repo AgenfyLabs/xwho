@@ -142,6 +142,9 @@ select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmln
 ol.ranking { list-style: decimal; padding-left: 1.8rem; }
 ol.ranking li { padding-left: .35rem; }
 ol.ranking li::marker { color: var(--brown); font-weight: 650; font-variant-numeric: tabular-nums; }
+.pager { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: .2rem 0 1rem; }
+.pager a, .pager [aria-current="page"] { display: inline-flex; align-items: center; justify-content: center; min-width: 2.4rem; min-height: 36px; padding: .25rem .7rem; border: 1px solid var(--rule); border-radius: 4px; background: var(--sheet); }
+.pager [aria-current="page"] { border-color: var(--brown); color: var(--brown); font-weight: 650; }
 .chapter { border-top: 1px solid var(--rule); padding: 1.4rem 0; }
 .chapter h2, .login-box h2 { font-size: 1.6rem; margin-bottom: .55rem; }
 .back-link { display: inline-block; margin: 2rem 0 1.3rem; font-size: .9rem; }
@@ -222,7 +225,7 @@ blockquote { font: 1.35rem/1.8 var(--serif); margin: .55rem 0; }
   .directory-tools .search { max-width: none; padding-inline: .5rem; font-size: .875rem; }
   .filter-toggle { padding-inline: .55rem; font-size: .84rem; }
   .tabs { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; padding: 3px; margin: .3rem -3px .45rem; }
-  .track-nav a { min-height: 42px; }
+  .track-nav a, .pager a, .pager [aria-current="page"] { min-height: 42px; }
   .tabs button { flex: none; min-height: 42px; padding-inline: .5rem; }
   .switches { gap: .65rem; }
   .check { min-height: 36px; }
