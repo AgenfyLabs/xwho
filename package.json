@@ -10,6 +10,7 @@
     "start": "next start",
     "validate:data": "tsx scripts/validate-data.ts",
     "import:pool": "tsx scripts/import-pool.ts",
+    "indexnow": "node scripts/indexnow.mjs",
     "test": "vitest run"
   },
   "dependencies": {

@@ -40,6 +40,20 @@ npm run import:pool -- --input /path/to/verified-directory --tier api-verified
 
 脚本先在内存完成全库校验，再暂存变更、逐文件原子替换，最后重读全库并输出六赛道的公开人数。普通写入失败会回滚本次已替换的文件。并发导入由 data/.xwho-import.lock 互斥。若进程意外退出，先核实锁内 PID 已结束，再清理遗留锁并重跑同一批数据。
 
+## IndexNow
+
+部署完成后，把站点地图中的网址提交给 IndexNow，供 Bing、Yandex、Seznam 和 Naver 接收。`npm run indexnow` 不参与 `npm run build`，CI 也不会执行它。
+
+密钥文件是 `public/abfac3ea7702718243dbe54c6f4d3751.txt`，正文只有密钥本身。线上地址为 `https://xwho.org/abfac3ea7702718243dbe54c6f4d3751.txt`。这是公开校验文件，不是访问凭据。
+
+~~~sh
+npm run indexnow -- --dry-run
+npm run indexnow
+npm run indexnow -- --sitemap https://xwho.org/sitemap.xml
+~~~
+
+默认读取 `https://xwho.org/sitemap.xml`。`--sitemap` 可改为其他 http(s) 地址或本地 XML 文件。脚本按最多 10000 条一批，向 `https://api.indexnow.org/indexnow` 提交 JSON，字段为 `host`（`xwho.org`）、`key`、`keyLocation` 和 `urlList`。先确认密钥文件已能从公网打开，再执行不带 `--dry-run` 的命令。HTTP 200 或 202 表示该批已被接受。
+
 ## 环境变量
 
 从 .env.example 复制为 .env.local 后按需配置。所有密钥只在服务端使用。
