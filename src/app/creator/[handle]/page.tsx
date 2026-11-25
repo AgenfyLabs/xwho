@@ -1,18 +1,38 @@
+import { cache } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ExternalLink } from "lucide-react";
+import { JsonLd } from "@/components/json-ld";
 import { publicCreatorByHandle, readDataset } from "@/lib/data";
 import { displayTime, groupEvents, publicEvents } from "@/lib/digest";
 import { eventNames, HttpUrlSchema, roleNames, tierNames, verticalNames } from "@/lib/schema";
+import { creatorDescription, creatorPath, creatorProfileJsonLd, creatorTitle, indexableMetadata } from "@/lib/seo";
+
+const loadCreatorPage = cache((handle: string) => {
+  const { creators, milestones } = readDataset();
+  return { creator: publicCreatorByHandle(creators, handle), milestones };
+});
+
+export async function generateMetadata({ params }: { params: Promise<{ handle: string }> }): Promise<Metadata> {
+  const { creator } = loadCreatorPage((await params).handle);
+  if (!creator) notFound();
+  return indexableMetadata({
+    title: creatorTitle(creator),
+    description: creatorDescription(creator),
+    path: creatorPath(creator),
+    type: "profile",
+    username: creator.handle,
+  });
+}
 
 export default async function CreatorPage({ params }: { params: Promise<{ handle: string }> }) {
-  const { handle } = await params;
-  const { creators, milestones } = readDataset();
-  const c = publicCreatorByHandle(creators, handle);
+  const { creator: c, milestones } = loadCreatorPage((await params).handle);
   if (!c) notFound();
   const groups = groupEvents(publicEvents([c], milestones));
   const board = c.claim_status === "claimed" ? c.service_board : null;
   return <div className="reading">
+    <JsonLd data={creatorProfileJsonLd(c)} />
     <Link className="back-link" href="/">创作者名录</Link>
     <header className="profile-head"><div className="initial" aria-hidden="true">{Array.from(c.display_name)[0]}</div><div>
       <div className="badges"><span className="badge">{tierNames[c.verification_tier]}</span>{verticalNames[c.vertical]}</div>
