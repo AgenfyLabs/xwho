@@ -139,6 +139,9 @@ select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmln
 .entries { list-style: none; padding: 0; }
 .entries li { padding: .85rem 0; border-bottom: 1px solid var(--rule); }
 .entries p { margin: .35rem 0; }
+ol.ranking { list-style: decimal; padding-left: 1.8rem; }
+ol.ranking li { padding-left: .35rem; }
+ol.ranking li::marker { color: var(--brown); font-weight: 650; font-variant-numeric: tabular-nums; }
 .chapter { border-top: 1px solid var(--rule); padding: 1.4rem 0; }
 .chapter h2, .login-box h2 { font-size: 1.6rem; margin-bottom: .55rem; }
 .back-link { display: inline-block; margin: 2rem 0 1.3rem; font-size: .9rem; }

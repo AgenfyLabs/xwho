@@ -4,6 +4,7 @@ import { Directory } from "@/components/directory";
 import { JsonLd } from "@/components/json-ld";
 import { directory, readDataset, verticalCounts } from "@/lib/data";
 import { categoryPath, homeCategoryLinks, organizationJsonLd } from "@/lib/discovery";
+import { publishedRankings, rankingsPath } from "@/lib/rankings";
 import { indexableMetadata, websiteJsonLd } from "@/lib/seo";
 import { verticalNames, verticals } from "@/lib/schema";
 
@@ -27,6 +28,12 @@ export default function Home() {
         if (!vertical) return null;
         return <Link key={href} href={href}>{verticalNames[vertical]}<span>{counts[vertical]}</span></Link>;
       })}
+    </nav>
+    <nav className="track-nav" aria-label="排行榜">
+      <span>排行榜</span>
+      <Link href={rankingsPath}>全部</Link>
+      {publishedRankings(creators).filter(ranking => ranking.kind === "board").map(ranking =>
+        <Link key={ranking.id} href={ranking.path}>{ranking.navLabel}<span>{ranking.creators.length}</span></Link>)}
     </nav>
     <Directory initial={directory(creators)} />
   </>;

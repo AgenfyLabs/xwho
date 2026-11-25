@@ -15,7 +15,8 @@ it("站点地图包含每一页的公开名片，自动反映新增、改名和�
   vi.spyOn(data, "readDataset").mockReturnValue(dataset);
 
   const sections = [
-    "https://xwho.org/", "https://xwho.org/events", "https://xwho.org/tracks",
+    "https://xwho.org/", "https://xwho.org/events", "https://xwho.org/tracks", "https://xwho.org/rankings",
+    "https://xwho.org/rankings/followers",
     ...verticals.map(vertical => `https://xwho.org/tracks/${vertical}`),
   ];
   const profile = (handle: string) => `https://xwho.org/creator/${handle}`;
