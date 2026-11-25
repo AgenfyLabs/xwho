@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   description: siteDescription,
   openGraph: { type: "website", locale: "zh_CN", siteName: "XWho", title: socialTitle(), description: siteDescription },
   twitter: { card: "summary", title: socialTitle(), description: siteDescription },
+  other: { "applicable-device": "pc,mobile" },
 };
 export default function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="zh-CN"><body><a className="skip" href="#main">跳至正文</a>
