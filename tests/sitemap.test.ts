@@ -2,6 +2,7 @@ import { readFileSync } from "node:fs";
 import { afterEach, expect, it, vi } from "vitest";
 import sitemap from "../src/app/sitemap";
 import * as data from "../src/lib/data";
+import { verticals } from "../src/lib/schema";
 import { creator } from "./fixtures";
 
 afterEach(() => { vi.restoreAllMocks(); });
@@ -13,7 +14,10 @@ it("站点地图包含每一页的公开名片，自动反映新增、改名和�
   const dataset = { creators, milestones: [] };
   vi.spyOn(data, "readDataset").mockReturnValue(dataset);
 
-  const sections = ["https://xwho.org/", "https://xwho.org/events"];
+  const sections = [
+    "https://xwho.org/", "https://xwho.org/events", "https://xwho.org/tracks",
+    ...verticals.map(vertical => `https://xwho.org/tracks/${vertical}`),
+  ];
   const profile = (handle: string) => `https://xwho.org/creator/${handle}`;
   const urls = () => sitemap().map(entry => entry.url).sort();
   expect(urls()).toEqual([...sections, ...creators.map(c => profile(c.handle))].sort());
@@ -30,7 +34,10 @@ it("robots.txt 明示欢迎中文与 Bing 爬虫，并禁止抓取工作台", ()
   const robots = readFileSync(new URL("../src/app/robots.txt", import.meta.url), "utf8");
   const agents = [
     "Baiduspider", "Baiduspider-image", "Sogou web spider", "Sogou inst spider",
-    "Sogou spider2", "bingbot", "msnbot", "*",
+    "Sogou spider2", "bingbot", "msnbot",
+    "GPTBot", "OAI-SearchBot", "ChatGPT-User", "PerplexityBot",
+    "ClaudeBot", "Claude-SearchBot", "Google-Extended", "Applebot-Extended",
+    "*",
   ];
   const groups = new Map();
   let current = "";

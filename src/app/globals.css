@@ -142,6 +142,21 @@ select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmln
 .chapter { border-top: 1px solid var(--rule); padding: 1.4rem 0; }
 .chapter h2, .login-box h2 { font-size: 1.6rem; margin-bottom: .55rem; }
 .back-link { display: inline-block; margin: 2rem 0 1.3rem; font-size: .9rem; }
+.breadcrumb + .back-link { margin-top: .2rem; }
+.breadcrumb { margin: 2rem 0 .8rem; }
+.page-intro .breadcrumb { margin: 0 0 1rem; }
+.breadcrumb ol { display: flex; flex-wrap: wrap; align-items: center; gap: .35rem .45rem; list-style: none; padding: 0; color: var(--muted); font-size: .9rem; }
+.breadcrumb a { color: #75512f; text-decoration: underline; text-underline-offset: .2em; }
+.breadcrumb [aria-current="page"] { color: var(--ink); }
+.crumb-sep { color: #9a8d78; }
+.track-nav { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: .9rem 0 .15rem; }
+.track-nav > span:first-child { color: var(--muted); font-size: .88rem; margin-right: .15rem; }
+.track-nav a { display: inline-flex; align-items: center; gap: .35rem; min-height: 36px; padding: .25rem .7rem; border: 1px solid var(--rule); border-radius: 4px; background: var(--sheet); font-size: .88rem; }
+.track-nav a span { color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums; }
+.track-nav a:hover { border-color: var(--brown); background: #f0e8d8; color: var(--ink); }
+.similar { list-style: none; padding: 0; }
+.similar li { padding: .75rem 0; border-bottom: 1px solid var(--rule); }
+.similar p { margin: .25rem 0 0; color: var(--muted); }
 .profile-head { display: flex; align-items: center; gap: 1.2rem; }
 .initial { width: 70px; height: 70px; border-radius: 5px; display: grid; place-items: center; background: #e8d8b5; color: #654a30; font: 600 2rem var(--serif); flex-shrink: 0; }
 .lede { margin: 1rem 0; }
@@ -204,6 +219,7 @@ blockquote { font: 1.35rem/1.8 var(--serif); margin: .55rem 0; }
   .directory-tools .search { max-width: none; padding-inline: .5rem; font-size: .875rem; }
   .filter-toggle { padding-inline: .55rem; font-size: .84rem; }
   .tabs { flex-wrap: nowrap; overflow-x: auto; overscroll-behavior-x: contain; padding: 3px; margin: .3rem -3px .45rem; }
+  .track-nav a { min-height: 42px; }
   .tabs button { flex: none; min-height: 42px; padding-inline: .5rem; }
   .switches { gap: .65rem; }
   .check { min-height: 36px; }
