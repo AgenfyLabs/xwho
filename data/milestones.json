@@ -79,5 +79,41 @@
     "source_url": "https://x.com/0xTodd/status/2120708772553523314",
     "event_date": "2026-11-12",
     "submitted_by": "editor"
+  },
+  {
+    "id": "m-daily-20261125-01",
+    "x_user_id": "3178231",
+    "event_type": "writing",
+    "summary": "解读 Claude 桌面版新功能 Install as app 的实现原理（类似 Chrome Web App 的网页壳，需联网与账号）",
+    "source_url": "https://x.com/dotey/status/2125368995746308453",
+    "event_date": "2026-11-25",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-daily-20261125-02",
+    "x_user_id": "1338075202798809089",
+    "event_type": "writing",
+    "summary": "解读 Citadel 宏观策略报告：为何当下美股走势与 2018 年末相似",
+    "source_url": "https://x.com/qinbafrank/status/2125262200780853680",
+    "event_date": "2026-11-25",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-daily-20261125-03",
+    "x_user_id": "1031126178994765824",
+    "event_type": "writing",
+    "summary": "拆解 Fusionist 跨链桥 ACE 被无限增发事件及 Gate 回滚成交的影响",
+    "source_url": "https://x.com/0xVeryBigOrange/status/2125237962677850477",
+    "event_date": "2026-11-24",
+    "submitted_by": "editor"
+  },
+  {
+    "id": "m-daily-20261125-04",
+    "x_user_id": "939870716391854082",
+    "event_type": "launch",
+    "summary": "用 Three.js 与单段提示词制作可展开的成都旅行地图动画",
+    "source_url": "https://x.com/yyyole/status/2125234904992776492",
+    "event_date": "2026-11-24",
+    "submitted_by": "editor"
   }
 ]
