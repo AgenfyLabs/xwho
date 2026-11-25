@@ -1,4 +1,33 @@
+User-agent: Baiduspider
+Allow: /
+Disallow: /dashboard
+
+User-agent: Baiduspider-image
+Allow: /
+Disallow: /dashboard
+
+User-agent: Sogou web spider
+Allow: /
+Disallow: /dashboard
+
+User-agent: Sogou inst spider
+Allow: /
+Disallow: /dashboard
+
+User-agent: Sogou spider2
+Allow: /
+Disallow: /dashboard
+
+User-agent: bingbot
+Allow: /
+Disallow: /dashboard
+
+User-agent: msnbot
+Allow: /
+Disallow: /dashboard
+
 User-agent: *
 Allow: /
+Disallow: /dashboard
 
 Sitemap: https://xwho.org/sitemap.xml

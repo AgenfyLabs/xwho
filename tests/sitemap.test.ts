@@ -26,9 +26,30 @@ it("站点地图包含每一页的公开名片，自动反映新增、改名和�
   ].sort());
 });
 
-it("robots.txt 向所有爬虫提供正式域名的站点地图地址", () => {
+it("robots.txt 明示欢迎中文与 Bing 爬虫，并禁止抓取工作台", () => {
   const robots = readFileSync(new URL("../src/app/robots.txt", import.meta.url), "utf8");
-  expect(robots).toMatch(/^User-agent: \*$/m);
-  expect(robots).toMatch(/^Allow: \/$/m);
-  expect(robots).toMatch(/^Sitemap: https:\/\/xwho\.org\/sitemap\.xml$/m);
+  const agents = [
+    "Baiduspider", "Baiduspider-image", "Sogou web spider", "Sogou inst spider",
+    "Sogou spider2", "bingbot", "msnbot", "*",
+  ];
+  const groups = new Map();
+  let current = "";
+  for (const line of robots.split(/\r?\n/)) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    const agent = trimmed.match(/^User-agent:\s*(.+)$/);
+    if (agent) {
+      current = agent[1];
+      groups.set(current, []);
+      continue;
+    }
+    if (trimmed.startsWith("Sitemap:")) {
+      expect(trimmed).toBe("Sitemap: https://xwho.org/sitemap.xml");
+      continue;
+    }
+    groups.get(current)?.push(trimmed);
+  }
+  expect([...groups.keys()]).toEqual(agents);
+  for (const agent of agents) expect(groups.get(agent)).toEqual(["Allow: /", "Disallow: /dashboard"]);
+  expect(robots.match(/^Sitemap:/gm)).toHaveLength(1);
 });
