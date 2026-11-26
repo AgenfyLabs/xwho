@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Footer, Header } from "@/components/site";
 import { siteDescription, siteOrigin, siteTitle } from "@/lib/seo";
 import "./globals.css";
@@ -15,5 +16,6 @@ export const metadata: Metadata = {
 export default function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="zh-CN"><body><a className="skip" href="#main">跳至正文</a>
     <Header /><main id="main" className="shell">{children}</main><Footer />
+    <Analytics />
   </body></html>;
 }
